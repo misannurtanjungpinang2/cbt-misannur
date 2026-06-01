@@ -1,14 +1,13 @@
 import { NextResponse } from "next/server";
+import prisma from "@/lib/prisma";
 
 export async function GET() {
   try {
-    const { Pool } = await import("pg");
-    const pool = new Pool({ connectionString: process.env.DATABASE_URL });
-    const result = await pool.query("SELECT COUNT(*) FROM \"Admin\"");
-    const adminCount = parseInt(result.rows[0].count);
-    await pool.end();
-    return NextResponse.json({ adminCount, ok: true });
+    const adminCount = await prisma.admin.count();
+    const subjectCount = await prisma.subject.count();
+    const questionCount = await prisma.question.count();
+    return NextResponse.json({ adminCount, subjectCount, questionCount, ok: true });
   } catch (e: any) {
-    return NextResponse.json({ error: e.message, code: e.code }, { status: 500 });
+    return NextResponse.json({ error: e.message, stack: e.stack?.substring(0, 800) }, { status: 500 });
   }
 }
