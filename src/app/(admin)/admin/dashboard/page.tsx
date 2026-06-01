@@ -61,7 +61,12 @@ export default function DashboardPage() {
         return;
       }
       if (!response.ok) {
-        throw new Error("Gagal memuat data dashboard");
+        let errorMsg = "Gagal memuat data dashboard";
+        try {
+          const errBody = await response.json();
+          if (errBody.error) errorMsg = errBody.error;
+        } catch {}
+        throw new Error(errorMsg);
       }
       const result = await response.json();
       setData(result);

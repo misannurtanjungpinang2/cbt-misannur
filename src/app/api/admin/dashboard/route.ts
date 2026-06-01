@@ -119,8 +119,10 @@ export async function GET() {
     });
   } catch (error) {
     console.error("Dashboard error:", error);
+    const message =
+      error instanceof Error ? error.message : "Terjadi kesalahan server";
     return NextResponse.json(
-      { error: "Terjadi kesalahan server" },
+      { error: message, detail: error instanceof Error ? error.stack : null },
       { status: 500 }
     );
   }
