@@ -1,29 +1,31 @@
 import { NextResponse } from "next/server";
 
 export async function GET() {
+  const results: Record<string, any> = {};
+
+  // Test 1: Raw pg Pool
   try {
-    const url = process.env.DATABASE_URL || "";
-    
-    // Dynamic import untuk test koneksi
+    const { Pool } = await import("pg");
+    const pool = new Pool({ connectionString: process.env.DATABASE_URL });
+    const r = await pool.query("SELECT 1 as test");
+    await pool.end();
+    results.pg = { ok: true, test: r.rows[0].test };
+  } catch (e: any) {
+    results.pg = { ok: false, error: e.message, code: e.code };
+  }
+
+  // Test 2: Prisma with adapter
+  try {
     const { PrismaPg } = await import("@prisma/adapter-pg");
     const { PrismaClient } = await import("@/generated/prisma/client");
-
-    const adapter = new PrismaPg({ connectionString: url });
+    const adapter = new PrismaPg({ connectionString: process.env.DATABASE_URL! });
     const prisma = new PrismaClient({ adapter });
-
-    const adminCount = await prisma.admin.count();
+    const count = await prisma.admin.count();
     await prisma.$disconnect();
-
-    return NextResponse.json({
-      connected: true,
-      adminCount,
-      url_prefix: url.substring(0, 25),
-    });
+    results.prisma = { ok: true, adminCount: count };
   } catch (e: any) {
-    return NextResponse.json({
-      connected: false,
-      error: e.message,
-      code: e.code,
-    }, { status: 500 });
+    results.prisma = { ok: false, error: e.message, code: e.code };
   }
+
+  return NextResponse.json(results);
 }
