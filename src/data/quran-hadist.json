@@ -1,0 +1,402 @@
+[
+  {
+    "number": 1,
+    "type": "pg",
+    "text": "\"Pencela\" adalah arti dari nama surah ?",
+    "optionA": "Al-Bayyinah",
+    "optionB": "Al-Ma'un",
+    "optionC": "Al-'Adiyat",
+    "optionD": "Al-Humazah",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 2,
+    "type": "pg",
+    "text": "Manusia yang menolak untuk mensyukuri atas nikmat dan karunia Allah Swt. kepadanya disebut ?",
+    "optionA": "Kufur nikmat",
+    "optionB": "Ujub",
+    "optionC": "Iri",
+    "optionD": "Tamak",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 3,
+    "type": "pg",
+    "text": "Manusia yang memiliki derajat paling mulia di sisi Allah Swt. menurut Al-Qur'an yaitu ?",
+    "optionA": "orang yang banyak hartanya",
+    "optionB": "orang yang senantiasa bertakwa kepadanya",
+    "optionC": "orang yang berposisi kuat dalam negara",
+    "optionD": "orang yang senantiasa bertawakal kepadanya",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 4,
+    "type": "pg",
+    "text": "Lafal pertama surah Al-Humazah yaitu ?",
+    "optionA": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+    "optionB": "وَيْلٌ لِكُلِّ هُمَزَةٍ لُمَزَةٍ",
+    "optionC": "الْقَارِعَةُ",
+    "optionD": "وَالْعَصْرِ",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 5,
+    "type": "pg",
+    "text": "Surah Al-Humazah terletak diantara surah ?",
+    "optionA": "Al-Kausar dan Quraisy",
+    "optionB": "Al-Lahab dan Al-Kafirun",
+    "optionC": "Al-'Asr dan Al-Fil",
+    "optionD": "An-nas dan Al-Ikhlas",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 6,
+    "type": "pg",
+    "text": "Bacalah ayat berikut ini! يَحْسَبُ أَنَّ مَالَهُ أَخْلَدَهُ Lafal yang bergaris bawah pada ayat di atas memiliki arti ?",
+    "optionA": "Menyenangkanmu",
+    "optionB": "Hartanya yang banyak",
+    "optionC": "Mengekalkannya",
+    "optionD": "Mengumpulkannya",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 7,
+    "type": "pg",
+    "text": "Ciri manusia yang bermewah-mewahan dan menimun harta lebih cenderung pada sifat ?",
+    "optionA": "Bakhil",
+    "optionB": "Royal",
+    "optionC": "Adil",
+    "optionD": "Hemat",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 8,
+    "type": "pg",
+    "text": "Asbabun nuzul surah al-Humazah yaitu ?",
+    "optionA": "Karena ada tokoh dari kaum Quraisy yang kaya raya lalu menghina Rasul",
+    "optionB": "Sahabat Rasulullah yang semula miskin lalu menjadi kaya karena doa Rasulullah",
+    "optionC": "Kejadian sahabat Rasulullah berebut harta rampasan perang",
+    "optionD": "Karena banyak orang Arab yang kaya harta benda",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 9,
+    "type": "pg",
+    "text": "Sifat tamak adalah salah satu sifat tercela dan juga sangat dibenci oleh Allah Swt. Tamak disebut juga dengan ?",
+    "optionA": "Takabur",
+    "optionB": "Sum'ah",
+    "optionC": "Ghibah",
+    "optionD": "Serakah",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 10,
+    "type": "pg",
+    "text": "Allah Swt. menurunkan surah al-Humazah untuk mengingatkan manusia berkaitan dengan ?",
+    "optionA": "ketetapan hati Nabi Muhammad Saw. untuk tidak menghentikan dakwahnya",
+    "optionB": "hinaan Abu Lahab atas dakwah secara terang-terangan yang disampaikan oleh Nabi Muhammad",
+    "optionC": "kenikmatan yang telah banyak diterima oleh Nabi Muhammad Saw.",
+    "optionD": "kekayaan yang dimiliki oleh ubay bin khalaf untuk menghina Nabi",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 11,
+    "type": "pg",
+    "text": "\"Bukti yang nyata\" adalah arti dari nama surah ?",
+    "optionA": "Al-Fil",
+    "optionB": "An-Naba",
+    "optionC": "Serakah",
+    "optionD": "Al-Bayyinah",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 12,
+    "type": "pg",
+    "text": "Lafal خَيْرُ الْبَرِيَّةِ dalam Surah Al-Bayyinah artinya ?",
+    "optionA": "Sebaik-baik makhluk",
+    "optionB": "Seburuk-buruk makhluk",
+    "optionC": "Kejahatan manusia",
+    "optionD": "Makhluk jahat",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 13,
+    "type": "pg",
+    "text": "Arti ayat berikut ini adalah ? فِيهَا كُتُبٌ قَيِّمَةٌ",
+    "optionA": "Orang-orang yang didatangkan Al-Kitab",
+    "optionB": "Dan yang demikian itulah agama yang lurus",
+    "optionC": "Di dalamnya terdapat (isi) Kitab-Kitab yang lurus",
+    "optionD": "Lembaran-lembaran disucikan (Al-Qur'an) yang lurus",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 14,
+    "type": "pg",
+    "text": "Salah satu surah dari golongan Madaniyyah adalah surah al-Bayyinah. Pengertian Madaniyyah, yaitu surah yang turun ?",
+    "optionA": "Sebelum Rasulullah Saw. hijrah ke Madinah",
+    "optionB": "Ketika Rasulullah Saw. hijrah ke Madinah",
+    "optionC": "Akan Rasulullah Saw. hijrah ke Madinah",
+    "optionD": "Setelah Rasulullah Saw. hijrah ke Madinah",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 15,
+    "type": "pg",
+    "text": "Cermatilah ayat berikut ini! Lafal tersebut memiliki arti ?",
+    "optionA": "Dan supaya mereka menjadi orang-orang yang bertaqwa",
+    "optionB": "Dan supaya mereka mendirikan salat dan mewakafkan harta benda",
+    "optionC": "Dan supaya mereka mendirikan salat dan membayar fidiyah",
+    "optionD": "Dan supaya mereka mendirika salat dan menunaikan zakat",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 16,
+    "type": "pg",
+    "text": "Arti waqaf menurut bahasa adalah ?",
+    "optionA": "Berhenti",
+    "optionB": "Diam",
+    "optionC": "Menyambung",
+    "optionD": "Membaca",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 17,
+    "type": "pg",
+    "text": "Menyambung dua ayat yang semestinya boleh berhenti disebut ?",
+    "optionA": "Waqaf",
+    "optionB": "Wasal",
+    "optionC": "Wajib",
+    "optionD": "Warak",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 18,
+    "type": "pg",
+    "text": "Tanda waqaf (صلى) pada ayat artinya ? اَلَمْ يَجِدْكَ يَتِيْمًا فَاٰوٰىۖ",
+    "optionA": "Wajib waqaf",
+    "optionB": "Wajib wasal",
+    "optionC": "Boleh waqaf boleh wasal",
+    "optionD": "Lebih baik waqaf",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 19,
+    "type": "pg",
+    "text": "Yang termasuk sebab-sebab mewaqafkan bacaan di bawah ini kecuali ?",
+    "optionA": "Ketidaktahuan",
+    "optionB": "Untuk menguji",
+    "optionC": "Disengaja",
+    "optionD": "Terpaksa",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 20,
+    "type": "pg",
+    "text": "Apabila menemui tanda waqaf لا maka artinya ?",
+    "optionA": "Harus berhenti",
+    "optionB": "Berhenti lebih baik",
+    "optionC": "Tidak boleh berhenti",
+    "optionD": "Boleh berhenti dan boleh terus",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 21,
+    "type": "pg",
+    "text": "Nabi Muhammad dijuluki Al Amin artinya ?",
+    "optionA": "Dapat dipercaya",
+    "optionB": "Dapat dibohongi",
+    "optionC": "Ingkar janji",
+    "optionD": "Berkhianat",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 22,
+    "type": "pg",
+    "text": "Perhatikan hadist di bawah ini ! عَنْ أَبِي هُرَيْرَةَ أَنَّ رَسُوْلَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ : أَيَةُ الْمُنَافِقِ ثَلَاثُ إِذَا حَدَّثَ كَذَبَ, وَإِذَا وَعَدَ أَخْلَفَ، وَإِذَا اؤْتُمِنَ خَانَ (رواه البخاري ومسلم) Artinya:Dari Abu Hurairah ra. bahwa Rasulullah saw. bersabda, \"Tanda orang munafik ada tiga; apabila berkata ia dusta, apabila berjanji ia ingkar, dan apabila diberi amanat ia khianat\". (HR. Bukhari Muslim) Hadist diatas merupakan hadist tentang ?",
+    "optionA": "Orang munafik",
+    "optionB": "Orang baik",
+    "optionC": "Orang Pencela",
+    "optionD": "Orang Jahat",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 23,
+    "type": "pg",
+    "text": "Lafal أَخْلَفَ artinya ?",
+    "optionA": "Ingkar",
+    "optionB": "Janji",
+    "optionC": "Amanah",
+    "optionD": "Khianat",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 24,
+    "type": "pg",
+    "text": "Salah satu ciri orang munafik adalah....",
+    "optionA": "Jika dipercaya tidak menghirau-kan",
+    "optionB": "Jika berbicara ia berdusta",
+    "optionC": "Jika bersikap selalu keras",
+    "optionD": "Jika diberi amanah menjalankan selalu",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 25,
+    "type": "pg",
+    "text": "Cermatilah pernyataan di bawah ini! (a) Ketika ia berjanji ia sering tidak menepati (b) Apabila ia berinfak tidak dikabarkan kepada orang lain (c) Apabila di beri amanah, ia berkhianat (d) Pada saat ia berkata ia sering berbohong (e) Apabila diberi uang saku maka digunakan untuk jajan di kantin Dari pernyataan di atas yang termasuk ciri-ciri orang munafik ditunjukkan pada huruf ?",
+    "optionA": "(a) - (c) - (e)",
+    "optionB": "(a) - (b) - (c)",
+    "optionC": "(a) - (c) - (d)",
+    "optionD": "(b) - (c) - (d)",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 26,
+    "type": "essay",
+    "text": "Arti surah Al-Humazah adalah ?",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 27,
+    "type": "essay",
+    "text": "Allah swt telah menyiapkan tempat bagi orang-orang yang memiliki perangai buruk. Orang yang tamak diancam Allah swt berupa ?",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 28,
+    "type": "essay",
+    "text": "Peristiwa yang menjadi latar belakang turunnya sebuah ayat atau surah disebut ?",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 29,
+    "type": "essay",
+    "text": "Surah Al-Bayyinah berjumlah berapa ayat ?",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 30,
+    "type": "essay",
+    "text": "Ada berapakah tanda wasal dan waqaf ?",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 31,
+    "type": "essay",
+    "text": "Sebutkan yang kamu ketahui tanda waqaf ?",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 32,
+    "type": "essay",
+    "text": "Orang yang munafik kalau berjanji selalu ?",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 33,
+    "type": "essay",
+    "text": "Waqaf jaiz dengan tanda huruf ج artinya ?",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 34,
+    "type": "essay",
+    "text": "Lawan kata dusta adalah?",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 35,
+    "type": "essay",
+    "text": "Bermuka 2 sebutan bagi orang ?",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 36,
+    "type": "essay",
+    "text": "Bagaimana bunyi surah Al-Humazah ayat 1 ?",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 37,
+    "type": "essay",
+    "text": "Apa yang dimaksud dengan asbabun nuzul ?",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 38,
+    "type": "essay",
+    "text": "Apa yang di maksud waqaf ?",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 39,
+    "type": "essay",
+    "text": "Apa yang di maksud wasal ?",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 40,
+    "type": "essay",
+    "text": "Sebutkan ciri - ciri orang munafik ?",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  }
+]

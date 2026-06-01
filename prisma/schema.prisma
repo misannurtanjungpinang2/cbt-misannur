@@ -1,0 +1,114 @@
+// Prisma Schema — CBT MIS An-Nur
+// 6 tabel: Admin, Subject, Question, Student, ExamSession, Answer
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+// ============================================================
+// ADMIN
+// ============================================================
+model Admin {
+  id           String   @id @default(uuid())
+  username     String   @unique
+  passwordHash String
+  createdAt    DateTime @default(now())
+}
+
+// ============================================================
+// SUBJECT (Mata Pelajaran)
+// ============================================================
+model Subject {
+  id              String   @id @default(uuid())
+  name            String
+  slug            String   @unique
+  token           String?
+  durationMinutes Int      @default(60)
+  dayNumber       Int?
+  isActive        Boolean  @default(false)
+  order           Int      @default(0)
+  createdAt       DateTime @default(now())
+
+  questions      Question[]
+  examSessions   ExamSession[]
+}
+
+// ============================================================
+// QUESTION (Soal)
+// ============================================================
+model Question {
+  id            String  @id @default(uuid())
+  subjectId     String
+  number        Int
+  type          String  // "pg" atau "essay"
+  text          String
+  optionA       String?
+  optionB       String?
+  optionC       String?
+  optionD       String?
+  correctAnswer String? // A/B/C/D untuk PG, null untuk essay
+  createdAt     DateTime @default(now())
+
+  subject Subject @relation(fields: [subjectId], references: [id])
+  answers Answer[]
+
+  @@index([subjectId, number])
+}
+
+// ============================================================
+// STUDENT (Siswa)
+// ============================================================
+model Student {
+  id                String  @id @default(uuid())
+  name              String
+  participantNumber String
+  class             String  @default("5")
+  tokenUsed         String?
+  createdAt         DateTime @default(now())
+
+  examSessions ExamSession[]
+}
+
+// ============================================================
+// EXAM SESSION (Sesi Ujian)
+// ============================================================
+model ExamSession {
+  id        String    @id @default(uuid())
+  studentId String
+  subjectId String
+  startTime DateTime?
+  endTime   DateTime?
+  status    String    @default("in_progress") // in_progress, completed, auto_submit
+  scorePg   Int       @default(0)
+  createdAt DateTime  @default(now())
+
+  student  Student  @relation(fields: [studentId], references: [id])
+  subject  Subject  @relation(fields: [subjectId], references: [id])
+  answers  Answer[]
+
+  @@index([studentId, subjectId])
+}
+
+// ============================================================
+// ANSWER (Jawaban Siswa)
+// ============================================================
+model Answer {
+  id         String   @id @default(uuid())
+  sessionId  String
+  questionId String
+  answer     String   // A/B/C/D untuk PG, atau teks untuk essay
+  isCorrect  Boolean? // null untuk essay
+  flagged    Boolean  @default(false)
+  createdAt  DateTime @default(now())
+
+  session  ExamSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  question Question    @relation(fields: [questionId], references: [id])
+
+  @@unique([sessionId, questionId])
+  @@index([sessionId, questionId])
+}

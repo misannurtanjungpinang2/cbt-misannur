@@ -1,0 +1,452 @@
+[
+  {
+    "number": 1,
+    "type": "pg",
+    "text": "Gerakan dalam senam irama dilakukan sesuai dengan ....",
+    "optionA": "aba-aba teman",
+    "optionB": "irama musik",
+    "optionC": "keinginan sendiri",
+    "optionD": "warna pakaian",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 2,
+    "type": "pg",
+    "text": "Gerakan yang dilakukan pada gambar berikut adalah…",
+    "optionA": "menarik lengan kebelakang",
+    "optionB": "menekuk badan kedepan",
+    "optionC": "meliukkan badan ke samping",
+    "optionD": "memutar lengan",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 3,
+    "type": "pg",
+    "text": "Gerakan yang ditunjukan oleh gambar berikut ini adalah …",
+    "optionA": "Mengayun lengan ke samping",
+    "optionB": "Menekuk dan mengayun lengan",
+    "optionC": "mengayun lengan ke atas dan bawah",
+    "optionD": "mengayun lengan di atas kepala",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 4,
+    "type": "pg",
+    "text": "Langkah kaki dalam senam irama harus dilakukan secara ....",
+    "optionA": "asal-asalan",
+    "optionB": "tidak teratur",
+    "optionC": "teratur",
+    "optionD": "diam",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 5,
+    "type": "pg",
+    "text": "Gerakan pemanasan dilakukan agar tubuh terhindar dari ....",
+    "optionA": "kesehatan",
+    "optionB": "cedera",
+    "optionC": "semangat",
+    "optionD": "kebugaran",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 6,
+    "type": "pg",
+    "text": "Sikap badan saat melakukan gerak berirama harus ....",
+    "optionA": "membungkuk",
+    "optionB": "tegak",
+    "optionC": "miring",
+    "optionD": "duduk",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 7,
+    "type": "pg",
+    "text": "Gerak mengayun tangan mengikuti irama melatih ....",
+    "optionA": "kelentukan",
+    "optionB": "tidur",
+    "optionC": "pendengaran",
+    "optionD": "membaca",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 8,
+    "type": "pg",
+    "text": "Gerakan pendinginan dilakukan setelah olahraga agar ....",
+    "optionA": "tubuh rileks",
+    "optionB": "tubuh lelah",
+    "optionC": "tubuh sakit",
+    "optionD": "cepat haus",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 9,
+    "type": "pg",
+    "text": "Senam irama biasanya diiringi oleh ....",
+    "optionA": "peluit",
+    "optionB": "musik",
+    "optionC": "drum saja",
+    "optionD": "tepuk tangan",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 10,
+    "type": "pg",
+    "text": "Dalam senam irama diperlukan gerakan yang ....",
+    "optionA": "kaku",
+    "optionB": "lambat terus",
+    "optionC": "indah dan teratur",
+    "optionD": "sembarangan",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 11,
+    "type": "pg",
+    "text": "Gerak langkah rapat termasuk gerakan ....",
+    "optionA": "tangan",
+    "optionB": "kaki",
+    "optionC": "kepala",
+    "optionD": "bahu",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 12,
+    "type": "pg",
+    "text": "Sikap disiplin saat senam ditunjukkan dengan ....",
+    "optionA": "bercanda saat latihan",
+    "optionB": "mengikuti instruksi guru",
+    "optionC": "mengobrol sendiri",
+    "optionD": "duduk di lapangan",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 13,
+    "type": "pg",
+    "text": "Sebelum berenang sebaiknya melakukan ....",
+    "optionA": "pendinginan",
+    "optionB": "pemanasan",
+    "optionC": "makan besar",
+    "optionD": "tidur",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 14,
+    "type": "pg",
+    "text": "Tujuan pemanasan sebelum berenang adalah ....",
+    "optionA": "membuat tubuh lelah",
+    "optionB": "menghindari cedera",
+    "optionC": "membuat haus",
+    "optionD": "membuat mengantuk",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 15,
+    "type": "pg",
+    "text": "Gaya renang yang gerakannya seperti katak adalah gaya ....",
+    "optionA": "bebas",
+    "optionB": "dada",
+    "optionC": "kupu-kupu",
+    "optionD": "punggung",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 16,
+    "type": "pg",
+    "text": "Alat bantu yang digunakan saat belajar berenang adalah ....",
+    "optionA": "raket",
+    "optionB": "pelampung",
+    "optionC": "tongkat",
+    "optionD": "Net",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 17,
+    "type": "pg",
+    "text": "Berenang dapat melatih kekuatan ....",
+    "optionA": "jari",
+    "optionB": "paru-paru",
+    "optionC": "rambut",
+    "optionD": "kuku",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 18,
+    "type": "pg",
+    "text": "Saat berada di kolam renang kita harus ....",
+    "optionA": "berlari-lari",
+    "optionB": "mendorong teman",
+    "optionC": "mematuhi aturan",
+    "optionD": "bercanda berlebihan",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 19,
+    "type": "pg",
+    "text": "Air kolam renang yang sehat terlihat ....",
+    "optionA": "hitam",
+    "optionB": "keruh",
+    "optionC": "jernih",
+    "optionD": "berlumpur",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 20,
+    "type": "pg",
+    "text": "Gerakan kaki saat berenang dilakukan secara ....",
+    "optionA": "asal",
+    "optionB": "teratur",
+    "optionC": "diam",
+    "optionD": "kaku",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 21,
+    "type": "pg",
+    "text": "Setelah berenang sebaiknya tubuh segera ....",
+    "optionA": "dibersihkan",
+    "optionB": "dibiarkan basah",
+    "optionC": "dijemur",
+    "optionD": "tidur",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 22,
+    "type": "pg",
+    "text": "Manfaat berenang bagi tubuh adalah ....",
+    "optionA": "membuat malas",
+    "optionB": "menambah penyakit",
+    "optionC": "menjaga kebugaran",
+    "optionD": "membuat lemah",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 23,
+    "type": "pg",
+    "text": "Bagian tubuh yang digunakan untuk mengapung adalah ....",
+    "optionA": "seluruh tubuh",
+    "optionB": "kaki saja",
+    "optionC": "tangan saja",
+    "optionD": "kepala saja",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 24,
+    "type": "pg",
+    "text": "Sikap yang benar di kolam renang adalah ....",
+    "optionA": "tertib dan hati-hati",
+    "optionB": "saling mendorong",
+    "optionC": "berteriak keras",
+    "optionD": "bercanda berlebihan",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 25,
+    "type": "pg",
+    "text": "Kebugaran jasmani adalah kemampuan tubuh untuk ....",
+    "optionA": "tidur sepanjang hari",
+    "optionB": "melakukan aktivitas tanpa cepat lelah",
+    "optionC": "bermain terus",
+    "optionD": "bermalas-malasan",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 26,
+    "type": "pg",
+    "text": "Contoh latihan kekuatan otot adalah ....",
+    "optionA": "push up",
+    "optionB": "membaca",
+    "optionC": "tidur",
+    "optionD": "menulis",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 27,
+    "type": "pg",
+    "text": "Sit up bermanfaat untuk melatih otot ....",
+    "optionA": "tangan",
+    "optionB": "perut",
+    "optionC": "kaki",
+    "optionD": "bahu",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 28,
+    "type": "pg",
+    "text": "Lari jarak pendek melatih ....",
+    "optionA": "kecepatan",
+    "optionB": "kelentukan",
+    "optionC": "keseimbangan",
+    "optionD": "kelincahan",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 29,
+    "type": "pg",
+    "text": "Peregangan sebelum olahraga disebut ....",
+    "optionA": "pendinginan",
+    "optionB": "pemanasan",
+    "optionC": "permainan",
+    "optionD": "perlombaan",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 30,
+    "type": "pg",
+    "text": "Pendinginan dilakukan untuk ....",
+    "optionA": "menaikkan suhu tubuh",
+    "optionB": "melemaskan otot",
+    "optionC": "membuat tubuh sakit",
+    "optionD": "membuat tubuh lelah",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 31,
+    "type": "pg",
+    "text": "Latihan yang dilakukan secara rutin membuat tubuh menjadi ....",
+    "optionA": "sakit",
+    "optionB": "lemah",
+    "optionC": "bugar",
+    "optionD": "malas",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 32,
+    "type": "pg",
+    "text": "Push up dilakukan dengan mengandalkan kekuatan otot ....",
+    "optionA": "kaki",
+    "optionB": "tangan",
+    "optionC": "telinga",
+    "optionD": "mata",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 33,
+    "type": "pg",
+    "text": "Olahraga sebaiknya dilakukan secara ....",
+    "optionA": "teratur",
+    "optionB": "sesuka hati",
+    "optionC": "jarang",
+    "optionD": "malas-malasan",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 34,
+    "type": "pg",
+    "text": "Makanan bergizi membantu tubuh menjadi ....",
+    "optionA": "sehat",
+    "optionB": "lemah",
+    "optionC": "sakit",
+    "optionD": "malas",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 35,
+    "type": "pg",
+    "text": "Istirahat yang cukup diperlukan agar tubuh ....",
+    "optionA": "cepat sakit",
+    "optionB": "tetap sehat",
+    "optionC": "lemah",
+    "optionD": "malas bergerak",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 36,
+    "type": "pg",
+    "text": "Berolahraga dengan rutin dapat meningkatkan…",
+    "optionA": "penyakit",
+    "optionB": "daya tahan tubuh",
+    "optionC": "rasa malas",
+    "optionD": "rasa kantuk",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 37,
+    "type": "pg",
+    "text": "Merokok dapat merusak organ…",
+    "optionA": "paru-paru",
+    "optionB": "mata",
+    "optionC": "kuku",
+    "optionD": "rambut",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 38,
+    "type": "pg",
+    "text": "Asap rokok sangat berbahaya bagi…",
+    "optionA": "perokok saja",
+    "optionB": "semua orang di sekitar",
+    "optionC": "pedagang",
+    "optionD": "guru",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 39,
+    "type": "pg",
+    "text": "Minuman keras dapat merusak ....",
+    "optionA": "kesehatan tubuh",
+    "optionB": "warna kulit",
+    "optionC": "pakaian",
+    "optionD": "buku",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 40,
+    "type": "pg",
+    "text": "Sikap yang benar jika diajak merokok adalah ....",
+    "optionA": "mencoba",
+    "optionB": "menerima",
+    "optionC": "menolak",
+    "optionD": "membiarkan",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 41,
+    "type": "pg",
+    "text": "Salah satu bahaya minuman keras adalah ....",
+    "optionA": "tubuh sehat",
+    "optionB": "hilang kesadaran",
+    "optionC": "tubuh segar",
+    "optionD": "tubuh kuat",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 42,
+    "type": "pg",
+    "text": "Hidup sehat dapat dilakukan dengan cara ....",
+    "optionA": "merokok",
+    "optionB": "minum minuman keras",
+    "optionC": "rajin olahraga",
+    "optionD": "begadang setiap malam",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 43,
+    "type": "pg",
+    "text": "Rokok mengandung zat berbahaya seperti ....",
+    "optionA": "vitamin",
+    "optionB": "nikotin",
+    "optionC": "protein",
+    "optionD": "kalsium",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 44,
+    "type": "pg",
+    "text": "Menghindari rokok dan minuman keras membuat tubuh menjadi ....",
+    "optionA": "sehat",
+    "optionB": "lemah",
+    "optionC": "cepat sakit",
+    "optionD": "malas",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 45,
+    "type": "pg",
+    "text": "Contoh perilaku hidup sehat adalah ....",
+    "optionA": "makan bergizi dan olahraga",
+    "optionB": "merokok setiap hari",
+    "optionC": "tidur larut malam",
+    "optionD": "minum minuman keras",
+    "correctAnswer": "A"
+  }
+]

@@ -1,0 +1,432 @@
+[
+  {
+    "number": 1,
+    "type": "pg",
+    "text": "What part of the body is it...",
+    "optionA": "it is nose",
+    "optionB": "it is eye",
+    "optionC": "is it head",
+    "optionD": "it is arm",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 2,
+    "type": "pg",
+    "text": "What part of the boody is it...",
+    "optionA": "it is leg",
+    "optionB": "it is lip",
+    "optionC": "it is head",
+    "optionD": "it is arm",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 3,
+    "type": "pg",
+    "text": "We use our ... to write someting",
+    "optionA": "mouth",
+    "optionB": "hand",
+    "optionC": "head",
+    "optionD": "foot",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 4,
+    "type": "pg",
+    "text": "i can see with my ...",
+    "optionA": "eye",
+    "optionB": "hand",
+    "optionC": "knee",
+    "optionD": "finger",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 5,
+    "type": "pg",
+    "text": "Mr. Haris can lift 100kg. Mr Haris is ...",
+    "optionA": "strong",
+    "optionB": "weak",
+    "optionC": "thick",
+    "optionD": "thin",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 6,
+    "type": "pg",
+    "text": "Mr. Candrawinatha is often sick. He is ...",
+    "optionA": "strong",
+    "optionB": "weak",
+    "optionC": "thick",
+    "optionD": "thin",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 7,
+    "type": "pg",
+    "text": "Horse is ... than cheetah. Cheetah can ruun 100 mph",
+    "optionA": "slower",
+    "optionB": "tamer",
+    "optionC": "wilder",
+    "optionD": "faster",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 8,
+    "type": "pg",
+    "text": "Tina is ... Than Indra. Tina always gets the first rank",
+    "optionA": "more beautiful",
+    "optionB": "more handsome",
+    "optionC": "cleverer",
+    "optionD": "stupider",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 9,
+    "type": "pg",
+    "text": "Lina is 70kg. Haris is 65kg. Lina is ... than Haris",
+    "optionA": "fatter",
+    "optionB": "lighter",
+    "optionC": "more ferocious",
+    "optionD": "greedier",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 10,
+    "type": "pg",
+    "text": "Buffalo is ... than rabbit",
+    "optionA": "bigger",
+    "optionB": "smaller",
+    "optionC": "larger",
+    "optionD": "narrower",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 11,
+    "type": "pg",
+    "text": "I’m so impressed, your masterpiece is ... than mine",
+    "optionA": "good",
+    "optionB": "better",
+    "optionC": "best",
+    "optionD": "more good",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 12,
+    "type": "pg",
+    "text": "Nisa is 178cm. Nanik is 160cm. Nanik is ... than Nisa",
+    "optionA": "shorter",
+    "optionB": "taller",
+    "optionC": "larger",
+    "optionD": "narrower",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 13,
+    "type": "pg",
+    "text": "Let’s go to your home at first, it’s ... than the others",
+    "optionA": "near",
+    "optionB": "nearer",
+    "optionC": "nearest",
+    "optionD": "more near",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 14,
+    "type": "pg",
+    "text": "Girrafe is ... than rhino",
+    "optionA": "shorter",
+    "optionB": "taller",
+    "optionC": "smaller",
+    "optionD": "stronger",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 15,
+    "type": "pg",
+    "text": "My new homework is ... than the old one",
+    "optionA": "easy",
+    "optionB": "easier",
+    "optionC": "easiest",
+    "optionD": "more easy",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 16,
+    "type": "pg",
+    "text": "Ear is part our ...",
+    "optionA": "mouth",
+    "optionB": "head",
+    "optionC": "back",
+    "optionD": "finger",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 17,
+    "type": "pg",
+    "text": "My hair is covered by ...",
+    "optionA": "arm",
+    "optionB": "hair",
+    "optionC": "elbow",
+    "optionD": "teet",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 18,
+    "type": "pg",
+    "text": "Every hands have ... finger",
+    "optionA": "ten",
+    "optionB": "five",
+    "optionC": "seven",
+    "optionD": "one",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 19,
+    "type": "pg",
+    "text": "Whale is ... fish in the world",
+    "optionA": "the biggest",
+    "optionB": "the shortest",
+    "optionC": "the largest",
+    "optionD": "the narrowest",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 20,
+    "type": "pg",
+    "text": "snake is ... animal",
+    "optionA": "the longest",
+    "optionB": "the shortest",
+    "optionC": "the thickest",
+    "optionD": "the thinnest",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 21,
+    "type": "pg",
+    "text": "Where did the writer during the holiday...",
+    "optionA": "beach",
+    "optionB": "mountain",
+    "optionC": "library",
+    "optionD": "gallery",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 22,
+    "type": "pg",
+    "text": "What did the writer feel at that time...",
+    "optionA": "happy",
+    "optionB": "disappointed",
+    "optionC": "dejected",
+    "optionD": "sad",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 23,
+    "type": "pg",
+    "text": "What kind of food that the writer eats in the restaurant...",
+    "optionA": "seafood",
+    "optionB": "fried rice",
+    "optionC": "fried chicken",
+    "optionD": "noodle",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 24,
+    "type": "pg",
+    "text": "four days after sunday is ...",
+    "optionA": "monday",
+    "optionB": "wednesday",
+    "optionC": "thursday",
+    "optionD": "friday",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 25,
+    "type": "pg",
+    "text": "The day before monday is ...",
+    "optionA": "sunday",
+    "optionB": "tuesday",
+    "optionC": "friday",
+    "optionD": "Saturday",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 26,
+    "type": "pg",
+    "text": "This month is May. The next month is ...",
+    "optionA": "april",
+    "optionB": "june",
+    "optionC": "february",
+    "optionD": "july",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 27,
+    "type": "pg",
+    "text": "Between January and march is...",
+    "optionA": "february",
+    "optionB": "april",
+    "optionC": "thursday",
+    "optionD": "june",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 28,
+    "type": "pg",
+    "text": "November come before ...",
+    "optionA": "december",
+    "optionB": "october",
+    "optionC": "january",
+    "optionD": "august",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 29,
+    "type": "pg",
+    "text": "This month is july. The last month is ...",
+    "optionA": "june",
+    "optionB": "may",
+    "optionC": "october",
+    "optionD": "november",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 30,
+    "type": "pg",
+    "text": "Two days before sunday is ...",
+    "optionA": "monday",
+    "optionB": "friday",
+    "optionC": "wednesday",
+    "optionD": "tuesday",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 31,
+    "type": "pg",
+    "text": "Amin is ... student in the school",
+    "optionA": "as active as",
+    "optionB": "the same active",
+    "optionC": "more active",
+    "optionD": "the most active",
+    "correctAnswer": null
+  },
+  {
+    "number": 32,
+    "type": "pg",
+    "text": "We use contact lenses for our ...",
+    "optionA": "eyes",
+    "optionB": "nose",
+    "optionC": "mouth",
+    "optionD": "teeth",
+    "correctAnswer": null
+  },
+  {
+    "number": 33,
+    "type": "pg",
+    "text": "Its function is to ...",
+    "optionA": "pump the blood",
+    "optionB": "make us stronger",
+    "optionC": "breathe",
+    "optionD": "see something",
+    "correctAnswer": null
+  },
+  {
+    "number": 34,
+    "type": "essay",
+    "text": "What thing the writer tells about",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 35,
+    "type": "essay",
+    "text": "How old is Nanda",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 36,
+    "type": "essay",
+    "text": "Is Nanda the writer older brother",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 37,
+    "type": "essay",
+    "text": "What is Nanda characteristic",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 38,
+    "type": "essay",
+    "text": "What is Nanda Hobby",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 39,
+    "type": "essay",
+    "text": "What is the color of the writer bag",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 40,
+    "type": "essay",
+    "text": "what is the bag made of",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 41,
+    "type": "essay",
+    "text": "How many parts does the writer bag have",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 42,
+    "type": "essay",
+    "text": "What is the function of the first part",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 43,
+    "type": "essay",
+    "text": "Does the writter often clean her bag",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  }
+]
