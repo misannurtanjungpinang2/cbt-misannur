@@ -5,26 +5,43 @@ export async function GET() {
     const { PrismaPg } = await import("@prisma/adapter-pg");
     const { PrismaClient } = await import("@/generated/prisma/client");
 
-    const url = process.env.DATABASE_URL || "";
-    const adapter = new PrismaPg({ connectionString: url });
+    const adapter = new PrismaPg({ connectionString: process.env.DATABASE_URL || "" });
+    const prisma = new PrismaClient({ adapter });
 
-    let dbStatus = "unknown";
+    // Cek tabel dan data
+    let adminCount = 0;
+    let subjectCount = 0;
+    let questionCount = 0;
+    let errors: string[] = [];
+
     try {
-      const p = new PrismaClient({ adapter });
-      await p.$connect();
-      dbStatus = "connected";
-      await p.$disconnect();
+      adminCount = await prisma.admin.count();
     } catch (e: any) {
-      dbStatus = `connect_error: ${e.message || e}`;
+      errors.push("Admin: " + e.message);
     }
 
+    try {
+      subjectCount = await prisma.subject.count();
+    } catch (e: any) {
+      errors.push("Subject: " + e.message);
+    }
+
+    try {
+      questionCount = await prisma.question.count();
+    } catch (e: any) {
+      errors.push("Question: " + e.message);
+    }
+
+    await prisma.$disconnect();
+
     return NextResponse.json({
-      env_url_set: !!process.env.DATABASE_URL,
-      env_url_prefix: url.substring(0, 20),
-      dbStatus,
-      node: process.version,
+      status: "ok",
+      adminCount,
+      subjectCount,
+      questionCount,
+      errors,
     });
   } catch (e: any) {
-    return NextResponse.json({ error: e.message || String(e), stack: e.stack?.substring(0, 500) }, { status: 500 });
+    return NextResponse.json({ error: e.message, stack: e.stack?.substring(0, 500) }, { status: 500 });
   }
 }
