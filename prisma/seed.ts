@@ -67,6 +67,13 @@ async function main() {
       file: "quran-hadist.json",
     },
     {
+      name: "Akidah Akhlak",
+      slug: "akidah-akhlak",
+      dayNumber: 1,
+      order: 2,
+      file: "akidah-akhlak.json",
+    },
+    {
       name: "SKI",
       slug: "ski",
       dayNumber: 2,

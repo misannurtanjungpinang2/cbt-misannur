@@ -1,0 +1,402 @@
+[
+  {
+    "number": 1,
+    "type": "pg",
+    "text": "Kalimat Inna lillahi wa inna ilaihi raji'un disebut juga dengan kalimat...",
+    "optionA": "Tasbih",
+    "optionB": "Tarji’",
+    "optionC": "Tahmid",
+    "optionD": "Takbir",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 2,
+    "type": "pg",
+    "text": "Kalimat Tarji’ diucapkan ketika seorang muslim sedang...",
+    "optionA": "Mendapat rezeki nomplok",
+    "optionB": "Melihat keindahan alam",
+    "optionC": "Mendengar kabar duka atau musibah",
+    "optionD": "Selesai mengerjakan tugas",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 3,
+    "type": "pg",
+    "text": "Arti dari potongan ayat Inna lillahi adalah...",
+    "optionA": "Dan kepada-Nya kita kembali",
+    "optionB": "Sesungguhnya kami adalah milik Allah",
+    "optionC": "Allah Maha Besar",
+    "optionD": "Segala puji bagi Allah",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 4,
+    "type": "pg",
+    "text": "Sikap yang benar bagi seorang muslim saat menghadapi musibah adalah...",
+    "optionA": "Mengeluh sepanjang hari",
+    "optionB": "Putus asa",
+    "optionC": "Bersabar dan ikhlas",
+    "optionD": "Menyalahkan keadaan",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 5,
+    "type": "pg",
+    "text": "Salah satu hikmah mengucapkan kalimat Tarji’ adalah...",
+    "optionA": "Mendapatkan pujian dari orang lain",
+    "optionB": "Menghilangkan rasa takut kepada Allah",
+    "optionC": "Mendapat ketenangan hati dan pahala dari Allah",
+    "optionD": "Menunjukkan bahwa kita orang hebat",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 6,
+    "type": "pg",
+    "text": "Musibah yang menimpa manusia pada hakikatnya adalah...",
+    "optionA": "Hukuman yang tidak adil",
+    "optionB": "Ujian atau cobaan dari Allah",
+    "optionC": "Kebetulan semata",
+    "optionD": "Tanda Allah benci kepada kita",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 7,
+    "type": "pg",
+    "text": "Allah adalah Zat yang Maha Menghidupkan. Hal ini sesuai dengan sifat...",
+    "optionA": "Al-Mumit",
+    "optionB": "Al-Ba’its",
+    "optionC": "Al-Muhyi",
+    "optionD": "Al-Ahad",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 8,
+    "type": "pg",
+    "text": "Contoh bukti bahwa Allah bersifat Al-Muhyi di alam semesta adalah...",
+    "optionA": "Gunung yang meletus",
+    "optionB": "Tanah yang tandur menjadi subur dan ditumbuhi tanaman",
+    "optionC": "Terjadinya kiamat",
+    "optionD": "Manusia yang meninggal dunia",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 9,
+    "type": "pg",
+    "text": "Sifat Allah yang berarti Maha Mematikan adalah...",
+    "optionA": "Al-Muhyi",
+    "optionB": "Al-Hayyu",
+    "optionC": "Al-Ba’its",
+    "optionD": "Al-Mumit",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 10,
+    "type": "pg",
+    "text": "Kematian adalah hal yang pasti bagi setiap makhluk. Sikap yang benar meneladani sifat Al-Mumit adalah...",
+    "optionA": "Takut yang berlebihan terhadap kematian",
+    "optionB": "Mempersiapkan amal shaleh sebelum ajal menjemput",
+    "optionC": "Bermalas-malasan karena hidup hanya sementara",
+    "optionD": "Mengejar harta dunia sebanyak-banyaknya",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 11,
+    "type": "pg",
+    "text": "Asmaul Husna Al-Ba’its memiliki arti...",
+    "optionA": "Maha Memberi Rezeki",
+    "optionB": "Maha Mematikan",
+    "optionC": "Maha Membangkitkan",
+    "optionD": "Maha Menghidupkan",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 12,
+    "type": "pg",
+    "text": "Meyakini sifat Al-Ba’its membuat kita percaya bahwa setelah hari kiamat manusia akan...",
+    "optionA": "Tidur selamanya",
+    "optionB": "Dibangkitkan dari kubur untuk dimintai pertanggungjawaban",
+    "optionC": "Menjadi tanah kembali",
+    "optionD": "Langsung masuk surga tanpa syarat",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 13,
+    "type": "pg",
+    "text": "Tetangga adalah orang yang rumahnya...",
+    "optionA": "Paling jauh dari kita",
+    "optionB": "Berdekatan dengan rumah kita",
+    "optionC": "Hanya yang seagama saja",
+    "optionD": "Hanya yang berasal dari satu daerah",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 14,
+    "type": "pg",
+    "text": "Rasulullah SAW bersabda bahwa tidak beriman seseorang sebelum ia...",
+    "optionA": "Memiliki rumah mewah",
+    "optionB": "Menyakiti tetangganya",
+    "optionC": "Mencintai tetangganya seperti mencintai diri sendiri",
+    "optionD": "Menjauhi tetangganya",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 15,
+    "type": "pg",
+    "text": "Salah satu adab bertetangga yang baik adalah...",
+    "optionA": "Menutup pintu rapat-rapat saat tetangga butuh bantuan",
+    "optionB": "Berbagi makanan jika memiliki kelebihan rezeki",
+    "optionC": "Membicarakan keburukan tetangga (ghibah)",
+    "optionD": "Menyetel musik dengan suara sangat keras",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 16,
+    "type": "pg",
+    "text": "Jika tetangga kita sedang sakit, maka kewajiban kita adalah...",
+    "optionA": "Membiarkannya sampai sembuh sendiri",
+    "optionB": "Menjenguk dan mendoakannya",
+    "optionC": "Mengajjak orang lain untuk menjauhinya",
+    "optionD": "Pura-pura tidak tahu",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 17,
+    "type": "pg",
+    "text": "Hikmah memiliki hubungan yang baik dengan tetangga adalah...",
+    "optionA": "Terciptanya suasana lingkungan yang damai dan rukun",
+    "optionB": "Mendapatkan banyak musuh",
+    "optionC": "Membuat kita menjadi sombong",
+    "optionD": "Mengurangi pahala ibadah",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 18,
+    "type": "pg",
+    "text": "Dalil tentang larangan menyakiti tetangga menunjukkan bahwa adab bertetangga berkaitan erat dengan...",
+    "optionA": "Kekayaan",
+    "optionB": "Jabatan",
+    "optionC": "Keimanan seseorang",
+    "optionD": "Kecerdasan",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 19,
+    "type": "pg",
+    "text": "Mengerjakan tugas sekolah tepat waktu merupakan contoh perilaku...",
+    "optionA": "Mandiri",
+    "optionB": "Disiplin",
+    "optionC": "Percaya diri",
+    "optionD": "Sabar",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 20,
+    "type": "pg",
+    "text": "Pengertian disiplin secara sederhana adalah...",
+    "optionA": "Patuh dan taat terhadap peraturan yang berlaku",
+    "optionB": "Berani melawan aturan",
+    "optionC": "Melakukan pekerjaan sesuai keinginan hati",
+    "optionD": "Menunggu diperintah orang lain",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 21,
+    "type": "pg",
+    "text": "Perilaku mandiri ditunjukkan dengan cara...",
+    "optionA": "Selalu meminta bantuan teman saat ujian",
+    "optionB": "Menyiapkan peralatan sekolah sendiri",
+    "optionC": "Menyuruh ibu merapikan tempat tidur setiap hari",
+    "optionD": "Menunggu disuapi saat makan",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 22,
+    "type": "pg",
+    "text": "Manfaat dari sikap mandiri sejak kecil adalah...",
+    "optionA": "Menjadi anak yang manja",
+    "optionB": "Membebani orang tua",
+    "optionC": "Membentuk pribadi yang tangguh dan tidak bergantung pada orang lain",
+    "optionD": "Membuat teman-teman menjauh",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 23,
+    "type": "pg",
+    "text": "Sikap disiplin di sekolah sangat penting untuk...",
+    "optionA": "Menghindari hukuman guru saja",
+    "optionB": "Kelancaran proses belajar mengajar",
+    "optionC": "Mendapatkan uang jajan tambahan",
+    "optionD": "Menunjukkan kekuatan kita",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 24,
+    "type": "pg",
+    "text": "Lawan dari sikap mandiri adalah sikap...",
+    "optionA": "Tanggung jawab",
+    "optionB": "Manja/Ketergantungan",
+    "optionC": "Jujur",
+    "optionD": "Berani",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 25,
+    "type": "pg",
+    "text": "Nabi Musa a.s. lahir pada masa pemerintahan raja yang kejam bernama...",
+    "optionA": "Namrud",
+    "optionB": "Abrahah",
+    "optionC": "Fir’aun",
+    "optionD": "Jalut",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 26,
+    "type": "pg",
+    "text": "Untuk menyelamatkan Musa bayi, ibunya menghanyutkannya ke sungai...",
+    "optionA": "Nil",
+    "optionB": "Eufrat",
+    "optionC": "Jordan",
+    "optionD": "Gangga",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 27,
+    "type": "pg",
+    "text": "Mukjizat Nabi Musa a.s. yang paling terkenal saat dikejar tentara Fir'aun adalah...",
+    "optionA": "Dapat berbicara dengan hewan",
+    "optionB": "Membelah laut merah dengan tongkatnya",
+    "optionC": "Menghidupkan orang mati",
+    "optionD": "Tidak mempan dibakar api",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 28,
+    "type": "pg",
+    "text": "Nabi Musa a.s. diangkat menjadi Rasul di bukit...",
+    "optionA": "Uhud",
+    "optionB": "Safa",
+    "optionC": "Tursina (Sinai)",
+    "optionD": "Nur",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 29,
+    "type": "pg",
+    "text": "Sikap Nabi Musa a.s. dalam menghadapi kekejaman Raja Fir’aun adalah...",
+    "optionA": "Takut dan tunduk",
+    "optionB": "Sabar, berani, dan tetap teguh menyampaikan kebenaran",
+    "optionC": "Ikut menyembah berhala",
+    "optionD": "Melarikan diri selamanya",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 30,
+    "type": "pg",
+    "text": "Pelajaran yang dapat diambil dari kisah Nabi Musa a.s. adalah...",
+    "optionA": "Kejahatan akan selalu menang",
+    "optionB": "Kekuasaan manusia bersifat abadi",
+    "optionC": "Allah pasti menolong hamba-Nya yang benar dan sabar",
+    "optionD": "Kekayaan adalah segalanya",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 31,
+    "type": "essay",
+    "text": "Kalimat yang diucapkan ketika mendengar musibah atau kematian adalah kalimat ....",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": "Tarji'"
+  },
+  {
+    "number": 32,
+    "type": "essay",
+    "text": "Arti dari kalimat Inna lillahi wa inna ilaihi raji'un adalah sesungguhnya kita milik Allah dan kepada-Nya kita ....",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": "Kembali"
+  },
+  {
+    "number": 33,
+    "type": "essay",
+    "text": "Allah Swt. memiliki sifat Al-Muhyi, yang artinya Allah Maha ....",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": "Menghidupkan"
+  },
+  {
+    "number": 34,
+    "type": "essay",
+    "text": "Sifat Allah yang menunjukkan bahwa Allah Maha Membangkitkan manusia dari alam kubur adalah ....",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": "Al-Ba'its"
+  },
+  {
+    "number": 35,
+    "type": "essay",
+    "text": "Orang yang rumahnya berdekatan atau bersebelahan dengan rumah kita disebut ....",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": "Tetangga"
+  },
+  {
+    "number": 36,
+    "type": "essay",
+    "text": "Memberikan makanan atau bantuan kepada tetangga yang membutuhkan merupakan salah satu contoh .... bertetangga.",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": "Adab/Etika"
+  },
+  {
+    "number": 37,
+    "type": "essay",
+    "text": "Sikap patuh dan taat terhadap peraturan serta tepat waktu dalam mengerjakan sesuatu disebut ....",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": "Disiplin"
+  },
+  {
+    "number": 38,
+    "type": "essay",
+    "text": "Melakukan segala keperluan sendiri seperti merapikan tempat tidur tanpa disuruh orang tua adalah ciri anak yang ....",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": "Mandiri"
+  },
+  {
+    "number": 39,
+    "type": "essay",
+    "text": "Nabi yang lahir pada masa kekuasaan Raja Fir'aun dan dihanyutkan ke Sungai Nil adalah Nabi ....",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": "Musa a.s."
+  },
+  {
+    "number": 40,
+    "type": "essay",
+    "text": "Allah memberikan mukjizat kepada Nabi Musa a.s. berupa tongkat yang bisa berubah menjadi ....",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": "Ular (atau membelah lautan)"
+  }
+]
