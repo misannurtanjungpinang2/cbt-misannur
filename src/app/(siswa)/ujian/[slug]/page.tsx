@@ -6,7 +6,7 @@ import LayoutSiswa from "@/components/LayoutSiswa";
 import SoalCard from "@/components/SoalCard";
 import type { SoalData } from "@/components/SoalCard";
 import GridNavigasi from "@/components/GridNavigasi";
-import Timer, { formatTimeLong } from "@/components/Timer";
+import Timer from "@/components/Timer";
 
 // ============================================================
 // Types
@@ -33,16 +33,6 @@ type AnswerMap = Record<
   string,
   { answer: string; flagged: boolean }
 >;
-
-// ============================================================
-// Utility: format sisa waktu (MM:DD)
-// ============================================================
-function formatTime(seconds: number): string {
-  if (seconds < 0) seconds = 0;
-  const m = Math.floor(seconds / 60);
-  const d = seconds % 60;
-  return `${String(m).padStart(2, "0")}:${String(d).padStart(2, "0")}`;
-}
 
 // ============================================================
 // Halaman Ujian
@@ -463,30 +453,13 @@ export default function UjianPage() {
   // ==========================================================
   return (
     <LayoutSiswa subtitle={`Ujian - ${questions.length} Soal`} hideLogout>
-      {/* Timer Bar */}
-      <div className="timer-bar">
-        <span style={{ fontWeight: 600, color: "var(--teks-abu)" }}>
-          ⏱️ Sisa Waktu
-        </span>
-        <span
-          className={`timer-display${
-            serverRemaining > 0 && serverRemaining <= 300
-              ? " timer-warning"
-              : ""
-          }`}
-        >
-          {formatTime(serverRemaining)}
-        </span>
-        <span style={{ fontSize: "0.9rem", color: "var(--teks-abu)" }}>
-          {isTimeUp
-            ? "⏰ Waktu habis!"
-            : serverRemaining <= 300
-              ? "⚠️ Waktu tinggal sedikit!"
-              : `${Math.floor(serverRemaining / 60)} menit tersisa`}
-        </span>
-        <span style={{ fontSize: "0.85rem", color: "var(--teks-abu)" }}>
-          Terjawab: {totalAnswered}/{questions.length}
-        </span>
+      <Timer
+        seconds={serverRemaining}
+        onTimeUp={handleTimeUp}
+        isRunning={!isTimeUp && !submitting}
+      />
+      <div style={{ textAlign: "right", fontSize: "0.85rem", color: "var(--teks-abu)", margin: "-8px 0 12px" }}>
+        Terjawab: {totalAnswered}/{questions.length}
       </div>
 
       {/* Exam Layout */}
@@ -595,14 +568,6 @@ export default function UjianPage() {
         </div>
       )}
 
-      {/* Hidden Timer component for time-up callback */}
-      <div style={{ display: "none" }}>
-        <Timer
-          seconds={serverRemaining}
-          onTimeUp={handleTimeUp}
-          isRunning={!isTimeUp && !submitting}
-        />
-      </div>
     </LayoutSiswa>
   );
 }
