@@ -351,14 +351,21 @@ export default function UjianPage() {
   const currentSoal = questions[currentIndex] || null;
   const currentAnswer = currentSoal ? answers[currentSoal.id]?.answer ?? "" : "";
 
-  // Hitung answered & flagged untuk GridNavigasi
+  // Map question UUID → nomor soal (1-indexed)
+  const qNumberMap = Object.fromEntries(
+    questions.map((q) => [String(q.id), q.number])
+  );
+
+  // Hitung answered & flagged untuk GridNavigasi (pakai nomor soal, bukan UUID)
   const answeredIds = Object.entries(answers)
     .filter(([, v]) => v.answer && v.answer.trim() !== "")
-    .map(([k]) => k);
+    .map(([k]) => qNumberMap[k])
+    .filter((n): n is number => n !== undefined);
 
   const flaggedIds = Object.entries(answers)
     .filter(([, v]) => v.flagged)
-    .map(([k]) => k);
+    .map(([k]) => qNumberMap[k])
+    .filter((n): n is number => n !== undefined);
 
   const totalAnswered = answeredIds.length;
 
