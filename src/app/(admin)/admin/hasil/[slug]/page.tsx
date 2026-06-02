@@ -5,6 +5,11 @@ import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import LayoutAdmin from "@/components/LayoutAdmin";
 
+interface DeleteTarget {
+  siswaId: string;
+  studentName: string;
+}
+
 interface SessionData {
   id: string;
   student: {
@@ -43,6 +48,8 @@ export default function HasilSlugPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [exporting, setExporting] = useState(false);
+  const [deleting, setDeleting] = useState(false);
+  const [deleteTarget, setDeleteTarget] = useState<DeleteTarget | null>(null);
 
   const fetchData = useCallback(async () => {
     if (!slug) return;
@@ -89,6 +96,28 @@ export default function HasilSlugPage() {
       alert(err instanceof Error ? err.message : "Gagal download file");
     } finally {
       setExporting(false);
+    }
+  };
+
+  const handleDelete = async () => {
+    if (!slug || !deleteTarget) return;
+    setDeleting(true);
+    try {
+      const res = await fetch(
+        `/api/admin/hasil/${slug}/${deleteTarget.siswaId}`,
+        { method: "DELETE" }
+      );
+      if (!res.ok) {
+        const errData = await res.json();
+        throw new Error(errData.error || "Gagal menghapus");
+      }
+      alert(`Berhasil menghapus hasil ujian ${deleteTarget.studentName}`);
+      setDeleteTarget(null);
+      fetchData();
+    } catch (err) {
+      alert(err instanceof Error ? err.message : "Gagal menghapus hasil ujian");
+    } finally {
+      setDeleting(false);
     }
   };
 
@@ -165,6 +194,7 @@ export default function HasilSlugPage() {
                 <th>Waktu Selesai</th>
                 <th>Skor PG</th>
                 <th>Aksi</th>
+                <th>Hapus</th>
               </tr>
             </thead>
             <tbody>
@@ -191,10 +221,75 @@ export default function HasilSlugPage() {
                       Detail
                     </Link>
                   </td>
+                  <td className="text-center">
+                    <button
+                      className="btn btn-danger btn-sm"
+                      onClick={() =>
+                        setDeleteTarget({
+                          siswaId: session.student.id,
+                          studentName: session.student.name,
+                        })
+                      }
+                    >
+                      🗑 Hapus
+                    </button>
+                  </td>
                 </tr>
               ))}
             </tbody>
           </table>
+        </div>
+      )}
+
+      {/* Modal Konfirmasi Hapus */}
+      {deleteTarget && (
+        <div
+          className="modal-overlay"
+          onClick={(e) => {
+            if (e.target === e.currentTarget && !deleting) setDeleteTarget(null);
+          }}
+        >
+          <div className="modal-box">
+            <span style={{ fontSize: 48, display: "block" }}>🗑️</span>
+            <h3 style={{ color: "var(--hijau-tua)" }}>Hapus Hasil Ujian?</h3>
+            <p style={{ color: "var(--teks-abu)", margin: "12px 0" }}>
+              Yakin ingin menghapus hasil ujian{" "}
+              <strong>{deleteTarget.studentName}</strong>?
+            </p>
+            <p
+              style={{
+                fontSize: "0.9rem",
+                color: "var(--teks-abu)",
+                marginBottom: 8,
+              }}
+            >
+              Semua jawaban siswa ini untuk mata pelajaran ini akan dihapus.
+              Siswa dapat mengerjakan ulang setelahnya.
+            </p>
+            <div
+              style={{
+                display: "flex",
+                gap: 12,
+                justifyContent: "center",
+                marginTop: 24,
+              }}
+            >
+              <button
+                className="btn btn-outline btn-sm"
+                onClick={() => setDeleteTarget(null)}
+                disabled={deleting}
+              >
+                Batal
+              </button>
+              <button
+                className="btn btn-danger btn-sm"
+                onClick={handleDelete}
+                disabled={deleting}
+              >
+                {deleting ? "Menghapus..." : "Ya, Hapus"}
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </LayoutAdmin>
