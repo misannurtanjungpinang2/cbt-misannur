@@ -82,7 +82,7 @@ export default function UjianPage() {
     enterFullscreen,
     resetViolations,
   } = useAntiCheat(true, {
-    maxViolations: 3,
+    maxViolations: 1,
     graceSeconds: 10,
     onMaxViolations: () => handleSubmitRef.current?.(true),
   });
@@ -638,11 +638,15 @@ export default function UjianPage() {
               </strong>{" "}
               detik
             </p>
-            <p style={{ color: "var(--teks-abu)", fontSize: "0.8rem", marginTop: 8 }}>
-              Pelanggaran ke-{cheatViolations} dari 3 kali.
-              <br />
-              Jika mencapai 3 kali, ujian akan dikumpulkan otomatis.
-            </p>
+            {cheatGraceRemaining > 0 ? (
+              <p style={{ color: "var(--teks-abu)", fontSize: "0.8rem", marginTop: 8 }}>
+                Kembali sebelum waktu habis, atau ujian akan dikumpulkan otomatis.
+              </p>
+            ) : (
+              <p style={{ color: "var(--merah)", fontSize: "0.9rem", marginTop: 8, fontWeight: 600 }}>
+                ⏰ Waktu habis! Mengumpulkan ujian...
+              </p>
+            )}
             {cheatFS && (
               <button
                 className="btn btn-hijau btn-sm"
