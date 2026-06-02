@@ -87,6 +87,13 @@ export default function UjianPage() {
     onMaxViolations: () => handleSubmitRef.current?.(true),
   });
 
+  // Skip fullscreen gate otomatis untuk device tanpa support
+  useEffect(() => {
+    if (needsFullscreenGate && !cheatFS) {
+      setNeedsFullscreenGate(false);
+    }
+  }, [needsFullscreenGate, cheatFS]);
+
   // Auto-save ref
   const lastSavedAnswerRef = useRef<string>("");
   const saveTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -591,7 +598,7 @@ export default function UjianPage() {
         </div>
       )}
 
-      {/* Fullscreen Gate — muncul setelah soal dimuat */}
+      {/* Fullscreen Gate — wajib untuk yg support */}
       {needsFullscreenGate && cheatFS && (
         <div className="modal-overlay" style={{ zIndex: 9999 }}>
           <div className="modal-box" style={{ textAlign: "center" }}>
@@ -611,14 +618,6 @@ export default function UjianPage() {
               }}
             >
               🚀 Mulai Ujian
-            </button>
-            <br />
-            <button
-              className="btn btn-outline btn-sm"
-              style={{ marginTop: 12 }}
-              onClick={() => setNeedsFullscreenGate(false)}
-            >
-              Lanjutkan Tanpa Layar Penuh
             </button>
           </div>
         </div>
