@@ -39,11 +39,12 @@ export default function LayoutAdmin({
 
   return (
     <div className="app-container">
-      <Header
-        title={title}
-        subtitle="Panel Administrasi CBT MIS An-Nur"
-        onLogout={handleLogout}
-      />
+        <Header
+          title={title}
+          subtitle="Panel Administrasi CBT MIS An-Nur"
+          onLogout={handleLogout}
+          hideLogout
+        />
       <main className="main-content">
         <div className="admin-layout">
           <aside className="admin-sidebar no-print">
