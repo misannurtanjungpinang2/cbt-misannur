@@ -7,6 +7,7 @@ import SoalCard from "@/components/SoalCard";
 import type { SoalData } from "@/components/SoalCard";
 import GridNavigasi from "@/components/GridNavigasi";
 import Timer from "@/components/Timer";
+import useAntiCheat from "@/hooks/useAntiCheat";
 
 // ============================================================
 // Types
@@ -68,6 +69,27 @@ export default function UjianPage() {
   const [submitting, setSubmitting] = useState(false);
   const [showModal, setShowModal] = useState(false);
 
+  // Anti-cheat refs & state
+  const [showCheatWarning, setShowCheatWarning] = useState(false);
+  const submitExamRef = useRef<(() => void) | undefined>(undefined);
+
+  const {
+    violations: cheatViolations,
+    inGracePeriod: cheatInGrace,
+    graceRemaining: cheatGraceRemaining,
+    fullscreenSupported: cheatFS,
+    enterFullscreen,
+    resetViolations,
+  } = useAntiCheat(true, {
+    maxViolations: 3,
+    graceSeconds: 10,
+    onViolation: () => setShowCheatWarning(true),
+    onMaxViolations: () => {
+      setShowCheatWarning(false);
+      submitExamRef.current?.();
+    },
+  });
+
   // Auto-save ref
   const lastSavedAnswerRef = useRef<string>("");
   const saveTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -112,11 +134,14 @@ export default function UjianPage() {
       }
 
       setLoading(false);
+
+      // Minta fullscreen setelah ujian dimuat
+      setTimeout(() => enterFullscreen(), 500);
     } catch (err: any) {
       setError(err.message || "Terjadi kesalahan");
       setLoading(false);
     }
-  }, [slug, router]);
+  }, [slug, router, enterFullscreen]);
 
   useEffect(() => {
     if (slug) {
@@ -298,6 +323,8 @@ export default function UjianPage() {
       if (submitting) return;
       setSubmitting(true);
       setShowModal(false);
+      setShowCheatWarning(false);
+      resetViolations();
 
       try {
         const res = await fetch(`/api/siswa/ujian/${slug}/kumpul`, {
@@ -322,7 +349,7 @@ export default function UjianPage() {
         setSubmitting(false);
       }
     },
-    [slug, submitting, router]
+    [slug, submitting, router, resetViolations]
   );
 
   // ==========================================================
@@ -334,6 +361,11 @@ export default function UjianPage() {
       handleSubmit(true);
     }
   }, [submitting, handleSubmit]);
+
+  // Hubungkan submitExamRef ke handleSubmit (untuk anti-cheat)
+  useEffect(() => {
+    submitExamRef.current = () => handleSubmit(true);
+  }, [handleSubmit]);
 
   // ==========================================================
   // 10. Build data untuk komponen
@@ -566,6 +598,59 @@ export default function UjianPage() {
         </div>
       )}
 
+      {/* Cheat Warning Modal */}
+      {showCheatWarning && cheatInGrace && (
+        <div className="modal-overlay" style={{ zIndex: 9999 }}>
+          <div className="modal-box" style={{ textAlign: "center" }}>
+            <span style={{ fontSize: 48, display: "block" }}>⚠️</span>
+            <h3 style={{ color: "var(--merah)", marginBottom: 8 }}>
+              Anda Meninggalkan Layar Ujian!
+            </h3>
+            <p style={{ color: "var(--teks-abu)", fontSize: "0.9rem" }}>
+              Kembali dalam{" "}
+              <strong style={{ fontSize: "1.4rem", color: "var(--merah)" }}>
+                {cheatGraceRemaining}
+              </strong>{" "}
+              detik
+            </p>
+            <p style={{ color: "var(--teks-abu)", fontSize: "0.8rem", marginTop: 8 }}>
+              Pelanggaran ke-{cheatViolations} dari 3 kali.
+              <br />
+              Jika mencapai 3 kali, ujian akan dikumpulkan otomatis.
+            </p>
+            {cheatFS && (
+              <button
+                className="btn btn-hijau btn-sm"
+                style={{ marginTop: 16 }}
+                onClick={() => enterFullscreen()}
+              >
+                Kembali ke Layar Penuh
+              </button>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* iOS fullscreen info */}
+      {!cheatFS && cheatViolations === 0 && questions.length > 0 && (
+        <div
+          style={{
+            position: "fixed",
+            bottom: 0,
+            left: 0,
+            right: 0,
+            background: "var(--emas-pucat)",
+            color: "var(--hijau-tua)",
+            padding: "8px 16px",
+            fontSize: "0.75rem",
+            textAlign: "center",
+            zIndex: 100,
+          }}
+        >
+          💡 Layar penuh tidak didukung di perangkat ini. Jangan ganti tab atau
+          aplikasi lain selama ujian.
+        </div>
+      )}
     </LayoutSiswa>
   );
 }

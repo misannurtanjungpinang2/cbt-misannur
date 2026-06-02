@@ -80,10 +80,12 @@ CREATE INDEX IF NOT EXISTS idx_answer_session ON "Answer"("sessionId", "question
 INSERT INTO "Admin" (id, username, "passwordHash", "createdAt") VALUES
   (gen_random_uuid(), 'admin', '$2b$10$mgxpbsenz78dnLlXcDZG5uUMWJDOkx7Rw1pog8K2xEj3dnFMADihK', now());
 
--- 2. Subjects (4 mapel)
+-- 2. Subjects (6 mapel)
 INSERT INTO "Subject" (id, name, slug, token, "durationMinutes", "dayNumber", "isActive", "order", "createdAt") VALUES
   (gen_random_uuid(), 'Al-Quran Hadist', 'quran-hadist', NULL, 60, 1, true, 1, now()),
-  (gen_random_uuid(), 'SKI', 'ski', NULL, 60, 2, true, 1, now()),
+  (gen_random_uuid(), 'Akidah Akhlak', 'akidah-akhlak', NULL, 60, 1, true, 2, now()),
+  (gen_random_uuid(), 'Fikih', 'fikih', NULL, 60, 2, true, 1, now()),
+  (gen_random_uuid(), 'SKI', 'ski', NULL, 60, 2, true, 2, now()),
   (gen_random_uuid(), 'PJOK', 'pjok', NULL, 60, 5, true, 2, now()),
   (gen_random_uuid(), 'Bahasa Inggris', 'bahasa-inggris', NULL, 60, 6, true, 1, now());
 
@@ -267,4 +269,49 @@ INSERT INTO "Question" (id, "subjectId", number, type, text, "optionA", "optionB
   (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-inggris'), 41, 'essay', E'How many parts does the writer bag have', E'', E'', E'', E'', NULL, now()),
   (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-inggris'), 42, 'essay', E'What is the function of the first part', E'', E'', E'', E'', NULL, now()),
   (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-inggris'), 43, 'essay', E'Does the writter often clean her bag', E'', E'', E'', E'', NULL, now());
+
+
+
+-- 3. Soal Fikih (40 soal)
+INSERT INTO "Question" (id, "subjectId", number, type, text, "optionA", "optionB", "optionC", "optionD", "correctAnswer", "createdAt") VALUES
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 1, E'pg', E'Umur minimal kambing yang diperbolehkan untuk diqurbankan adalah ... tahun.', E'2', E'3', E'4', E'5', E'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 2, E'pg', E'Menyembelih hewan qurban sebelum salat Idul Adha, maka ibadah qurbannya ...', E'dimaklumi', E'makruh', E'sah', E'tidak sah', E'D', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 3, E'pg', E'Al Udhiyah ialah memotong hewan qurban pada ....', E'hari raya haji', E'hari lahirnya seseorang', E'hari-hari perkawinan', E'hari raya Idul Fitri', E'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 4, E'pg', E'Tujuh orang dapat berqurban dengan ....', E'seekor kambing', E'seekor domba', E'seekor sapi', E'seekor ayam', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 5, E'pg', E'Berikut yang bukan termasuk wajib haji adalah ....', E'Sa’i', E'bermalam di Mina', E'bermalam di Muzdalifah', E'menghindari segala larangan di musim haji', E'D', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 6, E'pg', E'Wukuf di padang Arafah dikerjakan pada tanggal ... Zulhijjah.', E'10', E'9', E'11', E'13', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 7, E'pg', E'Memakai pakaian putih tidak berjahit ketika haji disebut dengan pakian ... bagi laki-laki', E'ihram', E'tahalul', E'wukuf', E'sa’i', E'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 8, E'pg', E'Mengerjakan haji secara bersama dengan umrah dinamakan ....', E'haji tamattu''', E'haji ifrad', E'haji qiran', E'haji mabrur', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 9, E'pg', E'Sa’i adalah berlari kecil dari shofa ke marwa sebanyak....', E'3 kali', E'5 kali', E'7 kali', E'10 kali', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 10, E'pg', E'Memakai parfum saat berihram hukumnya adalah ....', E'haram', E'wajib', E'sunnah', NULL, E'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 11, E'pg', E'Ayat Al-Qur’an yang menerangkan tentang hukum haji terdapat yaitu surah ....', E'Ali ''Imran ayat 97', E'Al Hajj ayat 29', E'Al Hajj ayat 27', E'Al Hajj ayat 97', E'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 12, E'pg', E'Di bawah ini yang disebut hari tasyrik adalah tanggal ....', E'13,14, dan 15 Zulhijjah', E'11,12, dan 13 Zulhijjah', E'11,12, dan 13 Syawal', E'11,12, dan 13 Zulkaidah', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 13, E'pg', E'Unta yang sah untuk qurban bila sudah berumur ... tahun.', E'dua', E'tiga', E'empat', E'lima', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 14, E'pg', E'Haji yang baik di mata Allah swt. adalah ....', E'haji wada''', E'haji qiran', E'haji mabrur', E'haji tamattu''', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 15, E'pg', E'Penyembelihan qurban dilaksanakan ... salat Idul Adha.', E'sebelum', E'sesudah', E'bersamaan', E'beriringan', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 16, E'pg', E'Daging qurban biasanya dibagikan dalam keadaan ....', E'sudah dimasak', E'belum dimasak', E'dibekukan', E'kering', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 17, E'pg', E'Hewan qurban disunnahkan untuk dipotong oleh ...', E'orang yang berqurban', E'tukang jagal', E'takmir masjid', E'imam/tokoh agama', E'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 18, E'pg', E'Orang yang melakukan qurban dalam Islam disebut dengan....', E'takmir masjid', E'musafir', E'sohibul qurban', E'muslim', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 19, E'pg', E'Hewan yang hendak diqurbankan hendaknya musinnah, arti musinnah adalah ....', E'dicabut giginya', E'berganti gigi', E'bergigi tajam', E'berbulu banyak', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 20, E'pg', E'Salat Idul Adha terdiri dari ... rakaat.', E'2', E'3', E'4', E'5', E'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 21, E'pg', E'Menjual daging qurban hukumnya ...', E'sah', E'mubah', E'haram', E'makruh', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 22, E'pg', E'Membaca salawat atas Nabi Muhammad saw. merupakan ... dalam menyembelih hewan qurban.', E'rukun', E'syarat', E'manfaat', E'sunnah', E'D', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 23, E'pg', E'Setelah wukuf di Arafah, jamaah haji menuju ... untuk bermalam.', E'Mina', E'Madinah', E'Muzdalifah', E'Mekah', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 24, E'pg', E'Ketika menyembelih binatang qurban, disunnahkan mengucapkan, kecuali....', E'takbir', E'basmalah', E'salawat nabi', E'Al-Qur''an', E'D', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 25, E'pg', E'Menutup kepala bagi laki-laki merupakan ... saat melaksanakan ibadah haji.', E'sunnah', E'wajib haji', E'larangan', E'syarat haji', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 26, E'pg', E'melakukan Tawaf saat baru datang di Mekkah disebut tawaf....', E'wada', E'ifadah', E'qudum', E'sunnah', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 27, E'pg', E'Di bawah ini yang merupakan perbedaan utama antara haji dan umrah adalah ....', E'ihram', E'tahalul', E'wukuf', E'sa''i', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 28, E'pg', E'Melempar jumrah menggunakan dengan...', E'kerikil', E'kayu', E'koin', E'emas', E'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 29, E'pg', E'Wukuf adalah bagian dari....', E'wajib haji', E'rukun haji', E'syarat sah haji', E'sunnah haji', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 30, E'pg', E'Awal waktu pelaksanaan ibadah haji adalah pada bulan ....', E'Syawal', E'Zulkaidah', E'Zulhijjah', E'semua benar', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 31, E'essay', E'Hari raya qurban dilaksanakan pada tanggal…………………………………………...', NULL, NULL, NULL, NULL, NULL, now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 32, E'essay', E'Hokum qurban adalah…………………………………………………………………..', NULL, NULL, NULL, NULL, NULL, now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 33, E'essay', E'Sa’i dalam haji meneladani kisah dari………………………………………………….', NULL, NULL, NULL, NULL, NULL, now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 34, E'essay', E'Mencukur rambut dalam ibadah haji disebut…………………………………………..', NULL, NULL, NULL, NULL, NULL, now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 35, E'essay', E'Sebutkan 3 hikmah ibadah dari qurban', NULL, NULL, NULL, NULL, NULL, now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 36, E'essay', E'Apa yang dimaksud dengan haji………………………………………………………..', NULL, NULL, NULL, NULL, NULL, now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 37, E'essay', E'Jelaskan pengertian dari ibadah qurban………………………………………………...', NULL, NULL, NULL, NULL, NULL, now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 38, E'essay', E'Apa yang dimaksud dengan tawaf', NULL, NULL, NULL, NULL, NULL, now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 39, E'essay', E'Wukuf merupakan……………………………………………………………………….', NULL, NULL, NULL, NULL, NULL, now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 40, E'essay', E'Umrah dapat dikerjakan pada bulan…………………………………………………….', NULL, NULL, NULL, NULL, NULL, now());
 

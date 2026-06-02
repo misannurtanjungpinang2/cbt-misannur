@@ -56,7 +56,7 @@ async function main() {
   console.log(`✅ Admin: username="${admin.username}", password="${adminPassword}"`);
 
   // ============================================================
-  // 2. Konfigurasi 4 Mapel
+  // 2. Konfigurasi 6 Mapel
   // ============================================================
   const subjects: SubjectConfig[] = [
     {
@@ -74,10 +74,17 @@ async function main() {
       file: "akidah-akhlak.json",
     },
     {
+      name: "Fikih",
+      slug: "fikih",
+      dayNumber: 2,
+      order: 1,
+      file: "fikih.json",
+    },
+    {
       name: "SKI",
       slug: "ski",
       dayNumber: 2,
-      order: 1,
+      order: 2,
       file: "ski.json",
     },
     {

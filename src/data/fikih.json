@@ -1,0 +1,402 @@
+[
+  {
+    "number": 1,
+    "type": "pg",
+    "text": "Umur minimal kambing yang diperbolehkan untuk diqurbankan adalah ... tahun.",
+    "optionA": "2",
+    "optionB": "3",
+    "optionC": "4",
+    "optionD": "5",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 2,
+    "type": "pg",
+    "text": "Menyembelih hewan qurban sebelum salat Idul Adha, maka ibadah qurbannya ...",
+    "optionA": "dimaklumi",
+    "optionB": "makruh",
+    "optionC": "sah",
+    "optionD": "tidak sah",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 3,
+    "type": "pg",
+    "text": "Al Udhiyah ialah memotong hewan qurban pada ....",
+    "optionA": "hari raya haji",
+    "optionB": "hari lahirnya seseorang",
+    "optionC": "hari-hari perkawinan",
+    "optionD": "hari raya Idul Fitri",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 4,
+    "type": "pg",
+    "text": "Tujuh orang dapat berqurban dengan ....",
+    "optionA": "seekor kambing",
+    "optionB": "seekor domba",
+    "optionC": "seekor sapi",
+    "optionD": "seekor ayam",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 5,
+    "type": "pg",
+    "text": "Berikut yang bukan termasuk wajib haji adalah ....",
+    "optionA": "Sa’i",
+    "optionB": "bermalam di Mina",
+    "optionC": "bermalam di Muzdalifah",
+    "optionD": "menghindari segala larangan di musim haji",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 6,
+    "type": "pg",
+    "text": "Wukuf di padang Arafah dikerjakan pada tanggal ... Zulhijjah.",
+    "optionA": "10",
+    "optionB": "9",
+    "optionC": "11",
+    "optionD": "13",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 7,
+    "type": "pg",
+    "text": "Memakai pakaian putih tidak berjahit ketika haji disebut dengan pakian ... bagi laki-laki",
+    "optionA": "ihram",
+    "optionB": "tahalul",
+    "optionC": "wukuf",
+    "optionD": "sa’i",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 8,
+    "type": "pg",
+    "text": "Mengerjakan haji secara bersama dengan umrah dinamakan ....",
+    "optionA": "haji tamattu'",
+    "optionB": "haji ifrad",
+    "optionC": "haji qiran",
+    "optionD": "haji mabrur",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 9,
+    "type": "pg",
+    "text": "Sa’i adalah berlari kecil dari shofa ke marwa sebanyak....",
+    "optionA": "3 kali",
+    "optionB": "5 kali",
+    "optionC": "7 kali",
+    "optionD": "10 kali",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 10,
+    "type": "pg",
+    "text": "Memakai parfum saat berihram hukumnya adalah ....",
+    "optionA": "haram",
+    "optionB": "wajib",
+    "optionC": "sunnah",
+    "optionD": null,
+    "correctAnswer": "A"
+  },
+  {
+    "number": 11,
+    "type": "pg",
+    "text": "Ayat Al-Qur’an yang menerangkan tentang hukum haji terdapat yaitu surah ....",
+    "optionA": "Ali 'Imran ayat 97",
+    "optionB": "Al Hajj ayat 29",
+    "optionC": "Al Hajj ayat 27",
+    "optionD": "Al Hajj ayat 97",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 12,
+    "type": "pg",
+    "text": "Di bawah ini yang disebut hari tasyrik adalah tanggal ....",
+    "optionA": "13,14, dan 15 Zulhijjah",
+    "optionB": "11,12, dan 13 Zulhijjah",
+    "optionC": "11,12, dan 13 Syawal",
+    "optionD": "11,12, dan 13 Zulkaidah",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 13,
+    "type": "pg",
+    "text": "Unta yang sah untuk qurban bila sudah berumur ... tahun.",
+    "optionA": "dua",
+    "optionB": "tiga",
+    "optionC": "empat",
+    "optionD": "lima",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 14,
+    "type": "pg",
+    "text": "Haji yang baik di mata Allah swt. adalah ....",
+    "optionA": "haji wada'",
+    "optionB": "haji qiran",
+    "optionC": "haji mabrur",
+    "optionD": "haji tamattu'",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 15,
+    "type": "pg",
+    "text": "Penyembelihan qurban dilaksanakan ... salat Idul Adha.",
+    "optionA": "sebelum",
+    "optionB": "sesudah",
+    "optionC": "bersamaan",
+    "optionD": "beriringan",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 16,
+    "type": "pg",
+    "text": "Daging qurban biasanya dibagikan dalam keadaan ....",
+    "optionA": "sudah dimasak",
+    "optionB": "belum dimasak",
+    "optionC": "dibekukan",
+    "optionD": "kering",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 17,
+    "type": "pg",
+    "text": "Hewan qurban disunnahkan untuk dipotong oleh ...",
+    "optionA": "orang yang berqurban",
+    "optionB": "tukang jagal",
+    "optionC": "takmir masjid",
+    "optionD": "imam/tokoh agama",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 18,
+    "type": "pg",
+    "text": "Orang yang melakukan qurban dalam Islam disebut dengan....",
+    "optionA": "takmir masjid",
+    "optionB": "musafir",
+    "optionC": "sohibul qurban",
+    "optionD": "muslim",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 19,
+    "type": "pg",
+    "text": "Hewan yang hendak diqurbankan hendaknya musinnah, arti musinnah adalah ....",
+    "optionA": "dicabut giginya",
+    "optionB": "berganti gigi",
+    "optionC": "bergigi tajam",
+    "optionD": "berbulu banyak",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 20,
+    "type": "pg",
+    "text": "Salat Idul Adha terdiri dari ... rakaat.",
+    "optionA": "2",
+    "optionB": "3",
+    "optionC": "4",
+    "optionD": "5",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 21,
+    "type": "pg",
+    "text": "Menjual daging qurban hukumnya ...",
+    "optionA": "sah",
+    "optionB": "mubah",
+    "optionC": "haram",
+    "optionD": "makruh",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 22,
+    "type": "pg",
+    "text": "Membaca salawat atas Nabi Muhammad saw. merupakan ... dalam menyembelih hewan qurban.",
+    "optionA": "rukun",
+    "optionB": "syarat",
+    "optionC": "manfaat",
+    "optionD": "sunnah",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 23,
+    "type": "pg",
+    "text": "Setelah wukuf di Arafah, jamaah haji menuju ... untuk bermalam.",
+    "optionA": "Mina",
+    "optionB": "Madinah",
+    "optionC": "Muzdalifah",
+    "optionD": "Mekah",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 24,
+    "type": "pg",
+    "text": "Ketika menyembelih binatang qurban, disunnahkan mengucapkan, kecuali....",
+    "optionA": "takbir",
+    "optionB": "basmalah",
+    "optionC": "salawat nabi",
+    "optionD": "Al-Qur'an",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 25,
+    "type": "pg",
+    "text": "Menutup kepala bagi laki-laki merupakan ... saat melaksanakan ibadah haji.",
+    "optionA": "sunnah",
+    "optionB": "wajib haji",
+    "optionC": "larangan",
+    "optionD": "syarat haji",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 26,
+    "type": "pg",
+    "text": "melakukan Tawaf saat baru datang di Mekkah disebut tawaf....",
+    "optionA": "wada",
+    "optionB": "ifadah",
+    "optionC": "qudum",
+    "optionD": "sunnah",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 27,
+    "type": "pg",
+    "text": "Di bawah ini yang merupakan perbedaan utama antara haji dan umrah adalah ....",
+    "optionA": "ihram",
+    "optionB": "tahalul",
+    "optionC": "wukuf",
+    "optionD": "sa'i",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 28,
+    "type": "pg",
+    "text": "Melempar jumrah menggunakan dengan...",
+    "optionA": "kerikil",
+    "optionB": "kayu",
+    "optionC": "koin",
+    "optionD": "emas",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 29,
+    "type": "pg",
+    "text": "Wukuf adalah bagian dari....",
+    "optionA": "wajib haji",
+    "optionB": "rukun haji",
+    "optionC": "syarat sah haji",
+    "optionD": "sunnah haji",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 30,
+    "type": "pg",
+    "text": "Awal waktu pelaksanaan ibadah haji adalah pada bulan ....",
+    "optionA": "Syawal",
+    "optionB": "Zulkaidah",
+    "optionC": "Zulhijjah",
+    "optionD": "semua benar",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 31,
+    "type": "essay",
+    "text": "Hari raya qurban dilaksanakan pada tanggal…………………………………………...",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 32,
+    "type": "essay",
+    "text": "Hokum qurban adalah…………………………………………………………………..",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 33,
+    "type": "essay",
+    "text": "Sa’i dalam haji meneladani kisah dari………………………………………………….",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 34,
+    "type": "essay",
+    "text": "Mencukur rambut dalam ibadah haji disebut…………………………………………..",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 35,
+    "type": "essay",
+    "text": "Sebutkan 3 hikmah ibadah dari qurban",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 36,
+    "type": "essay",
+    "text": "Apa yang dimaksud dengan haji………………………………………………………..",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 37,
+    "type": "essay",
+    "text": "Jelaskan pengertian dari ibadah qurban………………………………………………...",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 38,
+    "type": "essay",
+    "text": "Apa yang dimaksud dengan tawaf",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 39,
+    "type": "essay",
+    "text": "Wukuf merupakan……………………………………………………………………….",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  },
+  {
+    "number": 40,
+    "type": "essay",
+    "text": "Umrah dapat dikerjakan pada bulan…………………………………………………….",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": null
+  }
+]
