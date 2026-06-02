@@ -188,16 +188,7 @@ export default function UjianPage() {
           body: JSON.stringify({ questionId: String(questionId), answer }),
         });
 
-        if (res.ok) {
-          // Update local state sebagai cache
-          setAnswers((prev) => ({
-            ...prev,
-            [String(questionId)]: {
-              answer,
-              flagged: prev[String(questionId)]?.flagged ?? false,
-            },
-          }));
-        } else if (res.status === 400) {
+        if (res.status === 400) {
           const data = await res.json();
           if (data.error?.includes("waktu telah habis")) {
             setIsTimeUp(true);
