@@ -5,13 +5,12 @@ import { useEffect, useState, useRef, useCallback } from "react";
 interface UseAntiCheatOptions {
   maxViolations?: number;
   graceSeconds?: number;
-  onViolation?: (count: number) => void;
   onMaxViolations?: () => void;
 }
 
 interface UseAntiCheatReturn {
   violations: number;
-  inGracePeriod: boolean;
+  showWarning: boolean;
   graceRemaining: number;
   fullscreenSupported: boolean;
   enterFullscreen: () => Promise<void>;
@@ -20,70 +19,82 @@ interface UseAntiCheatReturn {
 
 function isIOS(): boolean {
   if (typeof navigator === "undefined") return false;
-  return /iPad|iPhone|iPod/.test(navigator.userAgent) ||
-    (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  return (
+    /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+    (/Mac/.test(navigator.userAgent) && navigator.maxTouchPoints > 1)
+  );
 }
 
 export default function useAntiCheat(
   enabled: boolean = true,
   options: UseAntiCheatOptions = {}
 ): UseAntiCheatReturn {
-  const {
-    maxViolations = 3,
-    graceSeconds = 10,
-    onViolation,
-    onMaxViolations,
-  } = options;
+  const { maxViolations = 3, graceSeconds = 10, onMaxViolations } = options;
 
   const [violations, setViolations] = useState(0);
-  const [inGracePeriod, setInGracePeriod] = useState(false);
+  const [showWarning, setShowWarning] = useState(false);
   const [graceRemaining, setGraceRemaining] = useState(graceSeconds);
   const [fullscreenSupported, setFullscreenSupported] = useState(false);
 
   const violationsRef = useRef(0);
+  const graceStartRef = useRef(0);
   const graceTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const isInGraceRef = useRef(false);
   const onMaxViolationsRef = useRef(onMaxViolations);
-  const onViolationRef = useRef(onViolation);
 
   useEffect(() => {
     onMaxViolationsRef.current = onMaxViolations;
   }, [onMaxViolations]);
-
-  useEffect(() => {
-    onViolationRef.current = onViolation;
-  }, [onViolation]);
 
   const cancelGrace = useCallback(() => {
     if (graceTimerRef.current !== null) {
       clearInterval(graceTimerRef.current);
       graceTimerRef.current = null;
     }
-    setInGracePeriod(false);
+    isInGraceRef.current = false;
+    if (showWarning) {
+      setShowWarning(false);
+    }
     setGraceRemaining(graceSeconds);
-  }, [graceSeconds]);
+  }, [graceSeconds, showWarning]);
 
   const startGrace = useCallback(() => {
-    setInGracePeriod(true);
-    setGraceRemaining(graceSeconds);
+    if (isInGraceRef.current) return;
+    isInGraceRef.current = true;
 
-    let remaining = graceSeconds;
-    graceTimerRef.current = setInterval(() => {
-      remaining--;
+    graceStartRef.current = Date.now();
+    setGraceRemaining(graceSeconds);
+    setShowWarning(true);
+
+    const tick = () => {
+      const elapsed = Math.floor(
+        (Date.now() - graceStartRef.current) / 1000
+      );
+      const remaining = Math.max(0, graceSeconds - elapsed);
       setGraceRemaining(remaining);
 
       if (remaining <= 0) {
-        cancelGrace();
+        if (graceTimerRef.current !== null) {
+          clearInterval(graceTimerRef.current);
+          graceTimerRef.current = null;
+        }
+        isInGraceRef.current = false;
+        setShowWarning(false);
+        setGraceRemaining(graceSeconds);
+
         const newCount = violationsRef.current + 1;
         violationsRef.current = newCount;
         setViolations(newCount);
-        onViolationRef.current?.(newCount);
 
         if (newCount >= maxViolations) {
           onMaxViolationsRef.current?.();
         }
       }
-    }, 1000);
-  }, [graceSeconds, maxViolations, cancelGrace]);
+    };
+
+    tick();
+    graceTimerRef.current = setInterval(tick, 500);
+  }, [graceSeconds, maxViolations]);
 
   const resetViolations = useCallback(() => {
     violationsRef.current = 0;
@@ -93,65 +104,54 @@ export default function useAntiCheat(
 
   const enterFullscreen = useCallback(async () => {
     if (!fullscreenSupported) return;
-
     try {
-      const el = document.documentElement;
-      if (el.requestFullscreen) {
-        await el.requestFullscreen();
-      }
+      await document.documentElement.requestFullscreen();
     } catch {
-      // User gesture required — browser akan tolak kalo bukan dari klik
+      // Browser might reject if not from user gesture — ignore
     }
   }, [fullscreenSupported]);
 
-  // Cek support fullscreen + iOS
+  // Cek support fullscreen
   useEffect(() => {
     if (typeof document === "undefined") return;
-    const supported = !!document.documentElement.requestFullscreen && !isIOS();
+    const supported =
+      !!document.documentElement.requestFullscreen && !isIOS();
     setFullscreenSupported(supported);
   }, []);
 
   // Listen for fullscreen change
   useEffect(() => {
     if (!enabled) return;
-
     const handleFSChange = () => {
-      if (!document.fullscreenElement) {
-        // User left fullscreen
-        if (!inGracePeriod) {
-          startGrace();
-        }
-      } else {
-        // User returned to fullscreen — cancel grace
+      if (document.fullscreenElement) {
         cancelGrace();
+      } else {
+        startGrace();
       }
     };
-
     document.addEventListener("fullscreenchange", handleFSChange);
-    return () => document.removeEventListener("fullscreenchange", handleFSChange);
-  }, [enabled, inGracePeriod, startGrace, cancelGrace]);
+    return () =>
+      document.removeEventListener("fullscreenchange", handleFSChange);
+  }, [enabled, cancelGrace, startGrace]);
 
   // Listen for visibility change (tab switch, app switch)
   useEffect(() => {
     if (!enabled) return;
-
     const handleVisibility = () => {
       if (document.hidden) {
-        if (!inGracePeriod) {
-          startGrace();
-        }
+        startGrace();
       } else {
         cancelGrace();
       }
     };
-
     document.addEventListener("visibilitychange", handleVisibility);
-    return () => document.removeEventListener("visibilitychange", handleVisibility);
-  }, [enabled, inGracePeriod, startGrace, cancelGrace]);
+    return () =>
+      document.removeEventListener("visibilitychange", handleVisibility);
+  }, [enabled, cancelGrace, startGrace]);
 
   return {
     violations,
-    inGracePeriod,
+    showWarning,
     graceRemaining,
     fullscreenSupported,
     enterFullscreen,

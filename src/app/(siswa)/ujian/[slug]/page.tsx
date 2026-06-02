@@ -69,13 +69,14 @@ export default function UjianPage() {
   const [submitting, setSubmitting] = useState(false);
   const [showModal, setShowModal] = useState(false);
 
-  // Anti-cheat refs & state
-  const [showCheatWarning, setShowCheatWarning] = useState(false);
-  const submitExamRef = useRef<(() => void) | undefined>(undefined);
+  // Fullscreen gate state
+  const [needsFullscreenGate, setNeedsFullscreenGate] = useState(true);
+
+  const handleSubmitRef = useRef<((isAuto: boolean) => Promise<void>) | undefined>(undefined);
 
   const {
     violations: cheatViolations,
-    inGracePeriod: cheatInGrace,
+    showWarning: cheatShowWarning,
     graceRemaining: cheatGraceRemaining,
     fullscreenSupported: cheatFS,
     enterFullscreen,
@@ -83,11 +84,7 @@ export default function UjianPage() {
   } = useAntiCheat(true, {
     maxViolations: 3,
     graceSeconds: 10,
-    onViolation: () => setShowCheatWarning(true),
-    onMaxViolations: () => {
-      setShowCheatWarning(false);
-      submitExamRef.current?.();
-    },
+    onMaxViolations: () => handleSubmitRef.current?.(true),
   });
 
   // Auto-save ref
@@ -134,14 +131,11 @@ export default function UjianPage() {
       }
 
       setLoading(false);
-
-      // Minta fullscreen setelah ujian dimuat
-      setTimeout(() => enterFullscreen(), 500);
     } catch (err: any) {
       setError(err.message || "Terjadi kesalahan");
       setLoading(false);
     }
-  }, [slug, router, enterFullscreen]);
+  }, [slug, router]);
 
   useEffect(() => {
     if (slug) {
@@ -323,7 +317,6 @@ export default function UjianPage() {
       if (submitting) return;
       setSubmitting(true);
       setShowModal(false);
-      setShowCheatWarning(false);
       resetViolations();
 
       try {
@@ -362,9 +355,9 @@ export default function UjianPage() {
     }
   }, [submitting, handleSubmit]);
 
-  // Hubungkan submitExamRef ke handleSubmit (untuk anti-cheat)
+  // Hubungkan handleSubmitRef untuk anti-cheat onMaxViolations
   useEffect(() => {
-    submitExamRef.current = () => handleSubmit(true);
+    handleSubmitRef.current = handleSubmit;
   }, [handleSubmit]);
 
   // ==========================================================
@@ -598,8 +591,41 @@ export default function UjianPage() {
         </div>
       )}
 
+      {/* Fullscreen Gate — muncul setelah soal dimuat */}
+      {needsFullscreenGate && cheatFS && (
+        <div className="modal-overlay" style={{ zIndex: 9999 }}>
+          <div className="modal-box" style={{ textAlign: "center" }}>
+            <span style={{ fontSize: 48, display: "block" }}>🖥️</span>
+            <h3 style={{ color: "var(--hijau-tua)", marginBottom: 8 }}>
+              Masuk Layar Penuh
+            </h3>
+            <p style={{ color: "var(--teks-abu)", fontSize: "0.9rem", margin: "12px 0" }}>
+              Masuk ke mode layar penuh untuk mencegah gangguan selama ujian.
+            </p>
+            <button
+              className="btn btn-hijau"
+              style={{ marginTop: 8 }}
+              onClick={async () => {
+                await enterFullscreen();
+                setNeedsFullscreenGate(false);
+              }}
+            >
+              🚀 Mulai Ujian
+            </button>
+            <br />
+            <button
+              className="btn btn-outline btn-sm"
+              style={{ marginTop: 12 }}
+              onClick={() => setNeedsFullscreenGate(false)}
+            >
+              Lanjutkan Tanpa Layar Penuh
+            </button>
+          </div>
+        </div>
+      )}
+
       {/* Cheat Warning Modal */}
-      {showCheatWarning && cheatInGrace && (
+      {cheatShowWarning && (
         <div className="modal-overlay" style={{ zIndex: 9999 }}>
           <div className="modal-box" style={{ textAlign: "center" }}>
             <span style={{ fontSize: 48, display: "block" }}>⚠️</span>
@@ -632,7 +658,7 @@ export default function UjianPage() {
       )}
 
       {/* iOS fullscreen info */}
-      {!cheatFS && cheatViolations === 0 && questions.length > 0 && (
+      {!cheatFS && cheatViolations === 0 && questions.length > 0 && !needsFullscreenGate && (
         <div
           style={{
             position: "fixed",
