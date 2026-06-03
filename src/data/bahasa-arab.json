@@ -1,0 +1,502 @@
+[
+  {
+    "number": 1,
+    "type": "pg",
+    "text": "Arti dari kata بَيْتٌ (baitun) adalah...",
+    "optionA": "Sekolah",
+    "optionB": "Rumah",
+    "optionC": "Masjid",
+    "optionD": "Lapangan",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 2,
+    "type": "pg",
+    "text": "Bahasa Arab dari kata \"Buku\" adalah...",
+    "optionA": "قَلَمٌ",
+    "optionB": "كِتَابٌ",
+    "optionC": "مَكْتَبٌ",
+    "optionD": "كُرْسِيٌّ",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 3,
+    "type": "pg",
+    "text": "Kata قَلَمٌ (qalamun) memiliki arti...",
+    "optionA": "Penghapus",
+    "optionB": "Penggaris",
+    "optionC": "Pena / Pulpen",
+    "optionD": "Tas",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 4,
+    "type": "pg",
+    "text": "Bahasa Arab dari \"Papan Tulis\" adalah...",
+    "optionA": "سَبُّوْرَةٌ",
+    "optionB": "خِرِيْطَةٌ",
+    "optionC": "مِحْفَظَةٌ",
+    "optionD": "نَافِذَةٌ",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 5,
+    "type": "pg",
+    "text": "Kata مَدْرَسَةٌ (madrasatun) artinya...",
+    "optionA": "Kantor",
+    "optionB": "Rumah",
+    "optionC": "Sekolah",
+    "optionD": "Kelas",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 6,
+    "type": "pg",
+    "text": "Apa arti dari kata أُسْتَاذٌ (ustadzun)?",
+    "optionA": "Murid",
+    "optionB": "Guru (laki-laki)",
+    "optionC": "Dokter",
+    "optionD": "Pedagang",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 7,
+    "type": "pg",
+    "text": "Bahasa Arab dari \"Murid Laki-laki\" adalah...",
+    "optionA": "تِلْمِيْذٌ",
+    "optionB": "تِلْمِيْذَةٌ",
+    "optionC": "طَبِيْبٌ",
+    "optionD": "مُوَظَّفٌ",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 8,
+    "type": "pg",
+    "text": "Kata أُمٌّ (ummun) artinya adalah...",
+    "optionA": "Ayah",
+    "optionB": "Ibu",
+    "optionC": "Saudara",
+    "optionD": "Paman",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 9,
+    "type": "pg",
+    "text": "Bahasa Arab dari \"Ayah\" adalah...",
+    "optionA": "عَمٌّ",
+    "optionB": "جَدٌّ",
+    "optionC": "أَبٌ",
+    "optionD": "أَخٌ",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 10,
+    "type": "pg",
+    "text": "Arti dari kata جَدٌّ (jaddun) adalah...",
+    "optionA": "Nenek",
+    "optionB": "Kakek",
+    "optionC": "Paman",
+    "optionD": "Bibi",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 11,
+    "type": "pg",
+    "text": "Kata tunjuk هَذَا (hadza) digunakan untuk menunjukkan benda/orang laki-laki (mudzakkar) yang jaraknya...",
+    "optionA": "Jauh",
+    "optionB": "Dekat",
+    "optionC": "Di atas",
+    "optionD": "Di dalam",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 12,
+    "type": "pg",
+    "text": "Kalimat yang benar untuk menggunakan kata هَذِهِ (hadzihi) adalah...",
+    "optionA": "هَذِهِ كِتَابٌ",
+    "optionB": "هَذِهِ قَلَمٌ",
+    "optionC": "هَذِهِ مَدْرَسَةٌ",
+    "optionD": "هَذِهِ مَكْتَبٌ",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 13,
+    "type": "pg",
+    "text": "Arti dari kata tunjuk ذَلِكَ (dzalika) adalah...",
+    "optionA": "Ini (laki-laki)",
+    "optionB": "Ini (perempuan)",
+    "optionC": "Itu (laki-laki)",
+    "optionD": "Itu (perempuan)",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 14,
+    "type": "pg",
+    "text": "Pasangan kata tunjuk yang tepat untuk kata سَبُّوْرَةٌ (sabbuuratun) adalah...",
+    "optionA": "هَذَا",
+    "optionB": "ذَلِكَ",
+    "optionC": "تِلْكَ",
+    "optionD": "هُوَ",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 15,
+    "type": "pg",
+    "text": "Kata أَنَا (ana) artinya adalah...",
+    "optionA": "Kamu (laki-laki)",
+    "optionB": "Kamu (perempuan)",
+    "optionC": "Saya",
+    "optionD": "Dia",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 16,
+    "type": "pg",
+    "text": "Bahasa Arab dari \"Kamu (laki-laki)\" adalah...",
+    "optionA": "أَنْتَ",
+    "optionB": "أَنْتِ",
+    "optionC": "هُوَ",
+    "optionD": "هِيَ",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 17,
+    "type": "pg",
+    "text": "Kata هُوَ (huwa) memiliki arti...",
+    "optionA": "Dia (perempuan)",
+    "optionB": "Dia (laki-laki)",
+    "optionC": "Mereka",
+    "optionD": "Kami",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 18,
+    "type": "pg",
+    "text": "Jika ingin menyapa \"Selamat pagi\", kita mengucapkan...",
+    "optionA": "مَسَاءَ الْخَيْرِ",
+    "optionB": "صَبَاحَ الْخَيْرِ",
+    "optionC": "أَهْلاً وَسَهْلاً",
+    "optionD": "شُكْرًا",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 19,
+    "type": "pg",
+    "text": "Jawaban yang tepat untuk sapaan صَبَاحَ الْخَيْرِ adalah...",
+    "optionA": "مَسَاءَ النُّوْرِ",
+    "optionB": "صَبَاحَ النُّوْرِ",
+    "optionC": "عَفْوًا",
+    "optionD": "بِخَيْرٍ",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 20,
+    "type": "pg",
+    "text": "Kata شُكْرًا (syukran) artinya adalah...",
+    "optionA": "Selamat tinggal",
+    "optionB": "Maaf",
+    "optionC": "Terima kasih",
+    "optionD": "Sama-sama",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 21,
+    "type": "pg",
+    "text": "Angka ٣ dalam nomor Arab dibaca...",
+    "optionA": "Waahidun",
+    "optionB": "Itsnaani",
+    "optionC": "Tsalaatsatun",
+    "optionD": "Arba'atun",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 22,
+    "type": "pg",
+    "text": "Bahasa Arab dari angka 5 (lima) adalah...",
+    "optionA": "خَمْسَةٌ",
+    "optionB": "سِتَّةٌ",
+    "optionC": "سَبْعَةٌ",
+    "optionD": "ثَمَانِيَةٌ",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 23,
+    "type": "pg",
+    "text": "Kata وَاحِدٌ (waahidun) artinya adalah...",
+    "optionA": "Dua",
+    "optionB": "Satu",
+    "optionC": "Tiga",
+    "optionD": "Empat",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 24,
+    "type": "pg",
+    "text": "Angka ٧ dalam nomor Arab menunjukkan angka...",
+    "optionA": "6",
+    "optionB": "7",
+    "optionC": "8",
+    "optionD": "9",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 25,
+    "type": "pg",
+    "text": "Bahasa Arab dari warna \"Hijau\" adalah...",
+    "optionA": "أَحْمَرُ",
+    "optionB": "أَخْضَرُ",
+    "optionC": "أَزْرَقُ",
+    "optionD": "أَسْوَدُ",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 26,
+    "type": "pg",
+    "text": "Kata أَبْيَضُ (abyadhu) artinya adalah warna...",
+    "optionA": "Hitam",
+    "optionB": "Merah",
+    "optionC": "Putih",
+    "optionD": "Kuning",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 27,
+    "type": "pg",
+    "text": "Bahasa Arab dari \"Merah\" adalah...",
+    "optionA": "أَحْمَرُ",
+    "optionB": "أَصْفَرُ",
+    "optionC": "أَسْوَدُ",
+    "optionD": "أَخْضَرُ",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 28,
+    "type": "pg",
+    "text": "Arti dari kata كُرْسِيٌّ (kursiyyun) adalah...",
+    "optionA": "Meja",
+    "optionB": "Kursi",
+    "optionC": "Lemari",
+    "optionD": "Pintu",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 29,
+    "type": "pg",
+    "text": "Bahasa Arab dari \"Meja\" adalah...",
+    "optionA": "بَابٌ",
+    "optionB": "مَكْتَبٌ",
+    "optionC": "نَافِذَةٌ",
+    "optionD": "سَرِيْرٌ",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 30,
+    "type": "pg",
+    "text": "Kata بَابٌ (baabun) artinya...",
+    "optionA": "Jendela",
+    "optionB": "Dinding",
+    "optionC": "Pintu",
+    "optionD": "Atap",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 31,
+    "type": "pg",
+    "text": "Arti dari kata فَصْلٌ (fashlun) adalah...",
+    "optionA": "Kelas",
+    "optionB": "Kantin",
+    "optionC": "Kebun",
+    "optionD": "Kamar mandi",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 32,
+    "type": "pg",
+    "text": "Bahasa Arab dari \"Kamar Mandi\" adalah...",
+    "optionA": "مَسْجِدٌ",
+    "optionB": "حَمَّامٌ",
+    "optionC": "مَقْصَفٌ",
+    "optionD": "مَطْبَخٌ",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 33,
+    "type": "pg",
+    "text": "Kata مَسْجِدٌ (masjidun) artinya...",
+    "optionA": "Gereja",
+    "optionB": "Sekolah",
+    "optionC": "Masjid",
+    "optionD": "Rumah",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 34,
+    "type": "pg",
+    "text": "Arti dari kata طَبِيْبٌ (thabiibun) adalah...",
+    "optionA": "Polisi",
+    "optionB": "Tentara",
+    "optionC": "Dokter",
+    "optionD": "Pilot",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 35,
+    "type": "pg",
+    "text": "Bahasa Arab dari \"Pedagang\" adalah...",
+    "optionA": "تَاجِرٌ",
+    "optionB": "فَلَّاحٌ",
+    "optionC": "شُرْطِيٌّ",
+    "optionD": "مُهَنْدِسٌ",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 36,
+    "type": "pg",
+    "text": "Arti dari kata فَلَّاحٌ (fallaahun) adalah...",
+    "optionA": "Nelayan",
+    "optionB": "Petani",
+    "optionC": "Guru",
+    "optionD": "Sopir",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 37,
+    "type": "pg",
+    "text": "Anggota badan رَأْسٌ (ra'sun) artinya...",
+    "optionA": "Tangan",
+    "optionB": "Kaki",
+    "optionC": "Kepala",
+    "optionD": "Mata",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 38,
+    "type": "pg",
+    "text": "Bahasa Arab dari \"Mata\" adalah...",
+    "optionA": "عَيْنٌ",
+    "optionB": "أُذُنٌ",
+    "optionC": "أَنْفٌ",
+    "optionD": "فَمٌ",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 39,
+    "type": "pg",
+    "text": "Kata أَنْفٌ (anfun) artinya...",
+    "optionA": "Telinga",
+    "optionB": "Hidung",
+    "optionC": "Mulut",
+    "optionD": "Lidah",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 40,
+    "type": "pg",
+    "text": "Bahasa Arab dari \"Tangan\" adalah...",
+    "optionA": "رِجْلٌ",
+    "optionB": "يَدٌ",
+    "optionC": "صَدْرٌ",
+    "optionD": "قَلْبٌ",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 41,
+    "type": "essay",
+    "text": "Bahasa Arab dari angka 2 (dua) adalah __________",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": "اِثْنَانِ (Itsnaani)"
+  },
+  {
+    "number": 42,
+    "type": "essay",
+    "text": "Arti dari kata tunjuk تِلْكَ (tilka) adalah __________",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": "Itu (untuk perempuan)"
+  },
+  {
+    "number": 43,
+    "type": "essay",
+    "text": "Kata أَنْتِ (anti) artinya adalah Kamu untuk orang __________",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": "Perempuan"
+  },
+  {
+    "number": 44,
+    "type": "essay",
+    "text": "Bahasa Arab dari kata \"Ibu\" adalah __________",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": "أُمٌّ (Ummun)"
+  },
+  {
+    "number": 45,
+    "type": "essay",
+    "text": "Arti dari kata أَصْفَرُ (ashfaru) adalah warna __________",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": "Kuning"
+  },
+  {
+    "number": 46,
+    "type": "essay",
+    "text": "Kata مَكْتَبٌ (maktabun) dalam bahasa Indonesia artinya __________",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": "Meja / Kantor"
+  },
+  {
+    "number": 47,
+    "type": "essay",
+    "text": "Bahasa Arab dari \"Pena/Pulpen\" adalah __________",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": "قَلَمٌ (Qalamun)"
+  },
+  {
+    "number": 48,
+    "type": "essay",
+    "text": "Arti dari kata عَيْنٌ ('ainun) adalah __________",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": "Mata"
+  },
+  {
+    "number": 49,
+    "type": "essay",
+    "text": "Sapaan أَهْلاً وَسَهْلاً (ahlan wa sahlan) artinya adalah __________",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": "Selamat datang"
+  },
+  {
+    "number": 50,
+    "type": "essay",
+    "text": "Bahasa Arab dari kata \"Rumah\" adalah __________",
+    "optionA": null,
+    "optionB": null,
+    "optionC": null,
+    "optionD": null,
+    "correctAnswer": "بَيْتٌ (Baitun)"
+  }
+]

@@ -56,7 +56,7 @@ async function main() {
   console.log(`✅ Admin: username="${admin.username}", password="${adminPassword}"`);
 
   // ============================================================
-  // 2. Konfigurasi 6 Mapel
+  // 2. Konfigurasi 7 Mapel
   // ============================================================
   const subjects: SubjectConfig[] = [
     {
@@ -100,6 +100,13 @@ async function main() {
       dayNumber: 6,
       order: 1,
       file: "bahasa-inggris.json",
+    },
+    {
+      name: "Bahasa Arab",
+      slug: "bahasa-arab",
+      dayNumber: 3,
+      order: 1,
+      file: "bahasa-arab.json",
     },
   ];
 

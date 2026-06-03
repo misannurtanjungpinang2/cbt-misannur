@@ -80,14 +80,15 @@ CREATE INDEX IF NOT EXISTS idx_answer_session ON "Answer"("sessionId", "question
 INSERT INTO "Admin" (id, username, "passwordHash", "createdAt") VALUES
   (gen_random_uuid(), 'admin', '$2b$10$mgxpbsenz78dnLlXcDZG5uUMWJDOkx7Rw1pog8K2xEj3dnFMADihK', now());
 
--- 2. Subjects (6 mapel)
+-- 2. Subjects (7 mapel)
 INSERT INTO "Subject" (id, name, slug, token, "durationMinutes", "dayNumber", "isActive", "order", "createdAt") VALUES
   (gen_random_uuid(), 'Al-Quran Hadist', 'quran-hadist', NULL, 60, 1, true, 1, now()),
   (gen_random_uuid(), 'Akidah Akhlak', 'akidah-akhlak', NULL, 60, 1, true, 2, now()),
   (gen_random_uuid(), 'Fikih', 'fikih', NULL, 60, 2, true, 1, now()),
   (gen_random_uuid(), 'SKI', 'ski', NULL, 60, 2, true, 2, now()),
   (gen_random_uuid(), 'PJOK', 'pjok', NULL, 60, 5, true, 2, now()),
-  (gen_random_uuid(), 'Bahasa Inggris', 'bahasa-inggris', NULL, 60, 6, true, 1, now());
+  (gen_random_uuid(), 'Bahasa Inggris', 'bahasa-inggris', NULL, 60, 6, true, 1, now()),
+  (gen_random_uuid(), 'Bahasa Arab', 'bahasa-arab', NULL, 60, 3, true, 1, now());
 
 -- 3. Soal Al-Quran Hadist (40 soal)
 INSERT INTO "Question" (id, "subjectId", number, type, text, "optionA", "optionB", "optionC", "optionD", "correctAnswer", "createdAt") VALUES
@@ -314,4 +315,57 @@ INSERT INTO "Question" (id, "subjectId", number, type, text, "optionA", "optionB
   (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 38, E'essay', E'Apa yang dimaksud dengan tawaf', NULL, NULL, NULL, NULL, NULL, now()),
   (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 39, E'essay', E'Wukuf merupakan……………………………………………………………………….', NULL, NULL, NULL, NULL, NULL, now()),
   (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='fikih'), 40, E'essay', E'Umrah dapat dikerjakan pada bulan…………………………………………………….', NULL, NULL, NULL, NULL, NULL, now());
+
+-- 3. Soal Bahasa Arab (50 soal)
+INSERT INTO "Question" (id, "subjectId", number, type, text, "optionA", "optionB", "optionC", "optionD", "correctAnswer", "createdAt") VALUES
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 1, 'pg', E'Arti dari kata بَيْتٌ (baitun) adalah...', E'Sekolah', E'Rumah', E'Masjid', E'Lapangan', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 2, 'pg', E'Bahasa Arab dari kata "Buku" adalah...', E'قَلَمٌ', E'كِتَابٌ', E'مَكْتَبٌ', E'كُرْسِيٌّ', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 3, 'pg', E'Kata قَلَمٌ (qalamun) memiliki arti...', E'Penghapus', E'Penggaris', E'Pena / Pulpen', E'Tas', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 4, 'pg', E'Bahasa Arab dari "Papan Tulis" adalah...', E'سَبُّوْرَةٌ', E'خِرِيْطَةٌ', E'مِحْفَظَةٌ', E'نَافِذَةٌ', E'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 5, 'pg', E'Kata مَدْرَسَةٌ (madrasatun) artinya...', E'Kantor', E'Rumah', E'Sekolah', E'Kelas', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 6, 'pg', E'Apa arti dari kata أُسْتَاذٌ (ustadzun)?', E'Murid', E'Guru (laki-laki)', E'Dokter', E'Pedagang', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 7, 'pg', E'Bahasa Arab dari "Murid Laki-laki" adalah...', E'تِلْمِيْذٌ', E'تِلْمِيْذَةٌ', E'طَبِيْبٌ', E'مُوَظَّفٌ', E'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 8, 'pg', E'Kata أُمٌّ (ummun) artinya adalah...', E'Ayah', E'Ibu', E'Saudara', E'Paman', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 9, 'pg', E'Bahasa Arab dari "Ayah" adalah...', E'عَمٌّ', E'جَدٌّ', E'أَبٌ', E'أَخٌ', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 10, 'pg', E'Arti dari kata جَدٌّ (jaddun) adalah...', E'Nenek', E'Kakek', E'Paman', E'Bibi', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 11, 'pg', E'Kata tunjuk هَذَا (hadza) digunakan untuk menunjukkan benda/orang laki-laki (mudzakkar) yang jaraknya...', E'Jauh', E'Dekat', E'Di atas', E'Di dalam', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 12, 'pg', E'Kalimat yang benar untuk menggunakan kata هَذِهِ (hadzihi) adalah...', E'هَذِهِ كِتَابٌ', E'هَذِهِ قَلَمٌ', E'هَذِهِ مَدْرَسَةٌ', E'هَذِهِ مَكْتَبٌ', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 13, 'pg', E'Arti dari kata tunjuk ذَلِكَ (dzalika) adalah...', E'Ini (laki-laki)', E'Ini (perempuan)', E'Itu (laki-laki)', E'Itu (perempuan)', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 14, 'pg', E'Pasangan kata tunjuk yang tepat untuk kata سَبُّوْرَةٌ (sabbuuratun) adalah...', E'هَذَا', E'ذَلِكَ', E'تِلْكَ', E'هُوَ', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 15, 'pg', E'Kata أَنَا (ana) artinya adalah...', E'Kamu (laki-laki)', E'Kamu (perempuan)', E'Saya', E'Dia', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 16, 'pg', E'Bahasa Arab dari "Kamu (laki-laki)" adalah...', E'أَنْتَ', E'أَنْتِ', E'هُوَ', E'هِيَ', E'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 17, 'pg', E'Kata هُوَ (huwa) memiliki arti...', E'Dia (perempuan)', E'Dia (laki-laki)', E'Mereka', E'Kami', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 18, 'pg', E'Jika ingin menyapa "Selamat pagi", kita mengucapkan...', E'مَسَاءَ الْخَيْرِ', E'صَبَاحَ الْخَيْرِ', E'أَهْلاً وَسَهْلاً', E'شُكْرًا', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 19, 'pg', E'Jawaban yang tepat untuk sapaan صَبَاحَ الْخَيْرِ adalah...', E'مَسَاءَ النُّوْرِ', E'صَبَاحَ النُّوْرِ', E'عَفْوًا', E'بِخَيْرٍ', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 20, 'pg', E'Kata شُكْرًا (syukran) artinya adalah...', E'Selamat tinggal', E'Maaf', E'Terima kasih', E'Sama-sama', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 21, 'pg', E'Angka ٣ dalam nomor Arab dibaca...', E'Waahidun', E'Itsnaani', E'Tsalaatsatun', E'Arba''atun', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 22, 'pg', E'Bahasa Arab dari angka 5 (lima) adalah...', E'خَمْسَةٌ', E'سِتَّةٌ', E'سَبْعَةٌ', E'ثَمَانِيَةٌ', E'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 23, 'pg', E'Kata وَاحِدٌ (waahidun) artinya adalah...', E'Dua', E'Satu', E'Tiga', E'Empat', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 24, 'pg', E'Angka ٧ dalam nomor Arab menunjukkan angka...', E'6', E'7', E'8', E'9', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 25, 'pg', E'Bahasa Arab dari warna "Hijau" adalah...', E'أَحْمَرُ', E'أَخْضَرُ', E'أَزْرَقُ', E'أَسْوَدُ', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 26, 'pg', E'Kata أَبْيَضُ (abyadhu) artinya adalah warna...', E'Hitam', E'Merah', E'Putih', E'Kuning', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 27, 'pg', E'Bahasa Arab dari "Merah" adalah...', E'أَحْمَرُ', E'أَصْفَرُ', E'أَسْوَدُ', E'أَخْضَرُ', E'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 28, 'pg', E'Arti dari kata كُرْسِيٌّ (kursiyyun) adalah...', E'Meja', E'Kursi', E'Lemari', E'Pintu', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 29, 'pg', E'Bahasa Arab dari "Meja" adalah...', E'بَابٌ', E'مَكْتَبٌ', E'نَافِذَةٌ', E'سَرِيْرٌ', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 30, 'pg', E'Kata بَابٌ (baabun) artinya...', E'Jendela', E'Dinding', E'Pintu', E'Atap', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 31, 'pg', E'Arti dari kata فَصْلٌ (fashlun) adalah...', E'Kelas', E'Kantin', E'Kebun', E'Kamar mandi', E'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 32, 'pg', E'Bahasa Arab dari "Kamar Mandi" adalah...', E'مَسْجِدٌ', E'حَمَّامٌ', E'مَقْصَفٌ', E'مَطْبَخٌ', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 33, 'pg', E'Kata مَسْجِدٌ (masjidun) artinya...', E'Gereja', E'Sekolah', E'Masjid', E'Rumah', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 34, 'pg', E'Arti dari kata طَبِيْبٌ (thabiibun) adalah...', E'Polisi', E'Tentara', E'Dokter', E'Pilot', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 35, 'pg', E'Bahasa Arab dari "Pedagang" adalah...', E'تَاجِرٌ', E'فَلَّاحٌ', E'شُرْطِيٌّ', E'مُهَنْدِسٌ', E'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 36, 'pg', E'Arti dari kata فَلَّاحٌ (fallaahun) adalah...', E'Nelayan', E'Petani', E'Guru', E'Sopir', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 37, 'pg', E'Anggota badan رَأْسٌ (ra''sun) artinya...', E'Tangan', E'Kaki', E'Kepala', E'Mata', E'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 38, 'pg', E'Bahasa Arab dari "Mata" adalah...', E'عَيْنٌ', E'أُذُنٌ', E'أَنْفٌ', E'فَمٌ', E'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 39, 'pg', E'Kata أَنْفٌ (anfun) artinya...', E'Telinga', E'Hidung', E'Mulut', E'Lidah', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 40, 'pg', E'Bahasa Arab dari "Tangan" adalah...', E'رِجْلٌ', E'يَدٌ', E'صَدْرٌ', E'قَلْبٌ', E'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 41, 'essay', E'Bahasa Arab dari angka 2 (dua) adalah __________', NULL, NULL, NULL, NULL, E'اِثْنَانِ (Itsnaani)', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 42, 'essay', E'Arti dari kata tunjuk تِلْكَ (tilka) adalah __________', NULL, NULL, NULL, NULL, E'Itu (untuk perempuan)', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 43, 'essay', E'Kata أَنْتِ (anti) artinya adalah Kamu untuk orang __________', NULL, NULL, NULL, NULL, E'Perempuan', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 44, 'essay', E'Bahasa Arab dari kata "Ibu" adalah __________', NULL, NULL, NULL, NULL, E'أُمٌّ (Ummun)', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 45, 'essay', E'Arti dari kata أَصْفَرُ (ashfaru) adalah warna __________', NULL, NULL, NULL, NULL, E'Kuning', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 46, 'essay', E'Kata مَكْتَبٌ (maktabun) dalam bahasa Indonesia artinya __________', NULL, NULL, NULL, NULL, E'Meja / Kantor', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 47, 'essay', E'Bahasa Arab dari "Pena/Pulpen" adalah __________', NULL, NULL, NULL, NULL, E'قَلَمٌ (Qalamun)', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 48, 'essay', E'Arti dari kata عَيْنٌ (''ainun) adalah __________', NULL, NULL, NULL, NULL, E'Mata', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 49, 'essay', E'Sapaan أَهْلاً وَسَهْلاً (ahlan wa sahlan) artinya adalah __________', NULL, NULL, NULL, NULL, E'Selamat datang', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='bahasa-arab'), 50, 'essay', E'Bahasa Arab dari kata "Rumah" adalah __________', NULL, NULL, NULL, NULL, E'بَيْتٌ (Baitun)', now());
 
