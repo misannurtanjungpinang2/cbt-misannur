@@ -44,6 +44,10 @@ export async function GET(
       },
     });
 
+    // Hitung jumlah PG & Essay
+    const pgQuestions = questions.filter((q) => q.type === "pg");
+    const essayQuestions = questions.filter((q) => q.type === "essay");
+
     // --- Susun header ---
     const headers = [
       "No",
@@ -53,6 +57,9 @@ export async function GET(
       "Waktu Mulai",
       "Waktu Selesai",
       "Skor PG",
+      "Nilai PG %",
+      "Nilai Essay",
+      "Nilai Akhir",
     ];
 
     // Tambah header per soal
@@ -62,10 +69,23 @@ export async function GET(
     });
 
     // --- Susun data baris ---
-    const rows: (string | number)[][] = sessions.map((session, index) => {
+    const rows: (string | number | null)[][] = sessions.map((session, index) => {
       const answerMap = new Map(session.answers.map((a) => [a.questionId, a]));
 
-      const row: (string | number)[] = [
+      // Hitung nilai essay
+      const essayAnswers = essayQuestions.map((q) => answerMap.get(q.id)).filter(Boolean);
+      const gradedEssays = essayAnswers.filter((a) => a!.essayScore !== null);
+      const avgEssay = gradedEssays.length > 0
+        ? Math.round(gradedEssays.reduce((sum, a) => sum + (a!.essayScore || 0), 0) / gradedEssays.length)
+        : null;
+      const pgPct = pgQuestions.length > 0
+        ? Math.round((session.scorePg / pgQuestions.length) * 100)
+        : 0;
+      const finalScore = avgEssay !== null && pgQuestions.length > 0
+        ? Math.round((pgPct + avgEssay) / 2)
+        : pgQuestions.length > 0 ? pgPct : null;
+
+      const row: (string | number | null)[] = [
         index + 1,
         session.student.name,
         session.student.participantNumber,
@@ -89,12 +109,14 @@ export async function GET(
             })
           : "-",
         session.scorePg,
+        pgPct,
+        avgEssay,
+        finalScore,
       ];
 
       questions.forEach((q) => {
         const answer = answerMap.get(q.id);
         if (q.type === "pg") {
-          // Tampilkan jawaban + kunci jika salah
           const studentAns = answer?.answer || "";
           const correctAns = q.correctAnswer || "";
           if (studentAns.toUpperCase() === correctAns.toUpperCase()) {
@@ -105,13 +127,19 @@ export async function GET(
             row.push(`(Tidak dijawab, kunci: ${correctAns})`);
           }
         } else {
-          // Essay — tampilkan cuplikan
+          // Essay — tampilkan cuplikan + nilai
           const essayAns = answer?.answer || "";
+          const essayScore = answer?.essayScore;
+          let cell = "";
           if (essayAns.length > 150) {
-            row.push(essayAns.substring(0, 150) + "...");
+            cell = essayAns.substring(0, 150) + "...";
           } else {
-            row.push(essayAns || "(Tidak dijawab)");
+            cell = essayAns || "(Tidak dijawab)";
           }
+          if (essayScore !== null && essayScore !== undefined) {
+            cell += ` [Nilai: ${essayScore}]`;
+          }
+          row.push(cell);
         }
       });
 
@@ -131,6 +159,9 @@ export async function GET(
       if (i === 3) return { wch: 8 }; // Kelas
       if (i === 4 || i === 5) return { wch: 18 }; // Waktu
       if (i === 6) return { wch: 10 }; // Skor PG
+      if (i === 7) return { wch: 12 }; // Nilai PG %
+      if (i === 8) return { wch: 12 }; // Nilai Essay
+      if (i === 9) return { wch: 12 }; // Nilai Akhir
       return { wch: 22 }; // Kolom soal
     });
 

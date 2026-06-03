@@ -52,6 +52,27 @@ export async function GET(
 
     const answerMap = new Map(answers.map((a) => [a.questionId, a]));
 
+    const pgQuestions = questions.filter((q) => q.type === "pg");
+    const essayQuestions = questions.filter((q) => q.type === "essay");
+    const pgCorrect = pgQuestions.filter((q) => {
+      const ans = answerMap.get(q.id);
+      return ans?.answer?.toUpperCase() === q.correctAnswer?.toUpperCase();
+    }).length;
+
+    const gradedEssays = essayQuestions.map((q) => {
+      const ans = answerMap.get(q.id);
+      return ans?.essayScore ?? null;
+    }).filter((s) => s !== null) as number[];
+    const avgEssay = gradedEssays.length > 0
+      ? Math.round(gradedEssays.reduce((a, b) => a + b, 0) / gradedEssays.length)
+      : null;
+    const pgPercentage = pgQuestions.length > 0
+      ? Math.round((session.scorePg / pgQuestions.length) * 100)
+      : 0;
+    const finalScore = avgEssay !== null && pgQuestions.length > 0
+      ? Math.round((pgPercentage + avgEssay) / 2)
+      : null;
+
     const questionsWithAnswers = questions.map((q) => {
       const answer = answerMap.get(q.id);
       return {
@@ -67,6 +88,7 @@ export async function GET(
         studentAnswer: answer?.answer || null,
         isCorrect: answer?.isCorrect ?? null,
         flagged: answer?.flagged ?? false,
+        essayScore: answer?.essayScore ?? null,
       };
     });
 
@@ -83,6 +105,13 @@ export async function GET(
         endTime: session.endTime?.toISOString() || null,
         status: session.status,
         scorePg: session.scorePg,
+        pgCorrect,
+        pgTotal: pgQuestions.length,
+        pgPercentage,
+        essayCount: essayQuestions.length,
+        gradedEssayCount: gradedEssays.length,
+        essayScore: avgEssay,
+        finalScore,
       },
       questions: questionsWithAnswers,
     });

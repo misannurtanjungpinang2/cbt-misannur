@@ -37,15 +37,27 @@ export async function GET(
       },
       include: {
         student: true,
+        answers: {
+          where: {
+            question: { type: "essay" },
+          },
+          select: {
+            id: true,
+            essayScore: true,
+          },
+        },
       },
       orderBy: {
         student: { name: "asc" },
       },
     });
 
-    // Hitung jumlah soal PG untuk validasi skor
     const pgCount = await prisma.question.count({
       where: { subjectId: subject.id, type: "pg" },
+    });
+
+    const essayCount = await prisma.question.count({
+      where: { subjectId: subject.id, type: "essay" },
     });
 
     return NextResponse.json({
@@ -59,19 +71,30 @@ export async function GET(
       },
       totalStudents: totalStudents.length,
       pgCount,
-      sessions: sessions.map((s) => ({
-        id: s.id,
-        student: {
-          id: s.student.id,
-          name: s.student.name,
-          participantNumber: s.student.participantNumber,
-          class: s.student.class,
-        },
-        startTime: s.startTime?.toISOString() || null,
-        endTime: s.endTime?.toISOString() || null,
-        status: s.status,
-        scorePg: s.scorePg,
-      })),
+      essayCount,
+      sessions: sessions.map((s) => {
+        const graded = s.answers.filter((a) => a.essayScore !== null);
+        const avgEssay = graded.length > 0
+          ? Math.round(graded.reduce((sum, a) => sum + (a.essayScore || 0), 0) / graded.length)
+          : null;
+
+        return {
+          id: s.id,
+          student: {
+            id: s.student.id,
+            name: s.student.name,
+            participantNumber: s.student.participantNumber,
+            class: s.student.class,
+          },
+          startTime: s.startTime?.toISOString() || null,
+          endTime: s.endTime?.toISOString() || null,
+          status: s.status,
+          scorePg: s.scorePg,
+          essayScore: avgEssay,
+          totalEssay: essayCount,
+          gradedEssayCount: graded.length,
+        };
+      }),
     });
   } catch (error) {
     console.error("Error fetching results:", error);

@@ -15,6 +15,7 @@ const navItems: NavItem[] = [
   { label: "Dashboard", href: "/admin/dashboard", icon: "📊" },
   { label: "Atur Jadwal", href: "/admin/atur", icon: "⚙️" },
   { label: "Soal", href: "/admin/soal", icon: "📝" },
+  { label: "Guru", href: "/admin/guru", icon: "👨‍🏫" },
   { label: "Hasil Ujian", href: "/admin/hasil", icon: "📋" },
 ];
 

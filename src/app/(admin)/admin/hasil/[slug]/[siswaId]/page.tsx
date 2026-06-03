@@ -17,6 +17,7 @@ interface QuestionDetail {
   correctAnswer: string | null;
   studentAnswer: string | null;
   isCorrect: boolean | null;
+  essayScore: number | null;
 }
 
 interface DetailResponse {
@@ -35,6 +36,13 @@ interface DetailResponse {
     endTime: string | null;
     status: string;
     scorePg: number;
+    pgCorrect: number;
+    pgTotal: number;
+    pgPercentage: number;
+    essayCount: number;
+    gradedEssayCount: number;
+    essayScore: number | null;
+    finalScore: number | null;
   };
   questions: QuestionDetail[];
 }
@@ -142,6 +150,10 @@ export default function DetailJawabanPage() {
   const pgQuestions = questions.filter((q) => q.type === "pg");
   const essayQuestions = questions.filter((q) => q.type === "essay");
   const pgCorrect = pgQuestions.filter((q) => q.isCorrect === true).length;
+  const gradedEssays = essayQuestions.filter((q) => q.essayScore !== null);
+  const avgEssayScore = gradedEssays.length > 0
+    ? Math.round(gradedEssays.reduce((sum, q) => sum + (q.essayScore || 0), 0) / gradedEssays.length)
+    : null;
 
   const handlePrint = () => {
     window.print();
@@ -218,12 +230,33 @@ export default function DetailJawabanPage() {
               {pgCorrect} / {pgQuestions.length}
               {pgQuestions.length > 0 && (
                 <span className="score-pct">
-                  {" "}
                   ({Math.round((pgCorrect / pgQuestions.length) * 100)}%)
                 </span>
               )}
             </span>
           </div>
+          {essayQuestions.length > 0 && (
+            <>
+              <div className="detail-info-item">
+                <span className="detail-label">Nilai Essay</span>
+                <span className="detail-value score-highlight">
+                  {gradedEssays.length > 0
+                    ? `${avgEssayScore}% (${gradedEssays.length}/${essayQuestions.length})`
+                    : "⏳ Belum dinilai"}
+                </span>
+              </div>
+              <div className="detail-info-item">
+                <span className="detail-label">Nilai Akhir</span>
+                <span className="detail-value score-highlight" style={{ fontSize: "1.3rem", color: "var(--hijau-tua)" }}>
+                  {avgEssayScore !== null && pgQuestions.length > 0
+                    ? `${Math.round(((pgCorrect / pgQuestions.length) * 100 + avgEssayScore) / 2)} / 100`
+                    : pgQuestions.length > 0
+                    ? `${Math.round((pgCorrect / pgQuestions.length) * 100)} / 100 (PG only)`
+                    : "—"}
+                </span>
+              </div>
+            </>
+          )}
         </div>
       </div>
 
@@ -317,6 +350,19 @@ export default function DetailJawabanPage() {
                     <p className="text-muted">(Tidak dijawab)</p>
                   )}
                 </div>
+                {q.essayScore !== null && (
+                  <div style={{
+                    marginTop: 10,
+                    padding: "8px 14px",
+                    background: "var(--hijau-pucat)",
+                    borderRadius: "var(--radius-sm)",
+                    display: "inline-block",
+                  }}>
+                    <span style={{ fontWeight: 700, color: "var(--hijau-tua)" }}>
+                      Nilai: {q.essayScore}/100
+                    </span>
+                  </div>
+                )}
               </div>
             )}
           </div>

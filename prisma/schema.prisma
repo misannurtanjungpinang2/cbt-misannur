@@ -36,6 +36,7 @@ model Subject {
 
   questions      Question[]
   examSessions   ExamSession[]
+  subjectTeachers SubjectTeacher[]
 }
 
 // ============================================================
@@ -95,6 +96,34 @@ model ExamSession {
 }
 
 // ============================================================
+// TEACHER (Guru)
+// ============================================================
+model Teacher {
+  id           String   @id @default(uuid())
+  username     String   @unique
+  name         String
+  passwordHash String
+  createdAt    DateTime @default(now())
+
+  subjectAssignments SubjectTeacher[]
+  gradedAnswers      Answer[]
+}
+
+// ============================================================
+// SUBJECT-TEACHER (Relasi Many-to-Many)
+// ============================================================
+model SubjectTeacher {
+  id        String @id @default(uuid())
+  teacherId String
+  subjectId String
+
+  teacher Teacher @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  subject Subject @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+
+  @@unique([teacherId, subjectId])
+}
+
+// ============================================================
 // ANSWER (Jawaban Siswa)
 // ============================================================
 model Answer {
@@ -104,10 +133,14 @@ model Answer {
   answer     String   // A/B/C/D untuk PG, atau teks untuk essay
   isCorrect  Boolean? // null untuk essay
   flagged    Boolean  @default(false)
+  essayScore Int?     // Nilai dari guru untuk essay (0-100)
+  gradedBy   String?  // FK → Teacher
+  gradedAt   DateTime? // Waktu penilaian
   createdAt  DateTime @default(now())
 
   session  ExamSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
   question Question    @relation(fields: [questionId], references: [id])
+  gradedByTeacher Teacher? @relation(fields: [gradedBy], references: [id])
 
   @@unique([sessionId, questionId])
   @@index([sessionId, questionId])

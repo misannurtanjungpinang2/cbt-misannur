@@ -22,6 +22,9 @@ interface SessionData {
   endTime: string | null;
   status: string;
   scorePg: number;
+  essayScore: number | null;
+  totalEssay: number;
+  gradedEssayCount: number;
 }
 
 interface SubjectData {
@@ -36,6 +39,7 @@ interface ApiResponse {
   subject: SubjectData;
   totalStudents: number;
   pgCount: number;
+  essayCount: number;
   sessions: SessionData[];
 }
 
@@ -502,6 +506,7 @@ window.onafterprint = function() {
             <p style={{ color: "var(--teks-abu)", marginTop: 4 }}>
               Jumlah siswa yang telah ujian: {data.sessions.length} dari {data.totalStudents} sesi
               {data.pgCount > 0 && ` | Soal PG: ${data.pgCount} butir`}
+              {data.essayCount > 0 && ` | Soal Essay: ${data.essayCount} butir`}
             </p>
           )}
         </div>
@@ -551,6 +556,8 @@ window.onafterprint = function() {
                 <th>Waktu Mulai</th>
                 <th>Waktu Selesai</th>
                 <th>Skor PG</th>
+                <th>Nilai Essay</th>
+                <th>Nilai Akhir</th>
                 <th>Aksi</th>
                 <th>Hapus</th>
               </tr>
@@ -570,6 +577,41 @@ window.onafterprint = function() {
                     <span className="score-badge">
                       {session.scorePg}
                     </span>
+                  </td>
+                  <td className="text-center">
+                    {session.totalEssay > 0 ? (
+                      session.gradedEssayCount > 0 ? (
+                        <span style={{ fontWeight: 700, color: "var(--hijau-tua)" }}>
+                          {session.essayScore}
+                        </span>
+                      ) : (
+                        <span style={{ color: "var(--teks-abu)", fontSize: "0.85rem" }}>
+                          ⏳
+                        </span>
+                      )
+                    ) : (
+                      <span style={{ color: "#ccc" }}>—</span>
+                    )}
+                  </td>
+                  <td className="text-center">
+                    {session.totalEssay > 0 && session.gradedEssayCount > 0 && data.pgCount > 0 ? (
+                      <span style={{
+                        fontWeight: 800,
+                        color: "var(--hijau-tua)",
+                        background: "var(--hijau-pucat)",
+                        padding: "4px 12px",
+                        borderRadius: 20,
+                        fontSize: "0.95rem",
+                      }}>
+                        {Math.round(((session.scorePg / data.pgCount) * 100 + (session.essayScore || 0)) / 2)}
+                      </span>
+                    ) : data.pgCount > 0 ? (
+                      <span style={{ color: "var(--teks-abu)" }}>
+                        {Math.round((session.scorePg / data.pgCount) * 100)}
+                      </span>
+                    ) : (
+                      <span style={{ color: "#ccc" }}>—</span>
+                    )}
                   </td>
                   <td className="text-center">
                     <Link

@@ -5,8 +5,10 @@ import prisma from "./prisma";
 import {
   COOKIE_SISWA,
   COOKIE_ADMIN,
+  COOKIE_TEACHER,
   SISWA_SESSION_DURATION,
   ADMIN_SESSION_DURATION,
+  TEACHER_SESSION_DURATION,
 } from "./constants";
 
 // ============================================================
@@ -22,6 +24,12 @@ export interface SiswaSessionData {
 
 export interface AdminSessionData {
   adminId: string;
+}
+
+export interface TeacherSessionData {
+  teacherId: string;
+  name: string;
+  username: string;
 }
 
 // ============================================================
@@ -193,4 +201,54 @@ export async function verifyAdminPassword(password: string): Promise<boolean> {
   } catch {
     return false;
   }
+}
+
+// ============================================================
+// TEACHER AUTH
+// ============================================================
+
+export async function setTeacherSession(teacher: TeacherSessionData): Promise<void> {
+  const cookieStore = await cookies();
+
+  const cookieValue = JSON.stringify({
+    teacherId: teacher.teacherId,
+    name: teacher.name,
+    username: teacher.username,
+  });
+
+  cookieStore.set(COOKIE_TEACHER, cookieValue, {
+    httpOnly: true,
+    secure: process.env.NODE_ENV === "production",
+    sameSite: "lax",
+    maxAge: TEACHER_SESSION_DURATION,
+    path: "/",
+  });
+}
+
+export async function getTeacherSession(): Promise<TeacherSessionData | null> {
+  try {
+    const cookieStore = await cookies();
+    const cookieValue = cookieStore.get(COOKIE_TEACHER)?.value;
+
+    if (!cookieValue) return null;
+
+    const data = JSON.parse(cookieValue) as TeacherSessionData;
+
+    if (!data.teacherId || !data.name) {
+      return null;
+    }
+
+    return {
+      teacherId: data.teacherId,
+      name: data.name,
+      username: data.username || "",
+    };
+  } catch {
+    return null;
+  }
+}
+
+export async function clearTeacherSession(): Promise<void> {
+  const cookieStore = await cookies();
+  cookieStore.delete(COOKIE_TEACHER);
 }

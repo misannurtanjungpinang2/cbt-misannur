@@ -43,9 +43,11 @@ export const JADWAL_7_HARI = [
 export const DEFAULT_DURATION = 60; // menit
 export const SISWA_SESSION_DURATION = 86400; // 24 jam (detik)
 export const ADMIN_SESSION_DURATION = 28800; // 8 jam (detik)
+export const TEACHER_SESSION_DURATION = 28800; // 8 jam (detik)
 
 export const COOKIE_SISWA = "session_siswa";
 export const COOKIE_ADMIN = "session_admin";
+export const COOKIE_TEACHER = "session_teacher";
 
 export const SISWA_PROTECTED_ROUTES = [
   "/mapel",
@@ -58,6 +60,12 @@ export const ADMIN_PROTECTED_ROUTES = [
   "/admin/atur",
   "/admin/soal",
   "/admin/hasil",
+  "/admin/guru",
+];
+
+export const TEACHER_PROTECTED_ROUTES = [
+  "/guru/dashboard",
+  "/guru/subjek",
 ];
 
 export const ADMIN_PASSWORD_HASH = "$2b$10$NTWQwWUvwkvJVSgidcdgz.1lfi5T2BHnieyB3vsfz1zRjemodWDcW"; // hash bcrypt dari "MISANNUR1234"
