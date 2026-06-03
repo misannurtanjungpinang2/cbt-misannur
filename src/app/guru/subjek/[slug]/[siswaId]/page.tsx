@@ -34,7 +34,7 @@ export default function GuruPeriksaPage() {
   const [data, setData] = useState<DetailData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [scores, setScores] = useState<Record<string, number>>({});
+  const [scores, setScores] = useState<Record<string, string>>({});
   const [saving, setSaving] = useState(false);
   const [saveMessage, setSaveMessage] = useState<string | null>(null);
 
@@ -50,8 +50,8 @@ export default function GuruPeriksaPage() {
       }
       const json: DetailData = await res.json();
       setData(json);
-      const initScores: Record<string, number> = {};
-      json.essays.forEach((e) => { if (e.essayScore !== null) initScores[e.id] = e.essayScore; });
+      const initScores: Record<string, string> = {};
+      json.essays.forEach((e) => { initScores[e.id] = e.essayScore !== null ? String(e.essayScore) : ""; });
       setScores(initScores);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Terjadi kesalahan");
@@ -61,9 +61,26 @@ export default function GuruPeriksaPage() {
   useEffect(() => { fetchData(); }, [fetchData]);
 
   const handleScoreChange = (questionId: string, value: string) => {
-    const num = value === "" ? 0 : parseInt(value, 10);
-    if (isNaN(num)) return;
-    setScores((prev) => ({ ...prev, [questionId]: Math.max(0, Math.min(100, num)) }));
+    if (value === "" || /^\d{0,3}$/.test(value)) {
+      setScores((prev) => ({ ...prev, [questionId]: value }));
+    }
+  };
+
+  const handleScoreBlur = (questionId: string) => {
+    setScores((prev) => {
+      const raw = prev[questionId];
+      if (raw === "" || raw === undefined) return prev;
+      const num = parseInt(raw, 10);
+      if (isNaN(num)) return { ...prev, [questionId]: "" };
+      return { ...prev, [questionId]: String(Math.max(0, Math.min(100, num))) };
+    });
+  };
+
+  const getScoreNum = (questionId: string): number => {
+    const raw = scores[questionId];
+    if (raw === "" || raw === undefined) return 0;
+    const num = parseInt(raw, 10);
+    return isNaN(num) ? 0 : num;
   };
 
   const handleSaveAll = async () => {
@@ -72,7 +89,7 @@ export default function GuruPeriksaPage() {
     try {
       const scoresPayload = data.essays.map((essay) => {
         if (!essay.answerId) return null;
-        return { answerId: essay.answerId, essayScore: scores[essay.id] ?? 0 };
+        return { answerId: essay.answerId, essayScore: getScoreNum(essay.id) };
       }).filter(Boolean);
 
       const res = await fetch(`/api/teacher/subjek/${slug}/grade`, {
@@ -98,8 +115,8 @@ export default function GuruPeriksaPage() {
   if (!data) return <LayoutGuru title="Periksa Essay"><div className="empty-state"><p>Data tidak ditemukan.</p></div></LayoutGuru>;
 
   const { student, subject, session, essays } = data;
-  const totalGraded = essays.filter((e) => scores[e.id] !== undefined).length;
-  const sumScores = essays.reduce((sum, e) => sum + (scores[e.id] || 0), 0);
+  const totalGraded = essays.filter((e) => scores[e.id] !== undefined && scores[e.id] !== "").length;
+  const sumScores = essays.reduce((sum, e) => sum + getScoreNum(e.id), 0);
   const avgEssayScore = totalGraded > 0 ? Math.round(sumScores / essays.length) : 0;
   const finalScore = session.pgTotal > 0 ? Math.round((session.pgPercentage + avgEssayScore) / 2) : 0;
 
@@ -146,7 +163,7 @@ export default function GuruPeriksaPage() {
         <div>
           <h4 style={{ marginBottom: 16, color: "var(--hijau-tua)" }}>Soal Essay ({essays.length})</h4>
           {essays.map((essay) => {
-            const currentScore = scores[essay.id] ?? 0;
+            const currentScore = scores[essay.id] ?? "";
             const isGraded = essay.essayScore !== null;
             return (
               <div key={essay.id} className="detail-question-card" style={{ borderLeft: `5px solid ${isGraded ? "var(--hijau-muda)" : "#ffc107"}` }}>
@@ -166,11 +183,11 @@ export default function GuruPeriksaPage() {
                 </div>
                 <div style={{ marginTop: 12, display: "flex", alignItems: "center", gap: 12 }}>
                   <label style={{ fontWeight: 600, fontSize: "0.9rem", color: "var(--hijau-tua)" }}>Skor (0-100):</label>
-                  <input type="number" min={0} max={100} value={currentScore}
+                  <input type="text" inputMode="numeric" value={currentScore}
                     onChange={(e) => handleScoreChange(essay.id, e.target.value)}
+                    onBlur={(e) => { handleScoreBlur(essay.id); e.target.style.borderColor = "#dde"; }}
                     style={{ width: 100, padding: "8px 12px", border: "2px solid #dde", borderRadius: "var(--radius-sm)", fontSize: "1rem", fontWeight: 700, textAlign: "center", outline: "none" }}
                     onFocus={(e) => { e.target.style.borderColor = "var(--hijau-muda)"; }}
-                    onBlur={(e) => { e.target.style.borderColor = "#dde"; }}
                   />
                 </div>
               </div>
