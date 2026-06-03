@@ -143,9 +143,20 @@ export default function DetailJawabanPage() {
   const essayQuestions = questions.filter((q) => q.type === "essay");
   const pgCorrect = pgQuestions.filter((q) => q.isCorrect === true).length;
 
+  const handlePrint = () => {
+    window.print();
+  };
+
   return (
     <LayoutAdmin title={`Detail Jawaban - ${student.name}`}>
-      <div className="admin-header">
+      {/* Kop surat untuk cetak — hanya muncul saat print */}
+      <div className="print-header">
+        <h1>HASIL UJIAN BERBASIS DIGITAL</h1>
+        <h2>MIS AN-NUR TANJUNGPINANG</h2>
+        <h3>SEMESTER GENAP TAHUN AJARAN 2025/2026</h3>
+      </div>
+
+      <div className="admin-header no-print">
         <div>
           <button
             className="btn btn-outline btn-sm"
@@ -156,6 +167,12 @@ export default function DetailJawabanPage() {
           </button>
           <h3>Detail Jawaban Siswa</h3>
         </div>
+        <button
+          className="btn btn-hijau btn-sm"
+          onClick={handlePrint}
+        >
+          🖨 Cetak
+        </button>
       </div>
 
       {/* Info Siswa */}
