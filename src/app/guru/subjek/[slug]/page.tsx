@@ -14,11 +14,13 @@ interface StudentSession {
   totalEssay: number;
   gradedEssayCount: number;
   avgEssayScore: number | null;
+  finalScore: number | null;
   isFullyGraded: boolean;
 }
 
 interface StudentsData {
   subject: { id: string; name: string; slug: string };
+  pgCount: number;
   totalEssay: number;
   sessions: StudentSession[];
 }
@@ -99,7 +101,7 @@ export default function GuruSubjekPage() {
           <table className="admin-table">
             <thead><tr>
               <th>No</th><th>Nama</th><th>No Peserta</th><th>Selesai</th><th>Skor PG</th>
-              <th>Status Essay</th><th>Nilai Essay</th><th>Aksi</th>
+              <th>Status Essay</th><th>Nilai Essay</th><th>Nilai Akhir</th><th>Aksi</th>
             </tr></thead>
             <tbody>
               {filtered.map((s, idx) => (
@@ -119,6 +121,28 @@ export default function GuruSubjekPage() {
                     {s.avgEssayScore !== null ? <span style={{ fontWeight: 700, color: "var(--hijau-tua)" }}>{s.avgEssayScore}</span>
                       : s.totalEssay > 0 ? <span style={{ color: "var(--teks-abu)" }}>—</span>
                       : <span style={{ color: "var(--teks-abu)" }}>—</span>}
+                  </td>
+                  <td className="text-center">
+                    {s.finalScore !== null ? (
+                      <span style={{
+                        fontWeight: 800,
+                        color: "var(--hijau-tua)",
+                        background: "var(--hijau-pucat)",
+                        padding: "4px 12px",
+                        borderRadius: 20,
+                        fontSize: "0.95rem",
+                      }}>
+                        {s.finalScore}
+                      </span>
+                    ) : s.totalEssay > 0 ? (
+                      <span style={{ color: "var(--teks-abu)", fontSize: "0.85rem" }}>⏳</span>
+                    ) : data?.pgCount ? (
+                      <span style={{ fontWeight: 700, color: "var(--hijau-tua)" }}>
+                        {Math.round((s.scorePg / data.pgCount) * 100)}
+                      </span>
+                    ) : (
+                      <span style={{ color: "var(--teks-abu)" }}>—</span>
+                    )}
                   </td>
                   <td className="text-center">
                     <button className="btn btn-hijau btn-sm" onClick={() => router.push(`/guru/subjek/${slug}/${s.student.id}`)}>

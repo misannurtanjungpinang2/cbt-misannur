@@ -61,6 +61,10 @@ export async function GET(
       where: { subjectId: subject.id, type: "essay" },
     });
 
+    const pgCount = await prisma.question.count({
+      where: { subjectId: subject.id, type: "pg" },
+    });
+
     const result = sessions.map((s) => {
       const essayAnswers = s.answers;
       const gradedCount = essayAnswers.filter((a) => a.essayScore !== null).length;
@@ -68,6 +72,11 @@ export async function GET(
         .filter((a) => a.essayScore !== null)
         .reduce((sum, a) => sum + (a.essayScore || 0), 0);
       const avgEssayScore = gradedCount > 0 ? Math.round(totalEssayScore / gradedCount) : null;
+
+      const pgPercentage = pgCount > 0 ? Math.round((s.scorePg / pgCount) * 100) : 0;
+      const finalScore = avgEssayScore !== null && pgCount > 0
+        ? Math.round((pgPercentage + avgEssayScore) / 2)
+        : null;
 
       return {
         id: s.id,
@@ -83,12 +92,14 @@ export async function GET(
         totalEssay: essayCount,
         gradedEssayCount: gradedCount,
         avgEssayScore,
+        finalScore,
         isFullyGraded: gradedCount > 0 && gradedCount === essayCount,
       };
     });
 
     return NextResponse.json({
       subject: { id: subject.id, name: subject.name, slug: subject.slug },
+      pgCount,
       totalEssay: essayCount,
       sessions: result,
     });
