@@ -34,7 +34,10 @@ export default function useAntiCheat(
   const [violations, setViolations] = useState(0);
   const [showWarning, setShowWarning] = useState(false);
   const [graceRemaining, setGraceRemaining] = useState(graceSeconds);
-  const [fullscreenSupported, setFullscreenSupported] = useState(false);
+  const [fullscreenSupported] = useState(() => {
+    if (typeof document === "undefined") return false;
+    return !!document.documentElement.requestFullscreen && !isIOS();
+  });
 
   const violationsRef = useRef(0);
   const graceStartRef = useRef(0);
@@ -110,14 +113,6 @@ export default function useAntiCheat(
       // Browser might reject if not from user gesture — ignore
     }
   }, [fullscreenSupported]);
-
-  // Cek support fullscreen
-  useEffect(() => {
-    if (typeof document === "undefined") return;
-    const supported =
-      !!document.documentElement.requestFullscreen && !isIOS();
-    setFullscreenSupported(supported);
-  }, []);
 
   // Listen for fullscreen change
   useEffect(() => {
