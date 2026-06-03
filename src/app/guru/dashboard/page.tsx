@@ -9,7 +9,7 @@ interface SubjectInfo {
   name: string;
   slug: string;
   totalStudents: number;
-  ungradedEssays: number;
+  ungradedStudentCount: number;
 }
 
 interface DashboardData {
@@ -76,8 +76,8 @@ export default function GuruDashboardPage() {
                 <h4>{subject.name}</h4>
                 <div className="mapel-card-stats">
                   <span className="stat-badge stat-total">👥 {subject.totalStudents} siswa</span>
-                  {subject.ungradedEssays > 0 ? (
-                    <span className="stat-badge" style={{ background: "#fff3cd", color: "#856404" }}>⏳ {subject.ungradedEssays} belum dinilai</span>
+                  {subject.ungradedStudentCount > 0 ? (
+                    <span className="stat-badge" style={{ background: "#fff3cd", color: "#856404" }}>⏳ {subject.ungradedStudentCount} siswa belum dinilai</span>
                   ) : (
                     <span className="stat-badge stat-completed">✅ Semua sudah dinilai</span>
                   )}

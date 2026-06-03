@@ -36,33 +36,45 @@ export async function GET() {
           _count: { id: true },
         });
 
-        // Hitung essay yang belum dinilai
-        const sessions = await prisma.examSession.findMany({
+        // Hitung siswa yang belum selesai dinilai (punya minimal 1 essay belum dinilai)
+        const sessionsWithEssays = await prisma.examSession.findMany({
           where: {
             subjectId: sa.subject.id,
             status: { in: ["completed", "auto_submit"] },
           },
-          select: { id: true },
+          select: { id: true, studentId: true },
         });
 
-        const sessionIds = sessions.map((s) => s.id);
+        const sessionIds = sessionsWithEssays.map((s) => s.id);
+        const sessionStudentMap = new Map(sessionsWithEssays.map((s) => [s.id, s.studentId]));
 
-        const ungradedEssays = sessionIds.length > 0
-          ? await prisma.answer.count({
-              where: {
-                sessionId: { in: sessionIds },
-                essayScore: null,
-                question: { type: "essay" },
-              },
-            })
-          : 0;
+        let ungradedStudentCount = 0;
+
+        if (sessionIds.length > 0) {
+          const ungradedSessions = await prisma.answer.findMany({
+            where: {
+              sessionId: { in: sessionIds },
+              essayScore: null,
+              question: { type: "essay" },
+            },
+            select: { sessionId: true },
+            distinct: ["sessionId"],
+          });
+
+          const uniqueStudentIds = new Set(
+            ungradedSessions
+              .map((a) => sessionStudentMap.get(a.sessionId))
+              .filter(Boolean)
+          );
+          ungradedStudentCount = uniqueStudentIds.size;
+        }
 
         return {
           id: sa.subject.id,
           name: sa.subject.name,
           slug: sa.subject.slug,
           totalStudents: totalStudents.length,
-          ungradedEssays,
+          ungradedStudentCount,
         };
       })
     );
