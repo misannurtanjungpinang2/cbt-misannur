@@ -1,0 +1,302 @@
+[
+  {
+    "number": 1,
+    "type": "pg",
+    "text": "Kepanjangan dari SMP adalah .....",
+    "optionA": "Sekolah Menengah Pratama",
+    "optionB": "Sekolah Menengah Pemuda",
+    "optionC": "Sekolah Menengah Pertama",
+    "optionD": "Sekolah Menengah Putra",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 2,
+    "type": "pg",
+    "text": "Hasil ringkasan berupa huruf atau gabungan huruf disebut .......",
+    "optionA": "akronim",
+    "optionB": "sinonim",
+    "optionC": "antonim",
+    "optionD": "singkatan",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 3,
+    "type": "pg",
+    "text": "Kepanjangan dari akronim “Pemilu” adalah .......",
+    "optionA": "Pemilihan Utama",
+    "optionB": "Pemilihan Umum",
+    "optionC": "Pemilihan Umur",
+    "optionD": "Pemilihan Usaha",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 4,
+    "type": "pg",
+    "text": "IPS adalah singkatan dari ........",
+    "optionA": "Ilmu Pengetahuan Sistem",
+    "optionB": "Ilmu Pengetahuan Sosial",
+    "optionC": "Ilmu Pengetahuan Saraf",
+    "optionD": "Ilmu Pengetahuan Syarat",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 5,
+    "type": "pg",
+    "text": "Posyandu adalah akronim dari kata .....",
+    "optionA": "Pos Perlengkapan Terpadu",
+    "optionB": "Pos Penjagaan Terpadu",
+    "optionC": "Pos Pelayanan Terpadu",
+    "optionD": "Pos Pelayanan Teraman",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 6,
+    "type": "pg",
+    "text": "SD adalah singkatan dari .......",
+    "optionA": "Sekolah Dapat",
+    "optionB": "Sekolah Daring",
+    "optionC": "Sekolah Dasar",
+    "optionD": "Sekolah Datang",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 7,
+    "type": "pg",
+    "text": "SMA adalah singkatan dari .......",
+    "optionA": "Sekolah Masyarakat Atas",
+    "optionB": "Sekolah Menengah Atas",
+    "optionC": "Selamat Menjadi Atasan",
+    "optionD": "Sekolah Menengah Atasan",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 8,
+    "type": "pg",
+    "text": "SIM adalah kepanjangan dari ......",
+    "optionA": "Surat Izin Mengemudi",
+    "optionB": "Surat Izin Melihat",
+    "optionC": "Surat Izin Mengamankan",
+    "optionD": "Sekolah Internasional Masyarakat",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 9,
+    "type": "pg",
+    "text": "Puskesmas adalah akronim dari ......",
+    "optionA": "Pusat Kesehatan Masyarakat",
+    "optionB": "Pusat Kesehatan Mandiri",
+    "optionC": "Pusat Kesehatan Mereka",
+    "optionD": "Pusat Kemasyarakatan Mandiri",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 10,
+    "type": "pg",
+    "text": "Kepanjangan dari akronim “IPTEK” adalah ......",
+    "optionA": "Ilmu Pengetahuan Alam",
+    "optionB": "Ilmu Pengetahuan dan Teknologi",
+    "optionC": "Ilmu Pengetahuan Teknik",
+    "optionD": "Ilmu Pengetahuan Sosial",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 11,
+    "type": "pg",
+    "text": "Perhatikan kutipan teks di bawah ini!\nHutan Bambu Keputih yang berada di Jalan Raya Marina Asri, daerah Keputih, Sukolilo. Dahulu, tempat pembuangan sampah yang kemudian di sulap menjadi wisata alam yang asri dan cantik. Dengan taman Bunga Sakura yang menawan, para wisatawan selalu berdatangan ke tempat ini. Dengan banyak spot yang cantik dan menawan, tentunya Anda harus mengunjungi tempat ini. Anda dapat mengabdikan momen dengan foto selfie di hutan keren ini.\nBerdasarkan kutipan diatas, yang merupakan kalimat fakta adalah ........",
+    "optionA": "Hutan Bambu Keputih yang berada di Jalan Raya Marina Asri, daerah Keputih, Sukolilo",
+    "optionB": "Dahulu, tempat ini hanyalah tempat pembuangan sampah yang kemudian di sulap menjadi wisata alam yang asri dan cantik",
+    "optionC": "Dengan banyak spot yang cantik dan menawan, tentunya Anda harus mengunjungi tempat ini",
+    "optionD": "Anda dapat mengabadikan momen dengan foto selfie di hutan keren ini",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 12,
+    "type": "pg",
+    "text": "Berikut yang tidak termasuk ciri-ciri kalimat fakta adalah ......",
+    "optionA": "nyata",
+    "optionB": "jelas",
+    "optionC": "objektif",
+    "optionD": "tabu",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 13,
+    "type": "pg",
+    "text": "(1) Diperkirakan musim banjir aan mencapai puncaknya lagi pada Januari 2023 mendatang. (2) Namun, ratusan rumah di beberapa lokasi wilayah Bandung telah terendam banjir. (3) Hal tersebut dikarenakan selokan yang menyempit dan tertimbun oleh sampah masyarakat. (4) Awalnya hujan terjadi secara terus menerus sehingga aliran air di permukaan semakin bertambah.\nManakah  dari pernyataan diatas yang merupakan kalimat opini ditunjukkan kalimat nomor .......",
+    "optionA": "(2)",
+    "optionB": "(1)",
+    "optionC": "(3)",
+    "optionD": "(4)",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 14,
+    "type": "pg",
+    "text": "(1) Udara di Bogor terasa dingin.\n(2) Kali ini dinginnya melebihi hari-hari sebelumnya.\n(3) Dinginnya suhu udara di Bogor mencapai 24 derajat celcius.\n(4) Data tingkat suhu udara ini terdapat di papan informasi pengukur suhu di jalan-jalan besar di kota Bogor.\nDua kalimat opini pada teks di atas ditandai dengan nomor...",
+    "optionA": "(1) dan (2)",
+    "optionB": "(2) dan (3)",
+    "optionC": "(1) dan (3)",
+    "optionD": "(2) dan (4)",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 15,
+    "type": "pg",
+    "text": "(1) Dia memang patut disebut sebagai maniak bola.\n(2) Sejak usia 10 tahun, Ueda telah mendedikasikan hidupnya untuk olahraga sepak bola.\n(3) Kini dia berusia 29 tahun.\n(4) Dia mengaku tidak bisa memisahkan hidupnya dengan sepak bola.\nKalimat-kalimat yang berupa fakta adalah nomor...",
+    "optionA": "(1) dan (2)",
+    "optionB": "(3) dan (4)",
+    "optionC": "(2) dan (3)",
+    "optionD": "(4) dan (1)",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 16,
+    "type": "pg",
+    "text": "\"Kornea mata berfungsi untuk membiaskan (membelokkan) dan memfokuskan cahaya yang masuk ke mata.\"\nKata kunci yang tepat untuk penggalan kalimat di atas adalah...",
+    "optionA": "Mata",
+    "optionB": "Fungsi kornea mata",
+    "optionC": "Alat indra",
+    "optionD": "Retina mata",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 17,
+    "type": "pg",
+    "text": "\"Sebutkan lima tempat tujuan wisata alam yang ada di Provinsi Bali\"\nKata kunci yang tepat untuk kalimat di atas adalah...",
+    "optionA": "Wisata Bali",
+    "optionB": "Bali",
+    "optionC": "Wisata alam Bali",
+    "optionD": "Tempat wisata indah",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 18,
+    "type": "pg",
+    "text": "\"Cara membuat telur dadar.\"\nKata kunci yang kurang tepat adalah...",
+    "optionA": "Masakan",
+    "optionB": "Telur",
+    "optionC": "Resep",
+    "optionD": "Arah",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 19,
+    "type": "pg",
+    "text": "\"Bagaimana memelihara kambing agar menghasilkan keuntungan.\"\nKata kunci yang tepat adalah...",
+    "optionA": "Ayam",
+    "optionB": "Bumbu",
+    "optionC": "Beternak",
+    "optionD": "Resep",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 20,
+    "type": "pg",
+    "text": "\"Terdiri dari apa sajakah sistem gerak manusia? Apakah fungsi dari sistem gerak tersebut?\"\nKata kunci yang tepat adalah...",
+    "optionA": "Sistem",
+    "optionB": "Fungsi",
+    "optionC": "Fungsi sistem gerak manusia",
+    "optionD": "Gerak",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 21,
+    "type": "pg",
+    "text": "Teks yang berisi tulisan informatif dengan topik fenomena alam atau sosial adalah...",
+    "optionA": "teks prosedur",
+    "optionB": "teks iklan",
+    "optionC": "teks eksplanasi",
+    "optionD": "teks deskripsi",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 22,
+    "type": "pg",
+    "text": "Informasi yang disajikan dalam teks eksplanasi berupa...",
+    "optionA": "pengalaman pribadi",
+    "optionB": "cerita khayalan",
+    "optionC": "imajinasi",
+    "optionD": "fakta",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 23,
+    "type": "pg",
+    "text": "\"Tsunami\" dalam teks eksplanasi termasuk fenomena...",
+    "optionA": "sosial",
+    "optionB": "budaya",
+    "optionC": "politik",
+    "optionD": "alam",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 24,
+    "type": "pg",
+    "text": "Berikut ini yang tidak termasuk judul teks eksplanasi adalah...",
+    "optionA": "Proses Terjadinya Hujan",
+    "optionB": "Gempa Bumi",
+    "optionC": "Asal Mula Danau Toba",
+    "optionD": "Tsunami di Aceh",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 25,
+    "type": "pg",
+    "text": "Teks eksplanasi diperoleh melalui...",
+    "optionA": "pendapat pribadi",
+    "optionB": "imajinasi",
+    "optionC": "riset",
+    "optionD": "petunjuk",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 26,
+    "type": "pg",
+    "text": "TNI merupakan singkatan dari .......",
+    "optionA": "Tentara Negara Indonesia",
+    "optionB": "Tentara Nasional Indonesia",
+    "optionC": "Tentara Negara India",
+    "optionD": "Tentara Negara Afrika",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 27,
+    "type": "pg",
+    "text": "KTP merupakan singkatan dari .......",
+    "optionA": "Kartu Tanda Peserta",
+    "optionB": "Kartu Tanda Pendamping",
+    "optionC": "Kartu Tanda Penduduk",
+    "optionD": "Kartu Tanda Pendukung",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 28,
+    "type": "pg",
+    "text": "SMK merupakan singkatan dari .....",
+    "optionA": "Sekolah Menengah Kejuruan",
+    "optionB": "Sekolah Menengah Kesaktian",
+    "optionC": "Sekolah Menengah Kemunduran",
+    "optionD": "Sekolah Menengah Kebaktian",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 29,
+    "type": "pg",
+    "text": "Perhatikan kalimat-kalimat berikut!\n(a) Pisang ambon bukanlah pisang yang berasal dari Ambon.\n(b) Di Kalimantan terdapat suku Dayak yang masing memegang teguh budaya leluhur.\n(c) Orang dari Timur Tengah itu pandai menggunakan Bahasa Jawa.\n(d) Taman itu ditanami bunga mawar, Melati, dan tulip.\nKalimat yang menggunakan huruf kapital secara tepat adalah kalimat huruf...",
+    "optionA": "(a) dan (b)",
+    "optionB": "(a) dan (d)",
+    "optionC": "(b) dan (c)",
+    "optionD": "(c) dan (d)",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 30,
+    "type": "pg",
+    "text": "\"Aku lahir pada hari sabtu di kota Surakarta.\"\nPerbaikan penggunaan huruf kapital dalam kalimat di atas yang tepat adalah...",
+    "optionA": "Aku lahir pada Hari Sabtu di Kota Surakarta.",
+    "optionB": "Aku lahir pada hari sabtu di Kota surakarta.",
+    "optionC": "Aku lahir pada hari sabtu di kota surakarta.",
+    "optionD": "Aku lahir pada hari Sabtu di Kota Surakarta.",
+    "correctAnswer": "D"
+  }
+]

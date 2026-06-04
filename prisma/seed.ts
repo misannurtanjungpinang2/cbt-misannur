@@ -115,6 +115,13 @@ async function main() {
       order: 2,
       file: "pendidikan-pancasila.json",
     },
+    {
+      name: "Bahasa Indonesia",
+      slug: "bahasa-indonesia",
+      dayNumber: 4,
+      order: 1,
+      file: "bahasa-indonesia.json",
+    },
   ];
 
   let totalQuestions = 0;
