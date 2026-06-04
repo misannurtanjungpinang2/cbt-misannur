@@ -56,7 +56,7 @@ async function main() {
   console.log(`✅ Admin: username="${admin.username}", password="${adminPassword}"`);
 
   // ============================================================
-  // 2. Konfigurasi 7 Mapel
+  // 2. Konfigurasi 8 Mapel
   // ============================================================
   const subjects: SubjectConfig[] = [
     {
@@ -107,6 +107,13 @@ async function main() {
       dayNumber: 3,
       order: 1,
       file: "bahasa-arab.json",
+    },
+    {
+      name: "Pendidikan Pancasila",
+      slug: "pendidikan-pancasila",
+      dayNumber: 3,
+      order: 2,
+      file: "pendidikan-pancasila.json",
     },
   ];
 

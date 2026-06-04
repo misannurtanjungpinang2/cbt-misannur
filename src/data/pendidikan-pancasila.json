@@ -1,0 +1,402 @@
+[
+  {
+    "number": 1,
+    "type": "pg",
+    "text": "Penduduk Indonesia memiliki beragam upacara adat yang hingga saat ini masih dijalankan oleh sebagian masyarakat. Upacara adat tersebut, seperti mitoni yang dijalankan oleh masyarakat di daerah Jawa. Mitoni merupakan upacara adat yang dilakukan untuk tujuan...",
+    "optionA": "mengantarkan anggota keluarga ke pemakaman",
+    "optionB": "mendoakan anggota keluarga yang telah meninggal",
+    "optionC": "sebagai rasa syukur atas hasil panen yang diberikan Tuhan",
+    "optionD": "sebagai rasa syukur dan permohonan kepada Tuhan, agar calon bayi dan ibunya diberi keselamatan dan ketenteraman",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 2,
+    "type": "pg",
+    "text": "Globalisasi menjadi gejala yang tidak dapat dihindari oleh seluruh bangsa di dunia, termasuk Indonesia. Arus globalisasi ini memberi pengaruh baik dan buruk bagi kebudayaan Indonesia. Berikut ancaman globalisasi untuk kebudayaan Indonesia adalah...",
+    "optionA": "makin beragamnya kebudayaan Indonesia",
+    "optionB": "makin luas pengetahuan penduduk Indonesia",
+    "optionC": "makin terbukanya pola pikir penduduk Indonesia",
+    "optionD": "banyak budaya lokal yang menjadi unsur pembentuk budaya nasional hilang tergerus kemajuan teknologi informasi",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 3,
+    "type": "pg",
+    "text": "Rumah gadang merupakan hasil kebudayaan masyarakat Sumatra Barat. Rumah ini dibangun dengan sangat memperhatikan keadaan alam sekitar yang rawan gempa bumi. Hal tersebut terlihat dari bagian rumah gadang, yaitu...",
+    "optionA": "dibangun dengan sistem pasak dan tidak dipaku",
+    "optionB": "struktur kerangkanya dibangun dari baja",
+    "optionC": "dibangun dengan fondasi yang kuat",
+    "optionD": "dilengkapi jumlah jendela yang cukup banyak",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 4,
+    "type": "pg",
+    "text": "Kelompok etnik dan budaya masyarakat yang terbentuk secara turun-temurun, di mana identitas dan atribut kesukuan dari suatu kelompok masyarakat diwariskan pada generasi berikutnya disebut...",
+    "optionA": "kepala adat",
+    "optionB": "suku bangsa",
+    "optionC": "pelaku budaya",
+    "optionD": "pemangku adat",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 5,
+    "type": "pg",
+    "text": "Kebudayaan akan terus mengalami dinamika dari waktu ke waktu. Kebudayaan tersebut membawa ciri-ciri tertentu yang senantiasa melekat. Salah satunya bersifat dapat diwariskan lewat proses belajar. Hal ini berarti bahwa...",
+    "optionA": "kebudayaan diwariskan atau diteruskan antargenerasi melalui proses belajar",
+    "optionB": "kebudayaan merupakan produk yang dihasilkan manusia, bukan ciptaan Tuhan",
+    "optionC": "kebudayaan merupakan sistem pemenuhan berbagai kebutuhan manusia",
+    "optionD": "kebudayaan tidak pernah dihasilkan secara berkelompok",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 6,
+    "type": "pg",
+    "text": "Keseluruhan cara hidup, cara berpikir, dan pandangan hidup suatu bangsa yang terekspresi dalam seluruh segi kehidupan pada ruang dan waktu tertentu merupakan cerminan dari...",
+    "optionA": "kebudayaan asing",
+    "optionB": "kebudayaan daerah",
+    "optionC": "kebudayaan nasional",
+    "optionD": "dinamika kebudayaan",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 7,
+    "type": "pg",
+    "text": "Wayang menjadi salah satu identitas budaya bangsa Indonesia yang berasal dari Jawa. Menurut bahasa Jawa, istilah wayang berarti bayangan. Hal ini didasarkan pada...",
+    "optionA": "anggapan bahwa wayang disaksikan penonton dari belakang layar, sehingga hanya bayangannya saja yang terlihat",
+    "optionB": "latar belakang cerita yang mengangkat kisah Ramayana atau Mahabharata",
+    "optionC": "pementasan wayang yang diiringi oleh gamelan",
+    "optionD": "waktu pementasan wayang hingga pagi hari",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 8,
+    "type": "pg",
+    "text": "Indonesia dikenal sebagai negara dengan beragam budaya. Keragaman ini dipengaruhi oleh...",
+    "optionA": "arus globalisasi yang memasuki Indonesia",
+    "optionB": "makin canggihnya teknologi informasi",
+    "optionC": "beragam suku bangsa di Indonesia",
+    "optionD": "jumlah penduduk yang besar",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 9,
+    "type": "pg",
+    "text": "Perhatikan unsur-unsur berikut!\nPeralatan dan perlengkapan hidup.\nIlmu pengetahuan.\nKesenian.\nHasil teknologi.\nRagam suku.\nUnsur-unsur kebudayaan menurut Koentjaraningrat ditunjukkan oleh nomor...",
+    "optionA": "(1), (2), dan (3)",
+    "optionB": "(1), (2), dan (4)",
+    "optionC": "(2), (3), dan (5)",
+    "optionD": "(2), (4), dan (5)",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 10,
+    "type": "pg",
+    "text": "Kemajuan teknologi membuat kita mudah untuk mengakses informasi dari dalam dan luar negeri. Sikap yang tepat dalam menyikapi kemajuan teknologi tersebut adalah...",
+    "optionA": "mempelajari budaya asing dan meninggalkan budaya daerah",
+    "optionB": "tidak terpengaruh budaya asing",
+    "optionC": "mengikuti tren kebudayaan asing",
+    "optionD": "mengajarkan budaya asing kepada warga daerah",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 11,
+    "type": "pg",
+    "text": "Perhatikan pernyataan berikut!\nPedoman dalam membina persatuan dan kesatuan.\nMemperkuat jati diri sebagai bangsa.\nPedoman dalam pengambilalihan dan pengembangan iptek.\nSebagai media untuk mendapatkan keuntungan secara ekonomi di bidang pariwisata.\nMenjadi tolok ukur kemajuan iptek suatu bangsa.\nFungsi kebudayaan nasional bagi bangsa Indonesia ditunjukkan oleh nomor...",
+    "optionA": "(1), (2), dan (3)",
+    "optionB": "(1), (2), dan (4)",
+    "optionC": "(2), (3), dan (4)",
+    "optionD": "(2), (4), dan (5)",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 12,
+    "type": "pg",
+    "text": "Perhatikan gambar berikut!\n(Keterangan: Gambar menunjukkan pertunjukan teater tradisional tradisional dengan busana khas Melayu)\nPada gambar menunjukkan kesenian khas dari Kepulauan Riau. Kesenian tersebut adalah...",
+    "optionA": "makyong",
+    "optionB": "mamanda",
+    "optionC": "lenong",
+    "optionD": "ketoprak",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 13,
+    "type": "pg",
+    "text": "Salah satu pelestarian budaya yang biasa dilakukan oleh warga negara yaitu...",
+    "optionA": "memahami budaya asing",
+    "optionB": "terpengaruh oleh budaya asing",
+    "optionC": "menyembunyikan budaya daerah dari orang lain",
+    "optionD": "memperkenalkan budaya nasional ke negara lain",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 14,
+    "type": "pg",
+    "text": "Indonesia memiliki etnik. Etnik-etnik tersebut memiliki budaya masing-masing yang terbentuk secara turun-temurun. Etnik-etnik yang ada di Indonesia disebut...",
+    "optionA": "suku pedalaman",
+    "optionB": "nenek moyang",
+    "optionC": "suku bangsa",
+    "optionD": "adat istiadat",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 15,
+    "type": "pg",
+    "text": "Perhatikan pernyataan berikut!\nMasalah komersialisasi kebudayaan.\nMasalah konsumerisme dan materialisme.\nMasalah kependudukan.\nMasalah sekularisme dalam beragama.\nMasalah tingkat pendapatan.\nTantangan yang dihadapi dalam mewujudkan kebudayaan nasional ditunjukkan oleh nomor...",
+    "optionA": "(1), (2), dan (3)",
+    "optionB": "(1), (2), dan (4)",
+    "optionC": "(2), (3), dan (4)",
+    "optionD": "(2), (3), dan (5)",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 16,
+    "type": "pg",
+    "text": "Suku Tengger merupakan salah satu suku yang terdapat di Jawa, terutama daerah sekitar Gunung Bromo. Adat budaya dari suku ini adalah...",
+    "optionA": "rambu solo",
+    "optionB": "sekaten",
+    "optionC": "ngaben",
+    "optionD": "kasada",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 17,
+    "type": "pg",
+    "text": "Seperangkat alat musik yang terdiri atas gong, kenong, bonang barung, slenthem, gendang, dan alat musik lainnya disebut...",
+    "optionA": "sasando",
+    "optionB": "angklung",
+    "optionC": "gamelan",
+    "optionD": "sampek",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 18,
+    "type": "pg",
+    "text": "Perhatikan suku bangsa berikut!\nGayo.\nBesemah.\nDayak.\nBanjar.\nBatak.\nSuku yang terdapat di Sumatra ditunjukkan oleh nomor...",
+    "optionA": "(1), (2), dan (3)",
+    "optionB": "(1), (2), dan (4)",
+    "optionC": "(1), (2), dan (5)",
+    "optionD": "(3), (4), dan (5)",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 19,
+    "type": "pg",
+    "text": "Keberadaan budaya daerah yang menjadi pembentuk kebudayaan nasional Indonesia saat ini banyak yang tergerus oleh globalisasi. Berikut dampak dari tergerusnya kebudayaan Indonesia oleh arus globalisasi adalah...",
+    "optionA": "makin jarang penduduk yang melaksanakan tradisi peninggalan leluhur di berbagai daerah",
+    "optionB": "makin beragamnya kebudayaan Indonesia yang mengambil budaya asing yang baik",
+    "optionC": "makin berkurang keragaman suku bangsa di Indonesia",
+    "optionD": "makin variatif kebudayaan daerah",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 20,
+    "type": "pg",
+    "text": "Arus globalisasi tidak dapat dihindari oleh bangsa Indonesia. Dampak negatif globalisasi terkait kebudayaan bangsa adalah...",
+    "optionA": "menggerus budaya-budaya lokal yang menjadi sumber kebudayaan bangsa",
+    "optionB": "meningkatkan penguasaan teknologi penduduk Indonesia",
+    "optionC": "membuat penduduk Indonesia lebih terbuka dan bebas",
+    "optionD": "mengurangi pola berpikir penduduk Indonesia",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 21,
+    "type": "pg",
+    "text": "Karakteristik wilayah Indonesia dibagi menjadi dua yaitu...",
+    "optionA": "pegunungan dan perairan",
+    "optionB": "kepulauan dan pantai",
+    "optionC": "pedesaan dan perkotaan",
+    "optionD": "dataran dan perairan",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 22,
+    "type": "pg",
+    "text": "Perhatikan data berikut!\nPegunungan.\nTeluk.\nDataran tinggi.\nSelat.\nBerdasarkan data tersebut yang termasuk karakteristik wilayah dataran ditunjukkan oleh nomor...",
+    "optionA": "(1) dan (2)",
+    "optionB": "(2) dan (3)",
+    "optionC": "(1) dan (3)",
+    "optionD": "(3) dan (4)",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 23,
+    "type": "pg",
+    "text": "Dataran yang menjulang lebih tinggi dari sekelilingnya disebut...",
+    "optionA": "pegunungan",
+    "optionB": "teluk",
+    "optionC": "dataran tinggi",
+    "optionD": "selat",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 24,
+    "type": "pg",
+    "text": "Pegunungan memiliki ketinggian lebih dari ... di atas permukaan laut.",
+    "optionA": "300 meter",
+    "optionB": "500 meter",
+    "optionC": "700 meter",
+    "optionD": "900 meter",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 25,
+    "type": "pg",
+    "text": "Pegunungan yang ada di wilayah Jawa Tengah adalah...",
+    "optionA": "Pegunungan Bukit Barisan",
+    "optionB": "Gunung Kerinci",
+    "optionC": "Bukit Gundaling",
+    "optionD": "Pegunungan Menoreh",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 26,
+    "type": "pg",
+    "text": "Ciri khas yang menonjol dari dataran tinggi adalah pertaniannya yang berupa...",
+    "optionA": "terasering",
+    "optionB": "hidroponik",
+    "optionC": "persawahan",
+    "optionD": "vertikultur",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 27,
+    "type": "pg",
+    "text": "Wilayah yang memiliki keterikatan yang kuat terhadap budaya tradisional disebut...",
+    "optionA": "pegunungan",
+    "optionB": "persawahan",
+    "optionC": "perkotaan",
+    "optionD": "pedesaan",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 28,
+    "type": "pg",
+    "text": "Perhatikan pernyataan berikut!\nHubungan antarmasyarakat sangat akrab.\nPerbandingan manusia dan lahan cukup besar.\nSarana dan prasarana sangat canggih.\nKawasan yang padat bangunan.\nBerdasarkan pernyataan tersebut yang termasuk ciri dari wilayah pedesaan ditunjukkan oleh nomor...",
+    "optionA": "(1) dan (2)",
+    "optionB": "(2) dan (3)",
+    "optionC": "(1) dan (3)",
+    "optionD": "(3) dan (4)",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 29,
+    "type": "pg",
+    "text": "Perhatikan data berikut!\nDataran rendah.\nLaut.\nDanau.\nLembah.\nBerdasarkan data tersebut yang termasuk ke dalam karakteristik wilayah perairan ditunjukkan oleh nomor... (HOTS)",
+    "optionA": "(1) dan (2)",
+    "optionB": "(2) dan (3)",
+    "optionC": "(1) dan (3)",
+    "optionD": "(3) dan (4)",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 30,
+    "type": "pg",
+    "text": "Perhatikan gambar berikut!\n(Keterangan: Gambar hitam-putih menunjukkan siluet pemandangan kota padat gedung pencakar langit/skyscrapers)\nGambar tersebut menunjukkan wilayah...",
+    "optionA": "pegunungan",
+    "optionB": "persawahan",
+    "optionC": "perkotaan",
+    "optionD": "pedesaan",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 31,
+    "type": "pg",
+    "text": "Perhatikan pernyataan berikut!\nMemberatkan pekerjaan.\nMenambah waktu dan biaya.\nMeningkatkan keterampilan sosial.\nMempererat hubungan sosial dan rasa persaudaraan.\nBerdasarkan pernyataan berikut yang termasuk manfaat dari gotong royong ditunjukkan oleh nomor...",
+    "optionA": "(1) dan (2)",
+    "optionB": "(2) dan (3)",
+    "optionC": "(1) dan (3)",
+    "optionD": "(3) dan (4)",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 32,
+    "type": "pg",
+    "text": "Gotong royong mengajarkan kerja sama, tolong-menolong, dan kebersamaan. Hal tersebut merupakan manfaat gotong royong yaitu...",
+    "optionA": "mengajarkan nilai sosial",
+    "optionB": "meningkatkan kualitas hidup",
+    "optionC": "menguatkan budaya lokal",
+    "optionD": "memperkokoh persatuan dan kesatuan",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 33,
+    "type": "pg",
+    "text": "Membersihkan kamar merupakan contoh penerapan gotong royong di lingkungan...",
+    "optionA": "rumah",
+    "optionB": "sekolah",
+    "optionC": "bangsa dan negara",
+    "optionD": "masyarakat",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 34,
+    "type": "pg",
+    "text": "Perhatikan pernyataan berikut!\nMembantu ibu menyiapkan makanan.\nMembantu mengumpulkan tugas pada guru.\nMelakukan piket kelas sesuai jadwal.\nMengikuti kegiatan bersama warga.\nBerdasarkan pernyataan tersebut yang termasuk penerapan gotong royong di lingkungan sekolah ditunjukkan oleh nomor...",
+    "optionA": "(1) dan (2)",
+    "optionB": "(2) dan (3)",
+    "optionC": "(1) dan (3)",
+    "optionD": "(3) dan (4)",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 35,
+    "type": "pg",
+    "text": "Kegiatan gotong royong yang bisa dilakukan bersama warga adalah...",
+    "optionA": "piket kelas",
+    "optionB": "musyawarah desa",
+    "optionC": "tugas kelompok",
+    "optionD": "merapikan tempat tidur",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 36,
+    "type": "pg",
+    "text": "Keberagaman suku bangsa dan budaya di Indonesia merupakan kekayaan bangsa yang harus kita",
+    "optionA": "abaikan",
+    "optionB": "bedakan",
+    "optionC": "lestarikan",
+    "optionD": "tinggalkan",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 37,
+    "type": "pg",
+    "text": "Suku bangsa di Indonesia sangat banyak. Suku yang mendiami sebagian besar wilayah Jawa Barat adalah suku",
+    "optionA": "Sunda",
+    "optionB": "Jawa",
+    "optionC": "Tengger",
+    "optionD": "Baduy",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 38,
+    "type": "pg",
+    "text": "Upacara adat pembakaran jenazah umat Hindu di Bali dikenal dengan nama",
+    "optionA": "Rambu Solo",
+    "optionB": "Ngaben",
+    "optionC": "Kasada",
+    "optionD": "Tedak Siten",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 39,
+    "type": "pg",
+    "text": "Rumah adat berbentuk panggung dengan atap melengkung menyerupai tanduk kerbau dari Sumatra Barat disebut rumah",
+    "optionA": "Joglo",
+    "optionB": "Gadang",
+    "optionC": "Tongkonan",
+    "optionD": "Honai",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 40,
+    "type": "pg",
+    "text": "Tari Saman merupakan tarian tradisional yang sangat terkenal dengan gerakan cepat dan kekompakannya. Tari ini berasal dari daerah",
+    "optionA": "Sumatra Utara",
+    "optionB": "Aceh",
+    "optionC": "Riau",
+    "optionD": "Lampung",
+    "correctAnswer": "B"
+  }
+]
