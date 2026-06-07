@@ -97,7 +97,7 @@ async function main() {
       slug: "matematika",
       dayNumber: 5,
       order: 1,
-      durationMinutes: 90,
+      durationMinutes: 60,
       file: "matematika.json",
     },
     {

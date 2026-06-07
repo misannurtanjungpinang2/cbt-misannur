@@ -86,7 +86,7 @@ INSERT INTO "Subject" (id, name, slug, token, "durationMinutes", "dayNumber", "i
   (gen_random_uuid(), 'Akidah Akhlak', 'akidah-akhlak', NULL, 60, 1, true, 2, now()),
   (gen_random_uuid(), 'Fikih', 'fikih', NULL, 60, 2, true, 1, now()),
   (gen_random_uuid(), 'SKI', 'ski', NULL, 60, 2, true, 2, now()),
-  (gen_random_uuid(), 'Matematika', 'matematika', NULL, 90, 5, true, 1, now()),
+  (gen_random_uuid(), 'Matematika', 'matematika', NULL, 60, 5, true, 1, now()),
   (gen_random_uuid(), 'PJOK', 'pjok', NULL, 60, 5, true, 2, now()),
   (gen_random_uuid(), 'Bahasa Inggris', 'bahasa-inggris', NULL, 60, 6, true, 1, now()),
   (gen_random_uuid(), 'Bahasa Arab', 'bahasa-arab', NULL, 60, 3, true, 1, now()),

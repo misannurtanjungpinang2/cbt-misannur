@@ -20,12 +20,12 @@ async function main() {
       finalSubjectId = existing.rows[0].id;
       console.log(`ℹ️  Subject Matematika already exists (id=${finalSubjectId}), updating...`);
       await pool.query(
-        `UPDATE "Subject" SET name='Matematika', "dayNumber"=5, "order"=1, "durationMinutes"=90, "isActive"=false WHERE slug='matematika'`
+        `UPDATE "Subject" SET name='Matematika', "dayNumber"=5, "order"=1, "durationMinutes"=60, "isActive"=false WHERE slug='matematika'`
       );
     } else {
       await pool.query(
         `INSERT INTO "Subject" (id, name, slug, "dayNumber", "order", "durationMinutes", "isActive", "createdAt")
-         VALUES ($1, 'Matematika', 'matematika', 5, 1, 90, false, now())`,
+         VALUES ($1, 'Matematika', 'matematika', 5, 1, 60, false, now())`,
         [subjectId]
       );
       finalSubjectId = subjectId;
@@ -68,7 +68,7 @@ async function main() {
     console.log("✅ Seeding Matematika selesai!");
     console.log(`   Subject : Matematika (matematika)`);
     console.log(`   Hari    : 5 (bersama PJOK)`);
-    console.log(`   Durasi  : 90 menit`);
+    console.log(`   Durasi  : 60 menit`);
     console.log(`   PG      : ${questions.filter(q => q.type === 'pg').length}`);
     console.log(`   Total   : ${inserted} soal`);
     console.log("═══════════════════════════════════════════");
