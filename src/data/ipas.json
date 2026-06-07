@@ -1,0 +1,302 @@
+[
+  {
+    "number": 1,
+    "type": "pg",
+    "text": "Diafragma adalah sekat yang membatasi",
+    "optionA": "Rongga hidung dan rongga mulut",
+    "optionB": "Paru-paru kanan dan paru-paru kiri",
+    "optionC": "Rongga dada dan rongga perut",
+    "optionD": "Kerongkongan dan tenggorokan",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 2,
+    "type": "pg",
+    "text": "Kebiasaan buruk yang paling merusak kesehatan paru-paru adalah",
+    "optionA": "Tidur tepat waktu",
+    "optionB": "Berolahraga lari",
+    "optionC": "Makan sayuran hijau",
+    "optionD": "Menghirup asap rokok",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 3,
+    "type": "pg",
+    "text": "Nama lain dari batang tenggorokan adalah",
+    "optionA": "Trakea",
+    "optionB": "Faring",
+    "optionC": "Laring",
+    "optionD": "Pleura",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 4,
+    "type": "pg",
+    "text": "Urutan saluran pernapasan manusia yang benar dari luar ke dalam adalah",
+    "optionA": "Hidung - Lambung - Paru-paru",
+    "optionB": "Hidung - Kerongkongan - Paru-paru",
+    "optionC": "Hidung - Tenggorokan - Paru-paru",
+    "optionD": "Mulut - Kerongkongan - Paru-paru",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 5,
+    "type": "pg",
+    "text": "Cabang dari batang tenggorokan disebut",
+    "optionA": "Alveolus",
+    "optionB": "Bronkiolus",
+    "optionC": "Laring",
+    "optionD": "Bronkus",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 6,
+    "type": "pg",
+    "text": "Saat kita menghirup napas (inspirasi), posisi diafragma akan",
+    "optionA": "Mendatar/berkontraksi",
+    "optionB": "Melengkung ke atas",
+    "optionC": "Mengempis",
+    "optionD": "Tetap diam",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 7,
+    "type": "pg",
+    "text": "Di dalam hidung, udara mengalami proses penyaringan debu yang dilakukan oleh",
+    "optionA": "Tulang hidung",
+    "optionB": "Rambut hidung dan selaput lendir",
+    "optionC": "Saraf pembau",
+    "optionD": "Selaput lendir saja",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 8,
+    "type": "pg",
+    "text": "Pernapasan yang melibatkan otot antartulang rusuk disebut pernapasan",
+    "optionA": "Dada",
+    "optionB": "Perut",
+    "optionC": "Hidung",
+    "optionD": "Diafragma",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 9,
+    "type": "pg",
+    "text": "Organ pernapasan yang berfungsi sebagai jalur masuk udara sekaligus indra pembau adalah",
+    "optionA": "Mulut",
+    "optionB": "Tenggorokan",
+    "optionC": "Hidung",
+    "optionD": "Paru-paru",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 10,
+    "type": "pg",
+    "text": "Proses pertukaran oksigen dan karbondioksida pada paru-paru terjadi di dalam",
+    "optionA": "Bronkus",
+    "optionB": "Bronkiolus",
+    "optionC": "Alveolus",
+    "optionD": "Trakea",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 11,
+    "type": "pg",
+    "text": "Penyakit pernapasan yang disebabkan oleh penyempitan saluran napas akibat alergi adalah",
+    "optionA": "Influenza",
+    "optionB": "Asma",
+    "optionC": "TBC",
+    "optionD": "Bronkitis",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 12,
+    "type": "pg",
+    "text": "Udara yang kita hembuskan mengandung lebih banyak",
+    "optionA": "Oksigen",
+    "optionB": "Karbondioksida dan uap air",
+    "optionC": "Nitrogen cair",
+    "optionD": "Gas hidrogen",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 13,
+    "type": "pg",
+    "text": "Yang terjadi pada paru-paru saat kita menghembuskan napas adalah",
+    "optionA": "Paru-paru mengembang",
+    "optionB": "Paru-paru mengempis",
+    "optionC": "Diafragma mendatar",
+    "optionD": "Otot rusuk berkontraksi",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 14,
+    "type": "pg",
+    "text": "Bakteri Mycobacterium tuberculosis menyebabkan penyakit pernapasan yang disebut",
+    "optionA": "Asma",
+    "optionB": "TBC",
+    "optionC": "Bronkitis",
+    "optionD": "Amandel",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 15,
+    "type": "pg",
+    "text": "Salah satu cara menjaga kesehatan organ pernapasan adalah",
+    "optionA": "Selalu berada di ruangan ber-AC",
+    "optionB": "Menggunakan masker saat banyak polusi",
+    "optionC": "Menahan napas sesering mungkin",
+    "optionD": "Tidur larut malam",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 16,
+    "type": "pg",
+    "text": "Enzim pepsin berfungsi mengubah protein menjadi",
+    "optionA": "Pepton",
+    "optionB": "Asam lemak",
+    "optionC": "Glukosa",
+    "optionD": "Amilum",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 17,
+    "type": "pg",
+    "text": "Organ yang menghasilkan enzim lipase, amilase, dan tripsin adalah",
+    "optionA": "Hati",
+    "optionB": "Lambung",
+    "optionC": "Pankreas",
+    "optionD": "Kantong empedu",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 18,
+    "type": "pg",
+    "text": "Bagian usus yang berfungsi menyerap sari-sari makanan adalah",
+    "optionA": "Usus besar",
+    "optionB": "Usus halus",
+    "optionC": "Kerongkongan",
+    "optionD": "Lambung",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 19,
+    "type": "pg",
+    "text": "Penyakit peradangan pada lambung disebut",
+    "optionA": "Diare",
+    "optionB": "Maag",
+    "optionC": "Busung lapar",
+    "optionD": "Sariawan",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 20,
+    "type": "pg",
+    "text": "Usus halus terdiri dari tiga bagian, yaitu",
+    "optionA": "Lambung, usus besar, anus",
+    "optionB": "Duodenum, jejunum, ileum",
+    "optionC": "Kerongkongan, trakea, faring",
+    "optionD": "Gigi, lidah, kelenjar ludah",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 21,
+    "type": "pg",
+    "text": "Organ pencernaan pertama yang dilalui makanan adalah",
+    "optionA": "Lambung",
+    "optionB": "Kerongkongan",
+    "optionC": "Mulut",
+    "optionD": "Usus halus",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 22,
+    "type": "pg",
+    "text": "Penyerapan air yang terlalu sedikit di usus besar mengakibatkan",
+    "optionA": "Sembelit",
+    "optionB": "Diare",
+    "optionC": "Maag",
+    "optionD": "Cacingan",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 23,
+    "type": "pg",
+    "text": "Pencernaan mekanis di dalam mulut dilakukan oleh",
+    "optionA": "Enzim amilase",
+    "optionB": "Gigi dan lidah",
+    "optionC": "Asam lambung",
+    "optionD": "Air liur saja",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 24,
+    "type": "pg",
+    "text": "Asam klorida (HCl) di dalam lambung berfungsi untuk",
+    "optionA": "Mencerna lemak",
+    "optionB": "Membunuh kuman yang masuk bersama makanan",
+    "optionC": "Menyerap air",
+    "optionD": "Mengubah gula menjadi energi",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 25,
+    "type": "pg",
+    "text": "Enzim ptialin (amilase) berfungsi untuk mengubah",
+    "optionA": "Protein menjadi pepton",
+    "optionB": "Lemak menjadi asam lemak",
+    "optionC": "Amilum (karbohidrat) menjadi gula sederhana",
+    "optionD": "Susu menjadi kasein",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 26,
+    "type": "pg",
+    "text": "Di usus besar, sisa-sisa makanan mengalami proses",
+    "optionA": "Penyerapan sari makanan",
+    "optionB": "Penyerapan air dan pembusukan",
+    "optionC": "Pencernaan kimiawi oleh pepsin",
+    "optionD": "Penghancuran oleh gigi",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 27,
+    "type": "pg",
+    "text": "Gerakan meremas-remas pada kerongkongan untuk mendorong makanan disebut",
+    "optionA": "Gerak memutar",
+    "optionB": "Gerak peristaltik",
+    "optionC": "Gerak absorbsi",
+    "optionD": "Gerak filtrasi",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 28,
+    "type": "pg",
+    "text": "Penyakit sulit buang air besar karena kurang serat disebut",
+    "optionA": "Diare",
+    "optionB": "Sembelit",
+    "optionC": "Maag",
+    "optionD": "Apendisitis",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 29,
+    "type": "pg",
+    "text": "Nama lain dari usus dua belas jari adalah",
+    "optionA": "Duodenum",
+    "optionB": "Jejunum",
+    "optionC": "Ileum",
+    "optionD": "Sekum",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 30,
+    "type": "pg",
+    "text": "Organ pencernaan yang tidak melakukan pencernaan kimiawi melainkan hanya jalur lewat adalah",
+    "optionA": "Mulut",
+    "optionB": "Kerongkongan",
+    "optionC": "Lambung",
+    "optionD": "Usus halus",
+    "correctAnswer": "B"
+  }
+]

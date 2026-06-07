@@ -33,6 +33,7 @@ interface SubjectConfig {
   slug: string;
   dayNumber: number | null;
   order: number;
+  durationMinutes: number;
   file: string;
 }
 
@@ -64,6 +65,7 @@ async function main() {
       slug: "quran-hadist",
       dayNumber: 1,
       order: 1,
+      durationMinutes: 60,
       file: "quran-hadist.json",
     },
     {
@@ -71,6 +73,7 @@ async function main() {
       slug: "akidah-akhlak",
       dayNumber: 1,
       order: 2,
+      durationMinutes: 60,
       file: "akidah-akhlak.json",
     },
     {
@@ -78,6 +81,7 @@ async function main() {
       slug: "fikih",
       dayNumber: 2,
       order: 1,
+      durationMinutes: 60,
       file: "fikih.json",
     },
     {
@@ -85,13 +89,23 @@ async function main() {
       slug: "ski",
       dayNumber: 2,
       order: 2,
+      durationMinutes: 60,
       file: "ski.json",
+    },
+    {
+      name: "Matematika",
+      slug: "matematika",
+      dayNumber: 5,
+      order: 1,
+      durationMinutes: 90,
+      file: "matematika.json",
     },
     {
       name: "PJOK",
       slug: "pjok",
       dayNumber: 5,
       order: 2,
+      durationMinutes: 60,
       file: "pjok.json",
     },
     {
@@ -99,6 +113,7 @@ async function main() {
       slug: "bahasa-inggris",
       dayNumber: 6,
       order: 1,
+      durationMinutes: 60,
       file: "bahasa-inggris.json",
     },
     {
@@ -106,6 +121,7 @@ async function main() {
       slug: "bahasa-arab",
       dayNumber: 3,
       order: 1,
+      durationMinutes: 60,
       file: "bahasa-arab.json",
     },
     {
@@ -113,6 +129,7 @@ async function main() {
       slug: "pendidikan-pancasila",
       dayNumber: 3,
       order: 2,
+      durationMinutes: 60,
       file: "pendidikan-pancasila.json",
     },
     {
@@ -120,7 +137,16 @@ async function main() {
       slug: "bahasa-indonesia",
       dayNumber: 4,
       order: 1,
+      durationMinutes: 60,
       file: "bahasa-indonesia.json",
+    },
+    {
+      name: "IPAS",
+      slug: "ipas",
+      dayNumber: 4,
+      order: 2,
+      durationMinutes: 60,
+      file: "ipas.json",
     },
   ];
 
@@ -140,7 +166,7 @@ async function main() {
             slug: subjectConfig.slug,
             dayNumber: subjectConfig.dayNumber,
             order: subjectConfig.order,
-            durationMinutes: 60,
+            durationMinutes: subjectConfig.durationMinutes,
             isActive: false,
           },
         });

@@ -80,12 +80,13 @@ CREATE INDEX IF NOT EXISTS idx_answer_session ON "Answer"("sessionId", "question
 INSERT INTO "Admin" (id, username, "passwordHash", "createdAt") VALUES
   (gen_random_uuid(), 'admin', '$2b$10$mgxpbsenz78dnLlXcDZG5uUMWJDOkx7Rw1pog8K2xEj3dnFMADihK', now());
 
--- 2. Subjects (8 mapel)
+-- 2. Subjects (10 mapel)
 INSERT INTO "Subject" (id, name, slug, token, "durationMinutes", "dayNumber", "isActive", "order", "createdAt") VALUES
   (gen_random_uuid(), 'Al-Quran Hadist', 'quran-hadist', NULL, 60, 1, true, 1, now()),
   (gen_random_uuid(), 'Akidah Akhlak', 'akidah-akhlak', NULL, 60, 1, true, 2, now()),
   (gen_random_uuid(), 'Fikih', 'fikih', NULL, 60, 2, true, 1, now()),
   (gen_random_uuid(), 'SKI', 'ski', NULL, 60, 2, true, 2, now()),
+  (gen_random_uuid(), 'Matematika', 'matematika', NULL, 90, 5, true, 1, now()),
   (gen_random_uuid(), 'PJOK', 'pjok', NULL, 60, 5, true, 2, now()),
   (gen_random_uuid(), 'Bahasa Inggris', 'bahasa-inggris', NULL, 60, 6, true, 1, now()),
   (gen_random_uuid(), 'Bahasa Arab', 'bahasa-arab', NULL, 60, 3, true, 1, now()),
@@ -412,4 +413,32 @@ INSERT INTO "Question" (id, "subjectId", number, type, text, "optionA", "optionB
   (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='pendidikan-pancasila'), 38, 'pg', E'Upacara adat pembakaran jenazah umat Hindu di Bali dikenal dengan nama', E'Rambu Solo', E'Ngaben', E'Kasada', E'Tedak Siten', 'B', now()),
   (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='pendidikan-pancasila'), 39, 'pg', E'Rumah adat berbentuk panggung dengan atap melengkung menyerupai tanduk kerbau dari Sumatra Barat disebut rumah', E'Joglo', E'Gadang', E'Tongkonan', E'Honai', 'B', now()),
   (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='pendidikan-pancasila'), 40, 'pg', E'Tari Saman merupakan tarian tradisional yang sangat terkenal dengan gerakan cepat dan kekompakannya. Tari ini berasal dari daerah', E'Sumatra Utara', E'Aceh', E'Riau', E'Lampung', 'B', now());
+
+-- 11. Soal Matematika (25 PG — duration 90 menit)
+INSERT INTO "Question" (id, "subjectId", number, type, text, "optionA", "optionB", "optionC", "optionD", "correctAnswer", "createdAt") VALUES
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 1, 'pg', E'Hasil operasi 1.234 + 2.345 adalah', E'3.579', E'4.569', E'3.598', E'2.745', 'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 2, 'pg', E'Hasil dari 45 + 23 - 12 =', E'65', E'56', E'13', E'45', 'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 3, 'pg', E'Hasil dari 745 - 100 adalah', E'456', E'556', E'345', E'645', 'D', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 4, 'pg', E'Hasil dari operasi 34 x 4  adalah', E'136', E'133', E'135', E'134', 'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 5, 'pg', E'Hasil dari 4.564 x 23 adalah', E'104.972', E'105.445', E'103.454', E'102.344', 'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 6, 'pg', E'Berikut ini yang merupakan jenis sudut berdasarkan besar kecil daerah sudut, kecuali', E'sudut tumpul', E'sudut lancip', E'sudut sembarang', E'sudut refleks', 'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 7, 'pg', E'Dibawah ini yang merupakan sudut lancip adalah', E'15o', E'95o', E'125o', E'275o', 'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 8, 'pg', E'Alat yang digunakan untuk mengukur besar sudut dalam satuan baku derajat adalah', E'Jangka', E'Penggaris', E'Busur derajat', E'Meteran', 'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 9, 'pg', E'Sudut yang besarnya tepat 90o  disebut sudut', E'Lancip', E'Tumpul', E'Siku - siku', E'Lurus', 'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 10, 'pg', E'Besar sudut pada gambar diatas adalah<br/><div style="margin:10px 0;text-align:center"><img src="/gambar-matematika/Gambar-soal-10.jpg" alt="Gambar soal 10" style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1)" /></div>', E'130o', E'120o', E'100o', E'0o', 'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 11, 'pg', E'Besar sudut pada gambar diatas adalah<br/><div style="margin:10px 0;text-align:center"><img src="/gambar-matematika/Gambar-soal-11.jpg" alt="Gambar soal 11" style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1)" /></div>', E'50 derajat', E'30 derajat', E'60 derajat', E'70 derajat', 'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 12, 'pg', E'Besar sudut pada gambar jarum jam diatas adalah<br/><div style="margin:10px 0;text-align:center"><img src="/gambar-matematika/Gambar-soal-12.jpg" alt="Gambar soal 12" style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1)" /></div>', E'90o', E'30o', E'40o', E'100o', 'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 13, 'pg', E'Besar sudut pada gambar jarum jam diatas adalah<br/><div style="margin:10px 0;text-align:center"><img src="/gambar-matematika/Gambar-soal-13.jpg" alt="Gambar soal 13" style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1)" /></div>', E'70 derajat', E'30 derajat', E'40 derajat', E'60 derajat', 'D', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 14, 'pg', E'Besar sudut satu putaran penuh adalah', E'180 derajat', E'130 derajat', E'140 derajat', E'360 derajat', 'D', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 15, 'pg', E'Besar sudut lurus adalah', E'190 derajat', E'300 derajat', E'180 derajat', E'360 derajat', 'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 16, 'pg', E'Segitiga yang ketiga sisinya sama panjang dan ketiga sudutnya sama besar disebut', E'segitiga sembarang', E'segitiga sama kaki', E'segitiga siku-siku', E'segitga sama sisi', 'D', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 17, 'pg', E'Besar setiap sudut pada bangun persegi adalah', E'95 derajat', E'100 derajat', E'90 derajat', E'180 derajat', 'C', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 18, 'pg', E'Bilangan 319.015 dibaca', E'tiga ratus sembilan belas ribu lima belas', E'tiga ribu seratus', E'dua ratus sembilan belas ribu lima belas', E'lima belas ribu', 'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 19, 'pg', E'Empat ratus lima ribu delapan ratus tiga puluh enam ditulis', E'400.000', E'340.000', E'345.800', E'405.836', 'D', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 20, 'pg', E'Angka 9 pada bilangan 192.711 menempati', E'ratus ribuan', E'puluh ribuan', E'ribuan', E'satuan', 'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 21, 'pg', E'Pada angka 851.116 yang menempati nilai tempat satuan adalah', E'6', E'3', E'1', E'8', 'A', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 22, 'pg', E'Diagram batang diatas merupakan data jumlah pengunjung objek wisata dalam satu minggu, jumlah pengunjung pada hari Senin adalah<br/><div style="margin:10px 0;text-align:center"><img src="/gambar-matematika/Gambar-soal-22.jpg" alt="Gambar soal 22" style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1)" /></div>', E'700', E'600', E'450', E'250', 'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 23, 'pg', E'Diagram garis diatas merupakan data konsumsi beras Kota Palembang tiap tahunnya. Dari data tersebut konsumsi beras paling tinggi terjadi pada tahun<br/><div style="margin:10px 0;text-align:center"><img src="/gambar-matematika/Gambar-soal-23.jpg" alt="Gambar soal 23" style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1)" /></div>', E'2014', E'2017', E'2016', E'2013', 'D', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 24, 'pg', E'Gambar diatas merupakan tabel berat badan siswa kelas IV dalam kg. Selisih jumlah siswa yang memiliki berat badan 29 kg dengan jumlah siswa yang memiliki berat badan 31 kg adalah<br/><div style="margin:10px 0;text-align:center"><img src="/gambar-matematika/Gambar-soal-24.jpg" alt="Gambar soal 24" style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1)" /></div>', E'7', E'2', E'1', E'6', 'B', now()),
+  (gen_random_uuid(), (SELECT id FROM "Subject" WHERE slug='matematika'), 25, 'pg', E'Gambar diatas merupakan diagram piktogram jumlah persediaan buah-buahan yang ada di toko buah. Jika setiap gambar buah mewakili 2 buah. Maka jumlah buah pisang adalah<br/><div style="margin:10px 0;text-align:center"><img src="/gambar-matematika/Gambar-soal-25.jpg" alt="Gambar soal 25" style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1)" /></div>', E'10 buah', E'3 buah', E'9 buah', E'12 buah', 'D', now());
 

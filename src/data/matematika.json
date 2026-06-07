@@ -1,0 +1,252 @@
+[
+  {
+    "number": 1,
+    "type": "pg",
+    "text": "Hasil operasi 1.234 + 2.345 adalah",
+    "optionA": "3.579",
+    "optionB": "4.569",
+    "optionC": "3.598",
+    "optionD": "2.745",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 2,
+    "type": "pg",
+    "text": "Hasil dari 45 + 23 - 12 =",
+    "optionA": "65",
+    "optionB": "56",
+    "optionC": "13",
+    "optionD": "45",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 3,
+    "type": "pg",
+    "text": "Hasil dari 745 - 100 adalah",
+    "optionA": "456",
+    "optionB": "556",
+    "optionC": "345",
+    "optionD": "645",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 4,
+    "type": "pg",
+    "text": "Hasil dari operasi 34 x 4  adalah",
+    "optionA": "136",
+    "optionB": "133",
+    "optionC": "135",
+    "optionD": "134",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 5,
+    "type": "pg",
+    "text": "Hasil dari 4.564 x 23 adalah",
+    "optionA": "104.972",
+    "optionB": "105.445",
+    "optionC": "103.454",
+    "optionD": "102.344",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 6,
+    "type": "pg",
+    "text": "Berikut ini yang merupakan jenis sudut berdasarkan besar kecil daerah sudut, kecuali",
+    "optionA": "sudut tumpul",
+    "optionB": "sudut lancip",
+    "optionC": "sudut sembarang",
+    "optionD": "sudut refleks",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 7,
+    "type": "pg",
+    "text": "Dibawah ini yang merupakan sudut lancip adalah",
+    "optionA": "15o",
+    "optionB": "95o",
+    "optionC": "125o",
+    "optionD": "275o",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 8,
+    "type": "pg",
+    "text": "Alat yang digunakan untuk mengukur besar sudut dalam satuan baku derajat adalah",
+    "optionA": "Jangka",
+    "optionB": "Penggaris",
+    "optionC": "Busur derajat",
+    "optionD": "Meteran",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 9,
+    "type": "pg",
+    "text": "Sudut yang besarnya tepat 90o  disebut sudut",
+    "optionA": "Lancip",
+    "optionB": "Tumpul",
+    "optionC": "Siku - siku",
+    "optionD": "Lurus",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 10,
+    "type": "pg",
+    "text": "Besar sudut pada gambar diatas adalah<br/><div style=\"margin:10px 0;text-align:center\"><img src=\"/gambar-matematika/Gambar-soal-10.jpg\" alt=\"Gambar soal 10\" style=\"max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1)\" /></div>",
+    "optionA": "130o",
+    "optionB": "120o",
+    "optionC": "100o",
+    "optionD": "0o",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 11,
+    "type": "pg",
+    "text": "Besar sudut pada gambar diatas adalah<br/><div style=\"margin:10px 0;text-align:center\"><img src=\"/gambar-matematika/Gambar-soal-11.jpg\" alt=\"Gambar soal 11\" style=\"max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1)\" /></div>",
+    "optionA": "50 derajat",
+    "optionB": "30 derajat",
+    "optionC": "60 derajat",
+    "optionD": "70 derajat",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 12,
+    "type": "pg",
+    "text": "Besar sudut pada gambar jarum jam diatas adalah<br/><div style=\"margin:10px 0;text-align:center\"><img src=\"/gambar-matematika/Gambar-soal-12.jpg\" alt=\"Gambar soal 12\" style=\"max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1)\" /></div>",
+    "optionA": "90o",
+    "optionB": "30o",
+    "optionC": "40o",
+    "optionD": "100o",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 13,
+    "type": "pg",
+    "text": "Besar sudut pada gambar jarum jam diatas adalah<br/><div style=\"margin:10px 0;text-align:center\"><img src=\"/gambar-matematika/Gambar-soal-13.jpg\" alt=\"Gambar soal 13\" style=\"max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1)\" /></div>",
+    "optionA": "70 derajat",
+    "optionB": "30 derajat",
+    "optionC": "40 derajat",
+    "optionD": "60 derajat",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 14,
+    "type": "pg",
+    "text": "Besar sudut satu putaran penuh adalah",
+    "optionA": "180 derajat",
+    "optionB": "130 derajat",
+    "optionC": "140 derajat",
+    "optionD": "360 derajat",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 15,
+    "type": "pg",
+    "text": "Besar sudut lurus adalah",
+    "optionA": "190 derajat",
+    "optionB": "300 derajat",
+    "optionC": "180 derajat",
+    "optionD": "360 derajat",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 16,
+    "type": "pg",
+    "text": "Segitiga yang ketiga sisinya sama panjang dan ketiga sudutnya sama besar disebut",
+    "optionA": "segitiga sembarang",
+    "optionB": "segitiga sama kaki",
+    "optionC": "segitiga siku-siku",
+    "optionD": "segitga sama sisi",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 17,
+    "type": "pg",
+    "text": "Besar setiap sudut pada bangun persegi adalah",
+    "optionA": "95 derajat",
+    "optionB": "100 derajat",
+    "optionC": "90 derajat",
+    "optionD": "180 derajat",
+    "correctAnswer": "C"
+  },
+  {
+    "number": 18,
+    "type": "pg",
+    "text": "Bilangan 319.015 dibaca",
+    "optionA": "tiga ratus sembilan belas ribu lima belas",
+    "optionB": "tiga ribu seratus",
+    "optionC": "dua ratus sembilan belas ribu lima belas",
+    "optionD": "lima belas ribu",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 19,
+    "type": "pg",
+    "text": "Empat ratus lima ribu delapan ratus tiga puluh enam ditulis",
+    "optionA": "400.000",
+    "optionB": "340.000",
+    "optionC": "345.800",
+    "optionD": "405.836",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 20,
+    "type": "pg",
+    "text": "Angka 9 pada bilangan 192.711 menempati",
+    "optionA": "ratus ribuan",
+    "optionB": "puluh ribuan",
+    "optionC": "ribuan",
+    "optionD": "satuan",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 21,
+    "type": "pg",
+    "text": "Pada angka 851.116 yang menempati nilai tempat satuan adalah",
+    "optionA": "6",
+    "optionB": "3",
+    "optionC": "1",
+    "optionD": "8",
+    "correctAnswer": "A"
+  },
+  {
+    "number": 22,
+    "type": "pg",
+    "text": "Diagram batang diatas merupakan data jumlah pengunjung objek wisata dalam satu minggu, jumlah pengunjung pada hari Senin adalah<br/><div style=\"margin:10px 0;text-align:center\"><img src=\"/gambar-matematika/Gambar-soal-22.jpg\" alt=\"Gambar soal 22\" style=\"max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1)\" /></div>",
+    "optionA": "700",
+    "optionB": "600",
+    "optionC": "450",
+    "optionD": "250",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 23,
+    "type": "pg",
+    "text": "Diagram garis diatas merupakan data konsumsi beras Kota Palembang tiap tahunnya. Dari data tersebut konsumsi beras paling tinggi terjadi pada tahun<br/><div style=\"margin:10px 0;text-align:center\"><img src=\"/gambar-matematika/Gambar-soal-23.jpg\" alt=\"Gambar soal 23\" style=\"max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1)\" /></div>",
+    "optionA": "2014",
+    "optionB": "2017",
+    "optionC": "2016",
+    "optionD": "2013",
+    "correctAnswer": "D"
+  },
+  {
+    "number": 24,
+    "type": "pg",
+    "text": "Gambar diatas merupakan tabel berat badan siswa kelas IV dalam kg. Selisih jumlah siswa yang memiliki berat badan 29 kg dengan jumlah siswa yang memiliki berat badan 31 kg adalah<br/><div style=\"margin:10px 0;text-align:center\"><img src=\"/gambar-matematika/Gambar-soal-24.jpg\" alt=\"Gambar soal 24\" style=\"max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1)\" /></div>",
+    "optionA": "7",
+    "optionB": "2",
+    "optionC": "1",
+    "optionD": "6",
+    "correctAnswer": "B"
+  },
+  {
+    "number": 25,
+    "type": "pg",
+    "text": "Gambar diatas merupakan diagram piktogram jumlah persediaan buah-buahan yang ada di toko buah. Jika setiap gambar buah mewakili 2 buah. Maka jumlah buah pisang adalah<br/><div style=\"margin:10px 0;text-align:center\"><img src=\"/gambar-matematika/Gambar-soal-25.jpg\" alt=\"Gambar soal 25\" style=\"max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1)\" /></div>",
+    "optionA": "10 buah",
+    "optionB": "3 buah",
+    "optionC": "9 buah",
+    "optionD": "12 buah",
+    "correctAnswer": "D"
+  }
+]
