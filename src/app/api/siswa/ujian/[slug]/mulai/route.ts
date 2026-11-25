@@ -28,12 +28,17 @@ export async function POST(
       return NextResponse.json({ error: "Mata pelajaran belum aktif" }, { status: 403 });
     }
 
-    // Validasi token siswa sesuai mapel
+    // Validasi kelas siswa terhadap mapel (slug k5-/k6-)
     const student = await prisma.student.findUnique({
       where: { id: siswa.studentId },
-      select: { tokenUsed: true },
+      select: { tokenUsed: true, class: true },
     });
 
+    if (student && !subject.slug.startsWith(`k${student.class}-`)) {
+      return NextResponse.json({ error: "Mata pelajaran ini bukan untuk kelas Anda" }, { status: 403 });
+    }
+
+    // Validasi token siswa sesuai mapel
     if (student?.tokenUsed && subject.token && student.tokenUsed !== subject.token) {
       return NextResponse.json({ error: "Token tidak sesuai dengan mata pelajaran ini" }, { status: 403 });
     }

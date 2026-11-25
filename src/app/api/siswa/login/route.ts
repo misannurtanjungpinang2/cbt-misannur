@@ -39,22 +39,26 @@ export async function POST(request: NextRequest) {
     const trimmedParticipant = participantNumber.trim();
     const trimmedClass = className.trim();
 
-    // --- Validasi token terhadap subject aktif ---
+    // --- Validasi token KHUSUS untuk mapel kelas yang dipilih (k5-/k6-) ---
     const subjectWithToken = await prisma.subject.findFirst({
       where: {
         token: normalizedToken,
         isActive: true,
+        slug: { startsWith: `k${trimmedClass}-` },
       },
       select: { id: true, name: true },
     });
 
     if (!subjectWithToken) {
-      return NextResponse.json({ error: "Token tidak valid" }, { status: 401 });
+      return NextResponse.json(
+        { error: `Token tidak valid untuk Kelas ${trimmedClass}` },
+        { status: 401 }
+      );
     }
 
-    // --- Cari student berdasarkan participantNumber, buat baru jika tidak ada ---
+    // --- Cari student berdasarkan participantNumber + class, buat baru jika tidak ada ---
     let student = await prisma.student.findFirst({
-      where: { participantNumber: trimmedParticipant },
+      where: { participantNumber: trimmedParticipant, class: trimmedClass },
     });
 
     if (!student) {

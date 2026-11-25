@@ -99,7 +99,7 @@ export default function LoginPage() {
     <div className="app-container">
       <Header
         title="MIS AN-NUR TANJUNGPINANG"
-        subtitle="Ujian Asesmen Madrasah Kelas 5"
+        subtitle="Ujian Semester 1 Kelas 5 & 6"
         hideLogout
       />
       <main className="main-content">
@@ -198,6 +198,7 @@ export default function LoginPage() {
               disabled={isLoading}
             >
               <option value="5">5</option>
+              <option value="6">6</option>
             </select>
 
             {/* Token */}
@@ -253,9 +254,9 @@ export default function LoginPage() {
               lineHeight: 1.5,
             }}
           >
-            Ujian Asesmen Madrasah MIS An-Nur Tanjungpinang
+            Ujian Semester 1 MIS An-Nur Tanjungpinang
             <br />
-            Tahun Pelajaran 2025/2026
+            Tahun Pelajaran 2026/2027
           </p>
         </div>
       </main>

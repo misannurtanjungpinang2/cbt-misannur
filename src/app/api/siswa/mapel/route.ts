@@ -10,9 +10,9 @@ export async function GET() {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
-    // --- Ambil subject yang aktif, urut berdasarkan dayNumber dan order ---
+    // --- Ambil subject aktif SESUAI KELAS siswa (slug k5-/k6-) ---
     const subjects = await prisma.subject.findMany({
-      where: { isActive: true },
+      where: { isActive: true, slug: { startsWith: `k${sessionSiswa.class}-` } },
       orderBy: [{ dayNumber: "asc" as const }, { order: "asc" as const }],
       select: {
         id: true,

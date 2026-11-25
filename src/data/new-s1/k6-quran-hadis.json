@@ -1,0 +1,502 @@
+[
+ {
+  "number": 1,
+  "type": "pg",
+  "text": "Tujuan utama mempelajari ilmu tajwid dalam membaca Al-Qur'an adalah agar kita dapat membaca Al-Qur'an dengan...",
+  "optionA": "Cepat dan lancar",
+  "optionB": "Suara yang merdu dan melengking",
+  "optionC": "Benar sesuai makhraj dan terhindar dari kesalahan fatal (lahn)",
+  "optionD": "Panjang pendek yang bebas",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 2,
+  "type": "pg",
+  "text": "Pengertian dari huruf isti'la' secara bahasa dan istilah ilmu tajwid adalah huruf-huruf yang ketika diucapkan posisi lidahnya...",
+  "optionA": "Turun ke dasar mulut",
+  "optionB": "Terangkat ke langit-langit mulut",
+  "optionC": "Menempel pada gigi seri",
+  "optionD": "Menjulur keluar bibir",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 3,
+  "type": "pg",
+  "text": "Bagaimana posisi lidah yang tepat saat mengucapkan huruf-huruf isti'la'?",
+  "optionA": "Bagian pangkal lidah terangkat ke langit-langit mulut",
+  "optionB": "Ujung lidah menyentuh langit-langit atas",
+  "optionC": "Lidah mendatar rata di dasar mulut",
+  "optionD": "Lidah ditarik ke dalam tenggorokan",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 4,
+  "type": "pg",
+  "text": "Tingkat ketebalan (tafkhim) huruf isti'la' paling kuat biasanya terjadi apabila huruf tersebut berharakat...",
+  "optionA": "Kasrah",
+  "optionB": "Kasrah tain",
+  "optionC": "Fathah yang diikuti huruf alif",
+  "optionD": "Sukun",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 5,
+  "type": "pg",
+  "text": "Perhatikan potongan ayat atau contoh kata yang mengandung hukum bacaan ra' tafkhim (tebal). Manakah di bawah ini yang dibaca tafkhim karena huruf ra' berharakat fathah?",
+  "optionA": "رِزْقًا (rizqan)",
+  "optionB": "رَبُّكَ (rabbuka)",
+  "optionC": "بِصَبْرٍ (bisabrin)",
+  "optionD": "خَبِيرٌ (khabīrun)",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 6,
+  "type": "pg",
+  "text": "Cara membaca Lafzul Jalālah (lafaz Allah) yang didahului oleh harakat fathah atau damah adalah...",
+  "optionA": "Tipis (tarqiq)",
+  "optionB": "Tebal (tafkhim)",
+  "optionC": "Samar-samar (ikhfa)",
+  "optionD": "Dipantulkan (qolqolah)",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 7,
+  "type": "pg",
+  "text": "Dalam kalimat \"قَالُوا اللَّهُمَّ\", hukum bacaan huruf lam pada Lafzul Jalālah dibaca karena didahului oleh harakat...",
+  "optionA": "Tipis, kasrah",
+  "optionB": "Tebal, fathah/damah sebelumnya",
+  "optionC": "Tebal, sukun",
+  "optionD": "Tipis, dammah",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 8,
+  "type": "pg",
+  "text": "Manakah di bawah ini yang merupakan contoh bacaan ra' tarqiq (tipis)?",
+  "optionA": "رَضِيَ (radiya)",
+  "optionB": "فِرْعَوْنَ (fir'auna)",
+  "optionC": "الرَّحْمَنُ (ar-rahmānu)",
+  "optionD": "طَارِقٌ (tāriqun)",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 9,
+  "type": "pg",
+  "text": "Syarat huruf ra' sukun dibaca tafkhim apabila didahului oleh hamzah wasal (atau hamzah qat'i tambahan) yang kasrah عارضة (tidak asli) adalah...",
+  "optionA": "Tetap dibaca tipis",
+  "optionB": "Menjadi pengecualian dibaca tebal (tafkhim)",
+  "optionC": "Dibaca dengung",
+  "optionD": "Dibaca panjang",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 10,
+  "type": "pg",
+  "text": "Contoh hukum bacaan ra' jawāzul wajhain (boleh dibaca tebal atau tipis, namun salah satu lebih utama) terdapat pada lafaz...",
+  "optionA": "فِرْعَوْنَ",
+  "optionB": "مِرْصَادًا",
+  "optionC": "الْقِطْرِ",
+  "optionD": "نُهُرٍ",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 11,
+  "type": "pg",
+  "text": "Arti mufradat فasanuyassiruhū (فَسَنُيَسِّرُهُ لِلْعُسْرَى) dalam surah pilihan adalah...",
+  "optionA": "Maka kelak Kami akan menyiapkan baginya jalan kesusahan",
+  "optionB": "Maka kelak Kami akan memudahkan baginya jalan kemudahan",
+  "optionC": "Maka kelak Kami akan membalas perbuatannya",
+  "optionD": "Maka kelak Kami akan mencabut nikmatnya",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 12,
+  "type": "pg",
+  "text": "Istilah bagi orang yang gemar memberi dan suka menolong orang lain disebut...",
+  "optionA": "Bakhil",
+  "optionB": "Dermawan",
+  "optionC": "Hasad",
+  "optionD": "Riya'",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 13,
+  "type": "pg",
+  "text": "Berikut ini yang merupakan bentuk sedekah tenaga dalam kehidupan sehari-hari adalah...",
+  "optionA": "Memberikan uang saku kepada fakir miskin",
+  "optionB": "Membantu ibu membersihkan halaman rumah atau kerja bakti di sekolah",
+  "optionC": "Membelikan makanan untuk kucing liar",
+  "optionD": "Menyimpan harta di bank syariah",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 14,
+  "type": "pg",
+  "text": "Perbedaan utama antara sedekah sunnah dan zakat (sedekah wajib) terletak pada...",
+  "optionA": "Jumlah harta dan waktu pelaksanaannya yang ditentukan (wajib) serta keikhlasan sukarela (sunnah)",
+  "optionB": "Zakat hanya untuk orang kaya, sedekah untuk pejabat",
+  "optionC": "Sedekah wajib dikeluarkan saat hari raya saja",
+  "optionD": "Zakat tidak memiliki ketentuan nisab",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 15,
+  "type": "pg",
+  "text": "Pesan utama yang terkandung dalam Surah Ali 'Imran ayat 92 adalah anjuran untuk...",
+  "optionA": "Mencari harta sebanyak-banyaknya untuk ditabung",
+  "optionB": "Menginfakkan sebagian harta yang paling dicintai di jalan Allah Swt.",
+  "optionC": "Berpuasa sunnah di bulan Ramadan",
+  "optionD": "Membangun masjid megah di setiap sudut kota",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 16,
+  "type": "pg",
+  "text": "Lafaz dalam Al-Qur'an yang bermakna \"kamu tidak akan memperoleh kebaikan (yang sempurna)\" adalah...",
+  "optionA": "لَنْ تَنَالُوا الْبِرَّ",
+  "optionB": "فَسَنُيَسِّرُهُ لِلْيُسْرَى",
+  "optionC": "وَمَا تُنْفِقُوا مِنْ شَيْءٍ",
+  "optionD": "إِنَّ اللَّهَ بِكُلِّ شَيْءٍ عَلِيمٌ",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 17,
+  "type": "pg",
+  "text": "Sifat tercela di dalam hati manusia yang dapat dibersihkan melalui ibadah sedekah dan zakat adalah...",
+  "optionA": "Sifat pemaaf dan sabar",
+  "optionB": "Sifat kikir (bakhil), serakah, dan cinta harta secara berlebihan",
+  "optionC": "Sifat tawadu' dan qana'ah",
+  "optionD": "Sifat rajin beribadah",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 18,
+  "type": "pg",
+  "text": "Sikap terbaik dalam mensyukuri nikmat harta titipan Allah Swt. adalah...",
+  "optionA": "Menyembunyikannya agar tidak diminta orang lain",
+  "optionB": "Memanfaatkannya semata-mata untuk kesenangan pribadi",
+  "optionC": "Menyadari bahwa harta adalah amanah dan menunaikan hak-hak Allah di dalamnya (zakat/sedekah)",
+  "optionD": "Memamerkannya kepada tetangga",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 19,
+  "type": "pg",
+  "text": "Tindakan yang harus diambil oleh seorang muslim apabila ia tidak bisa berkata baik atau bermanfaat adalah...",
+  "optionA": "Berbicara dengan nada tinggi",
+  "optionB": "Diam (fal-yaskut)",
+  "optionC": "Menulis komentar di media sosial",
+  "optionD": "Pergi meninggalkan majelis tanpa pamit",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 20,
+  "type": "pg",
+  "text": "Lanjutan penggalan matan hadis tentang sedekah: مَا نَقَصَ مَالٌ مِنْ...",
+  "optionA": "صَدَقَةٍ",
+  "optionB": "زَكَاةٍ",
+  "optionC": "تِجَارَةٍ",
+  "optionD": "هَدِيَّةٍ",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 21,
+  "type": "pg",
+  "text": "Bagaimana penerapan hukum bacaan pada ra' sukun yang didahului oleh huruf berharakat kasrah asli dan setelahnya bukan huruf isti'la'?",
+  "optionA": "Dibaca tebal (tafkhim)",
+  "optionB": "Dibaca tipis (tarqiq)",
+  "optionC": "Dibaca dengung (ghunnah)",
+  "optionD": "Dibaca panjang (mad)",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 22,
+  "type": "pg",
+  "text": "Kelompok huruf-huruf Al-Qur'an yang tergolong huruf isti'la' adalah...",
+  "optionA": "خ, ص, ض, غ, ط, ق, ظ",
+  "optionB": "ا, ب, ت, ث, ج",
+  "optionC": "ي, و, م, ن",
+  "optionD": "ل, ر, م, ن",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 23,
+  "type": "pg",
+  "text": "Cara membaca Lafzul Jalālah (lafaz Allah) yang didahului oleh harakat kasrah adalah...",
+  "optionA": "Tebal (tafkhim)",
+  "optionB": "Tipis (tarqiq)",
+  "optionC": "Jelas (izhar)",
+  "optionD": "Memantul (qalqalah)",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 24,
+  "type": "pg",
+  "text": "Berdasarkan Surah at-Tagābun ayat 17, balasan bagi orang yang meminjamkan pinjaman yang baik (bersedekah) kepada Allah adalah...",
+  "optionA": "Hartanya akan disita negara",
+  "optionB": "Akan dilipatgandakan (pahalanya) dan diampuni dosa-dosanya",
+  "optionC": "Menjadi orang paling miskin di dunianya",
+  "optionD": "Mendapatkan jabatan tinggi",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 25,
+  "type": "pg",
+  "text": "Ancaman bagi orang yang kikir (bakhil) dan merasa dirinya cukup (tidak butuh pertolongan Allah) dalam Surah al-Lail adalah...",
+  "optionA": "Dimudahkan baginya jalan menuju kesusahan (al-‘usrā)",
+  "optionB": "Mendapatkan medali penghargaan",
+  "optionC": "Hartanya semakin melimpah ruah",
+  "optionD": "Disegani oleh masyarakat",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 26,
+  "type": "pg",
+  "text": "Bentuk penyesalan orang kafir/zalim di akhirat yang terekam dalam Al-Qur'an adalah ingin diundurkan (ditangguhkan) ajalnya agar bisa...",
+  "optionA": "Membangun istana megah",
+  "optionB": "Bersedekah dan menjadi orang yang saleh",
+  "optionC": "Meminta maaf kepada keluarganya",
+  "optionD": "Berkeliling dunia",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 27,
+  "type": "pg",
+  "text": "Arti sifat iffah (isti'faf) berdasarkan petunjuk hadis Nabi saw. adalah...",
+  "optionA": "Meminta-minta kepada orang lain agar dikasihani",
+  "optionB": "Menjaga diri dari perbuatan meminta-minta dan menjaga kehormatan diri",
+  "optionC": "Suka menimbun kekayaan untuk keturunan",
+  "optionD": "Menolak semua bentuk bantuan",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 28,
+  "type": "pg",
+  "text": "Makna kiasan dari ungkapan \"tangan di atas lebih baik daripada tangan di bawah\" adalah...",
+  "optionA": "Orang yang memberi (dermawan) lebih mulia daripada orang yang meminta-minta",
+  "optionB": "Posisi tangan saat berdoa harus di atas",
+  "optionC": "Orang kaya selalu berada di atas orang miskin secara fisik",
+  "optionD": "Pekerja kantor lebih baik daripada buruh kasar",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 29,
+  "type": "pg",
+  "text": "Perilaku yang menunjukkan sikap ikhlas dan tulus dalam bersedekah adalah...",
+  "optionA": "Memberi bantuan sambil memotretnya untuk diunggah di status media sosial",
+  "optionB": "Memberikan sesuatu agar dipuji oleh guru dan teman",
+  "optionC": "Memberikan bantuan secara sembunyi-sembunyi atau wajar tanpa mengharap pujian manusia",
+  "optionD": "Mengungkit-ungkit kebaikan yang pernah diberikan",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 30,
+  "type": "pg",
+  "text": "Dampak sosial yang positif dari pembiasaan sikap dermawan di lingkungan masyarakat adalah...",
+  "optionA": "Terciptanya kesenjangan sosial yang tajam",
+  "optionB": "Timbulnya rasa iri dan dengki antarwarga",
+  "optionC": "Menjalin kebersamaan, mengurangi kemiskinan, dan mempererat tali persaudaraan (ukhuwah)",
+  "optionD": "Masyarakat menjadi bergantung pada orang lain",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 31,
+  "type": "pg",
+  "text": "Hukum bacaan ra' pada kata وَالْفَجْرِ saat dibaca wakaf (berhenti) di akhir ayat adalah...",
+  "optionA": "Tarqiq (tipis) karena sebelumnya huruf sukun yang didahului kasrah",
+  "optionB": "Tafkhim (tebal) karena huruf ra' disukunkan dan sebelumnya berupa huruf berharakat fathah/sukun dengan asal fathah",
+  "optionC": "Dengung sempurna",
+  "optionD": "Dibaca panjang tanpa hukum ra'",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 32,
+  "type": "pg",
+  "text": "Terjemahan potongan ayat وَيُضَاعِفْهُ لَكُمْ (dalam Surah at-Tagābun) adalah...",
+  "optionA": "Dan Dia akan melipatgandakan (pahala)nya untukmu",
+  "optionB": "Dan Dia akan mengambil hartamu",
+  "optionC": "Dan Dia menyiksa orang yang kikir",
+  "optionD": "Dan Dia memberikan ampunan",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 33,
+  "type": "pg",
+  "text": "Contoh penerapan perkataan yang baik (qaulan ma'rūfan) dalam pergaulan di lingkungan sekolah adalah...",
+  "optionA": "Berbicara dengan nada mengejek teman sekelas",
+  "optionB": "Menyapa guru dengan senyuman dan tutur kata yang sopan serta menasihati teman dengan santun",
+  "optionC": "Bergosip di kantin sekolah",
+  "optionD": "Menggunakan kata-kata kasar saat bermain bola",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 34,
+  "type": "pg",
+  "text": "Mengkritisi perilaku pamer (riya') saat bersedekah dapat disimpulkan bahwa riya' adalah perbuatan yang...",
+  "optionA": "Sangat dianjurkan untuk memotivasi orang lain",
+  "optionB": "Dapat merusak pahala amal kebaikan dan membuat sedekah menjadi sia-sia",
+  "optionC": "Menambah keberkahan harta",
+  "optionD": "Menyukseskan program amal",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 35,
+  "type": "pg",
+  "text": "Perbandingan tingkat ketebalan bacaan tafkhim yang paling kuat adalah ketika huruf isti'la' berharakat...",
+  "optionA": "Fathah diikuti alif, dibandingkan dengan fathah biasa, lalu harakat dammah, dan sukun",
+  "optionB": "Kasrah yang paling tebal",
+  "optionC": "Semua harakat memiliki ketebalan yang sama persis",
+  "optionD": "Sukun lebih tebal daripada fathah panjang",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 36,
+  "type": "essay",
+  "text": "Jumlah huruf isti'la' di dalam ilmu tajwid ada … huruf.",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 37,
+  "type": "essay",
+  "text": "Hukum bacaan Lafzul Jalālah (lafaz Allah) yang didahului oleh harakat kasrah dibaca …",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 38,
+  "type": "essay",
+  "text": "Hukum bacaan ra' yang berharakat fathah dibaca …",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 39,
+  "type": "essay",
+  "text": "Arti kata al-birr (الْبِرّ) dalam Surah Ali 'Imran ayat 92 adalah …",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 40,
+  "type": "essay",
+  "text": "Jenis sedekah yang hukumnya wajib dilaksanakan oleh setiap muslim yang telah memenuhi syarat adalah …",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 41,
+  "type": "essay",
+  "text": "Lengkapilah kalimat hadis tentang berkata baik berikut: \"Fal-yaqul khairan au ...\"",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 42,
+  "type": "essay",
+  "text": "Pengertian istilah jawāzul wajhain pada hukum bacaan ra' adalah …",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 43,
+  "type": "essay",
+  "text": "Nama surah yang menjelaskan bahwa sedekah (pinjaman kepada Allah) akan dilipatgandakan adalah …",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 44,
+  "type": "essay",
+  "text": "Sifat tercela yang berarti enggan membagikan harta disebut …",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 45,
+  "type": "essay",
+  "text": "Maksud dari sikap qana'ah berdasarkan petunjuk hadis Nabi Muhammad ﷺ adalah …",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 46,
+  "type": "essay",
+  "text": "Bagaimana cara membaca huruf ra pada kata السِّحْرُ dalam Surah Yunus ayat 81 ?",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 47,
+  "type": "essay",
+  "text": "Apa pesan utama yang terkandung dalam Surah Ali 'Imran ayat 92, serta berikan 2 contoh penerapannya bagi murid di sekolah !",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 48,
+  "type": "essay",
+  "text": "Tuliskan tiga ciri orang yang mendapatkan kemudahan hidup berdasarkan Surah al-Lail ayat 5-7 !",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 49,
+  "type": "essay",
+  "text": "Tuliskan tiga syarat agar pahala sedekah yang kita berikan tidak gugur atau sia-sia !",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 50,
+  "type": "essay",
+  "text": "Mengapa Islam mengajarkan kita untuk saling memberi dan membantu ?",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ }
+]

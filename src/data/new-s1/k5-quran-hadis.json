@@ -1,0 +1,502 @@
+[
+ {
+  "number": 1,
+  "type": "pg",
+  "text": "Surah Al-‘Adiyat berarti....",
+  "optionA": "Nikmat yang banyak",
+  "optionB": "Barang – barang berguna",
+  "optionC": "Orang – orang kafir",
+  "optionD": "Kuda perang yang berlari kencang",
+  "correctAnswer": "D"
+ },
+ {
+  "number": 2,
+  "type": "pg",
+  "text": "Surah Al-‘Adiyat merupakan surah ke-.... dalam Al-Qur’an.",
+  "optionA": "100",
+  "optionB": "95",
+  "optionC": "96",
+  "optionD": "101",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 3,
+  "type": "pg",
+  "text": "Jumlah ayat dalam Surah Al-‘Adiyat adalah ....",
+  "optionA": "8 ayat",
+  "optionB": "11 ayat",
+  "optionC": "6 ayat",
+  "optionD": "5 ayat",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 4,
+  "type": "pg",
+  "text": "Surah Al-‘Adiyat termasuk golongan surah ....",
+  "optionA": "Madaniyah",
+  "optionB": "Makkiyah",
+  "optionC": "panjang",
+  "optionD": "terakhir",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 5,
+  "type": "pg",
+  "text": "Perhatikan potongan ayat وَالْعَادِيَاتِ ضَبْحًا. Potongan ayat tersebut terdapat dalam surah ....",
+  "optionA": "Al-‘Adiyat",
+  "optionB": "At-Tin",
+  "optionC": "Al-Ikhlas",
+  "optionD": "Al-Fil",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 6,
+  "type": "pg",
+  "text": "Arti potongan ayat وَالْعَادِيَاتِ ضَبْحًا adalah ....",
+  "optionA": "Demi kuda perang yang berlari kencang",
+  "optionB": "yang memercikkan bunga api (dengan entakan kakinya)",
+  "optionC": "Sehingga menerbangkan debu",
+  "optionD": "Yang menyerang (dengan tiba-tiba) pada waktu pagi",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 7,
+  "type": "pg",
+  "text": "Salah satu sifat buruk manusia yang disebutkan dalam Surah Al-‘Adiyat adalah ....",
+  "optionA": "Selalu bersyukur",
+  "optionB": "Suka mencaci",
+  "optionC": "Sangat mencintai harta",
+  "optionD": "Tinggi hati",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 8,
+  "type": "pg",
+  "text": "Surah Al-‘Adiyat mengingatkan manusia agar tidak ....",
+  "optionA": "Bersikap malas-malasan",
+  "optionB": "Menghormati orang tua",
+  "optionC": "Mengambil hak orang lain",
+  "optionD": "Bersikap sombong dan lupa bersyukur",
+  "correctAnswer": "D"
+ },
+ {
+  "number": 9,
+  "type": "pg",
+  "text": "Hari ketika segala isi hati manusia ditampakkan disebutkan dalam Surah Al-‘Adiyat sebagai hari ....",
+  "optionA": "Perdagangan",
+  "optionB": "Kiamat",
+  "optionC": "Libur",
+  "optionD": "Kelahiran",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 10,
+  "type": "pg",
+  "text": "Surah At-Tin berarti ....",
+  "optionA": "Buah tin",
+  "optionB": "Kuda perang",
+  "optionC": "Waktu duha",
+  "optionD": "Manusia",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 11,
+  "type": "pg",
+  "text": "Jumlah ayat Surah At-Tin adalah ....",
+  "optionA": "6 ayat",
+  "optionB": "7 ayat",
+  "optionC": "8 ayat",
+  "optionD": "11 ayat",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 12,
+  "type": "pg",
+  "text": "Surah At-Tin termasuk golongan surah ....",
+  "optionA": "Madaniyah",
+  "optionB": "Makkiyah",
+  "optionC": "Hudaibiyah",
+  "optionD": "Arabiyah",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 13,
+  "type": "pg",
+  "text": "Kata “az-zaitun” dalam Surah At-Tin berarti ....",
+  "optionA": "Kurma",
+  "optionB": "Anggur",
+  "optionC": "Zaitun",
+  "optionD": "Delima",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 14,
+  "type": "pg",
+  "text": "Dalam Surah At-Tin, Allah bersumpah dengan buah tin dan ....",
+  "optionA": "Madu",
+  "optionB": "Zaitun",
+  "optionC": "Susu",
+  "optionD": "Kurma",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 15,
+  "type": "pg",
+  "text": "Perhatikan potongan ayat لَقَدْ خَلَقْنَا الْإِنْسَانَ فِي أَحْسَنِ تَقْوِيمٍ. Ayat tersebut menjelaskan bahwa manusia ....",
+  "optionA": "Sungguh, kami menciptakan manusia dalam bentuk yang sebaik-baiknya",
+  "optionB": "Kemudian, kami kembalikan dia ke tempat yang serendah-rendahnya",
+  "optionC": "Kecuali orang-orang yang beriman dan mengerjakan kebajikan. Maka, mereka akan mendapat pahala yang tidak putus-putusnya",
+  "optionD": "Maka, apa alasanmu (wahai orang kafir) mendustakan hari Pembalasan setelah (adanya bukti-bukti) itu?",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 16,
+  "type": "pg",
+  "text": "Arti potongan ayat إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ adalah ....",
+  "optionA": "Sungguh, kami menciptakan manusia dalam bentuk yang sebaik-baiknya",
+  "optionB": "Kemudian, kami kembalikan dia ke tempat yang serendah-rendahnya",
+  "optionC": "Kecuali orang-orang yang beriman dan mengerjakan kebajikan. Maka, mereka akan mendapat pahala yang tidak putus-putusnya",
+  "optionD": "Maka, apa alasanmu (wahai orang kafir) mendustakan hari Pembalasan setelah (adanya bukti-bukti) itu?",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 17,
+  "type": "pg",
+  "text": "Pesan Surah At-Tin tentang penciptaan manusia adalah ....",
+  "optionA": "Manusia diciptakan Allah dalam bentuk sebaik-baiknya",
+  "optionB": "Kepedulian terhadap anak yatim",
+  "optionC": "Menjauhi kufur nikmat",
+  "optionD": "Setiap kesulitan pasti ada kemudahan",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 18,
+  "type": "pg",
+  "text": "Contoh bersyukur atas tubuh dan kemampuan yang diberikan Allah adalah ....",
+  "optionA": "Digunakan untuk berbuat baik",
+  "optionB": "Diguunakan untuk mengejek teman",
+  "optionC": "Digunakan untuk bermalas-malasan",
+  "optionD": "Digunakan merusak lingkungan",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 19,
+  "type": "pg",
+  "text": "Ilmu yang mempelajari cara membaca Al-Qur'an dengan baik dan benar sesuai aturan bacaannya disebut ilmu ....",
+  "optionA": "Fiqih",
+  "optionB": "Akidah",
+  "optionC": "Tasawuf",
+  "optionD": "Tajwid",
+  "correctAnswer": "D"
+ },
+ {
+  "number": 20,
+  "type": "pg",
+  "text": "Hukum bacaan mim sukun ada ....",
+  "optionA": "Dua",
+  "optionB": "Tiga",
+  "optionC": "Empat",
+  "optionD": "Lima",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 21,
+  "type": "pg",
+  "text": "Perhatikan potongan ayat تَرْمِيهِمْ بِحِجَارَةٍ. Hukum bacaan mim sukun pada ayat yang digaris bawahi tersebut adalah ....",
+  "optionA": "Izhar syafawi",
+  "optionB": "Idgham mimi",
+  "optionC": "Ikhfa’ syafawi",
+  "optionD": "Ikhfa’ haqiqi",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 22,
+  "type": "pg",
+  "text": "Perhatikan potongan bacaan لَهُمْ مَا. Hukum bacaan mim sukun yang bertemu huruf mim pada ayat disamping adalah ....",
+  "optionA": "Idgham mimi",
+  "optionB": "Izhar syafawi",
+  "optionC": "Ikhfa’ syafawi",
+  "optionD": "Iqlab",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 23,
+  "type": "pg",
+  "text": "Perhatikan potongan bacaan عَلَيْهِمْ وَلَا. Hukum bacaan mim sukun pada ayat disamping adalah ....",
+  "optionA": "Ikhfa’ syafawi",
+  "optionB": "Idgham mimi",
+  "optionC": "Izhar syafawi",
+  "optionD": "Mad wajib",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 24,
+  "type": "pg",
+  "text": "Pada potongan ayat تَرْمِيهِمْ بِحِجَارَةٍ, mim sukun dibaca ....",
+  "optionA": "Jelas tanpa dengung",
+  "optionB": "Melebur ke huruf mim",
+  "optionC": "Samar disertai dengung",
+  "optionD": "Memantul",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 25,
+  "type": "pg",
+  "text": "Idgham mimi disebut juga ....",
+  "optionA": "idgham mutamatsilain",
+  "optionB": "ikhfa’ haqiqi",
+  "optionC": "Idgham bi ghunnah",
+  "optionD": "Idgham billa ghunnah",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 26,
+  "type": "pg",
+  "text": "Pada bacaan izhar syafawi, mim sukun dibaca ....",
+  "optionA": "Samar",
+  "optionB": "Melebur",
+  "optionC": "Jelas",
+  "optionD": "Dipantulkan",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 27,
+  "type": "pg",
+  "text": "Perhatikan ayat dibawah ini! عَلَيْهِمْ مُّؤْصَدَةٌ مِنْ بَعْدِ تَرْمِيهِمْ بِحِجَارَةٍ أَمْ لَمْ تُنْذِرْهُمْ Berdasarkan contoh di atas, terdapat pada nomor berapakah bacaan Izhar Syafawi?",
+  "optionA": "1",
+  "optionB": "2",
+  "optionC": "3",
+  "optionD": "4",
+  "correctAnswer": "D"
+ },
+ {
+  "number": 28,
+  "type": "pg",
+  "text": "Hadis di atas merupakan hadis tentang ....",
+  "optionA": "Keutamaan menyayangi orang tua",
+  "optionB": "Keutamaan menyayangi anak yatim",
+  "optionC": "Perintah menuntut ilmu",
+  "optionD": "Anjuran membantu fakir miskin",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 29,
+  "type": "pg",
+  "text": "Hadis tentang keutamaan menyantuni anak yatim yang diriwayatkan oleh sahabat Nabi Muhammad saw. yang bernama ....",
+  "optionA": "Abu Hurairah r.a.",
+  "optionB": "Sahl bin Sa'ad r.a.",
+  "optionC": "Anas bin Malik r.a.",
+  "optionD": "Abdullah bin Umar r.a.",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 30,
+  "type": "pg",
+  "text": "Anak yatim adalah anak yang ....",
+  "optionA": "Kehilangan ayah sebelum baligh",
+  "optionB": "Kehilangan ibu sebelum baligh",
+  "optionC": "Tidak memiliki saudara kandung",
+  "optionD": "Tinggal jauh dari sekolah",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 31,
+  "type": "pg",
+  "text": "Dalam hadis, Rasulullah saw. menjelaskan bahwa orang yang mengasuh anak yatim akan dekat dengan beliau di ....",
+  "optionA": "Pasar",
+  "optionB": "Rumah",
+  "optionC": "Sekolah",
+  "optionD": "Surga",
+  "correctAnswer": "D"
+ },
+ {
+  "number": 32,
+  "type": "pg",
+  "text": "Salah satu contoh menyayangi anak yatim adalah ....",
+  "optionA": "Mengucilkannya",
+  "optionB": "Memperlakukannya Dengan Baik",
+  "optionC": "Mengambil Haknya",
+  "optionD": "Menertawakannya",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 33,
+  "type": "pg",
+  "text": "Jika Ada Teman Yatim Yang Kesulitan Membawa Perlengkapan Sekolah, Sebaiknya Kita ....",
+  "optionA": "Membiarkannya",
+  "optionB": "Mengejeknya",
+  "optionC": "Membantu Dengan Ikhlas",
+  "optionD": "Menyuruhnya Pulang",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 34,
+  "type": "pg",
+  "text": "Sikap yang sesuai dengan hadis menyayangi anak yatim adalah ....",
+  "optionA": "Kasar",
+  "optionB": "Peduli Dan Santun",
+  "optionC": "Sombong",
+  "optionD": "Iri Hati",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 35,
+  "type": "pg",
+  "text": "Hadis tentang menyayangi anak yatim mengajarkan bahwa kepedulian harus dilakukan dengan ....",
+  "optionA": "Ikhlas dan penuh kasih sayang",
+  "optionB": "Mengharapkan pujian orang lain",
+  "optionC": "Memilih-milih orang yang dibantu",
+  "optionD": "Mengharapkan imbalan",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 36,
+  "type": "essay",
+  "text": "Surah Al-Adiyat memiliki arti ?................................................................................................",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 37,
+  "type": "essay",
+  "text": "وَالْعٰدِيٰتِ ضَبْحًا ayat disamping merupakan potongan surah Al- Adiyat ayat ?.....................................",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 38,
+  "type": "essay",
+  "text": "Tuliskan satu pesan yang terkandung dalam Surah Al-‘Adiyat?.......................................................",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 39,
+  "type": "essay",
+  "text": "Arti kata At-Tin adalah …….............................................................................................................",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 40,
+  "type": "essay",
+  "text": "Surah At-Tin termasuk golongan surah ?……………………………………….………………….",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 41,
+  "type": "essay",
+  "text": "Tuliskan satu pesan yang terkandung dalam Surah At-Tin?..............................................................",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 42,
+  "type": "essay",
+  "text": "Hukum bacaan mim sukun (مْ) terbagi menjadi berapa macam? Sebutkan!.......................................",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 43,
+  "type": "essay",
+  "text": "Ikhfa’ syafawi terjadi apabila mim sukun bertemu huruf .................................................................",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 44,
+  "type": "essay",
+  "text": "Anak yang ditinggal wafat ayahnya sebelum balig disebut anak ......................................................",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 45,
+  "type": "essay",
+  "text": "Salah satu contoh menyayangi anak yatim adalah ..........................................................................",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 46,
+  "type": "essay",
+  "text": "Tuliskan bunyi Surah Al-‘Adiyat ayat ke-6 beserta artinya ?",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 47,
+  "type": "essay",
+  "text": "Perhatikan potongan ayat لَقَدْ خَلَقْنَا الْإِنْسَانَ فِي أَحْسَنِ تَقْوِيمٍ. Jelaskan makna ayat tersebut dengan bahasamu sendiri ?",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 48,
+  "type": "essay",
+  "text": "Tentukan hukum bacaan mim sukun pada potongan تَرْمِيهِمْ بِحِجَارَةٍ, لَهُمْ مَا, dan عَلَيْهِمْ وَلَا. Jelaskan alasanmu ?",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 49,
+  "type": "essay",
+  "text": "Jelaskan pesan hadis tentang keutamaan menyayangi dan mengasuh anak yatim ?",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 50,
+  "type": "essay",
+  "text": "Apa maksud perumpamaan dua jari (jari telunjuk dan jari tengah) dalam hadis tentang keutamaan menyayangi dan memelihara anak yatim ?",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ }
+]

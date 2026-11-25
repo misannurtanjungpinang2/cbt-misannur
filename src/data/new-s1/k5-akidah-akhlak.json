@@ -1,0 +1,502 @@
+[
+ {
+  "number": 1,
+  "type": "pg",
+  "text": "Kalimat la haula wala quwwata illa billahhil aliyyil azim artinya…",
+  "optionA": "Tiada daya dan upaya kecuali dengan kekuatan Allah",
+  "optionB": "Allah Mahabesar dan segalanya",
+  "optionC": "Allah maha suci",
+  "optionD": "Allah maha segalanya",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 2,
+  "type": "pg",
+  "text": "Hauqallah termasuk kalimat tayibah,lafaz tersebut menghindarkan seseorang dari sifat…",
+  "optionA": "Serakah",
+  "optionB": "Sombong",
+  "optionC": "Kikir",
+  "optionD": "Dusta",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 3,
+  "type": "pg",
+  "text": "Setelah mendapatkan pertolongan dari Allah,hendaknya kita … .",
+  "optionA": "meningkatkan ibadah",
+  "optionB": "bersyukur",
+  "optionC": "berbakti kepada orang tua Dusta",
+  "optionD": "berbuat baik kepada semua",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 4,
+  "type": "pg",
+  "text": "lafaz hauqalah termasuk kalimat … .",
+  "optionA": "Sapaan bersyukur",
+  "optionB": "Perpisahan",
+  "optionC": "Baik",
+  "optionD": "Buruk",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 5,
+  "type": "pg",
+  "text": "lafaz haula artinya … .",
+  "optionA": "Daya upaya",
+  "optionB": "Agung",
+  "optionC": "kekuatan Buruk",
+  "optionD": "kekuasaan",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 6,
+  "type": "pg",
+  "text": "Tempat yang tidak di perbolehkan untuk membaca kalimat hauqallah adalah … .",
+  "optionA": "Toilet",
+  "optionB": "Masjid",
+  "optionC": "Kamar tidur",
+  "optionD": "kekuasaan",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 7,
+  "type": "pg",
+  "text": "Waktu yang utama untuk mwelafazkan kalimat hauqalah adalah … .",
+  "optionA": "Ketika Makan",
+  "optionB": "Ketika Minum",
+  "optionC": ".Ketika memulai aktifitas",
+  "optionD": "Ketika mendengar suara adzan",
+  "correctAnswer": "D"
+ },
+ {
+  "number": 8,
+  "type": "pg",
+  "text": "kalimat hauqalah hendaknya di teladani.di bawah ini prilaku orang yang meneladani kalimat tersebut Adalah. … .",
+  "optionA": "Gemar bersedekah",
+  "optionB": "Menyiapkan bekal sebelum ajal tiba",
+  "optionC": "Pantang menyerah dalam berusaha",
+  "optionD": "Senantiasa bersyukur atas pemberian Allah Swt",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 9,
+  "type": "pg",
+  "text": "Ketika Merasa lemah dan tak berdaya ,kita mengucapkan kalimat.. … .",
+  "optionA": "Tahmid",
+  "optionB": "Tahlil",
+  "optionC": "Hauqalah",
+  "optionD": "Takbir",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 10,
+  "type": "pg",
+  "text": "Nabi yang mengajarkan pelafazan hauqalah adalah … .",
+  "optionA": "Nabi Adam as",
+  "optionB": "Nabi Nuh as",
+  "optionC": "Nabi Ibrahim as",
+  "optionD": "Nabi Muhammad Saw",
+  "correctAnswer": "D"
+ },
+ {
+  "number": 11,
+  "type": "pg",
+  "text": "Jumlah Asmaul Husna yang harus di ketahui adalah...",
+  "optionA": "100",
+  "optionB": "99",
+  "optionC": "69",
+  "optionD": "33",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 12,
+  "type": "pg",
+  "text": "Arti Asmaul husna adalah….",
+  "optionA": "Nama-nama yang baik",
+  "optionB": "Nama-nama yang biasa",
+  "optionC": "Nama-nama yang buruk",
+  "optionD": "Nama-nama yang asing",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 13,
+  "type": "pg",
+  "text": "Ketika melihat orang lain dalam kesulitan ,sikap yang tepat adalah …. .",
+  "optionA": "Bahagia",
+  "optionB": "Cinta",
+  "optionC": "Khawatir",
+  "optionD": "Peduli",
+  "correctAnswer": "D"
+ },
+ {
+  "number": 14,
+  "type": "pg",
+  "text": "Seorang anak mencuci piring setelah makan.prilaku tersebut termasuk keteladanan terhadap asma…..",
+  "optionA": "Al-Jabbar",
+  "optionB": "Al-qayyum",
+  "optionC": "Al-qawiyy",
+  "optionD": "Al-Wahab",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 15,
+  "type": "pg",
+  "text": "Orang yang mandiri akan terhindar dari sifat …. .",
+  "optionA": "Sombong",
+  "optionB": "Malas",
+  "optionC": "Dengki",
+  "optionD": "Serakah",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 16,
+  "type": "pg",
+  "text": "Al qawiyy memiliki arti ..",
+  "optionA": "Maha kuasa",
+  "optionB": "Maha mulia",
+  "optionC": "Maha besar",
+  "optionD": "Maha kuat",
+  "correctAnswer": "D"
+ },
+ {
+  "number": 17,
+  "type": "pg",
+  "text": "Asmaul husna al qayyum tercantum dalam surah… .",
+  "optionA": "Al-Baqarah ayat 255",
+  "optionB": "Al- Anfal ayat 52",
+  "optionC": "Al- A’raf ayat 180",
+  "optionD": "Al- Ma’idah ayat 16",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 18,
+  "type": "pg",
+  "text": "Gunung adalah ciptaan Allah Swt ,menunjukan bahwa Allah Swt bernama … .",
+  "optionA": "Al-qawiyy",
+  "optionB": "Al-qayyum",
+  "optionC": "Al - fattah",
+  "optionD": "Al-aziz",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 19,
+  "type": "pg",
+  "text": "Arti Al hisab adalah …",
+  "optionA": "Perhitungan",
+  "optionB": "Pembalasan",
+  "optionC": "Kumpul",
+  "optionD": "Kiamat",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 20,
+  "type": "pg",
+  "text": "Kematian seseorang termasuk… .",
+  "optionA": "Kiamat Sugra",
+  "optionB": "Kiamat Kubra",
+  "optionC": "Nikmat",
+  "optionD": "Rezeki",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 21,
+  "type": "pg",
+  "text": "Orang yang banyak melakukan amal buruk akan masuk ke…. ,",
+  "optionA": "Surga",
+  "optionB": "Neraka",
+  "optionC": "Kubur",
+  "optionD": "Firdaus",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 22,
+  "type": "pg",
+  "text": "Hari kiamat di sebut juga hari akhir alasannya adalah … .",
+  "optionA": "Manusia akan mati semua",
+  "optionB": "Tidak ada kehidupan di dunia setelahnya",
+  "optionC": "Penderitaan manusia akan berakhir",
+  "optionD": "Manusia akan hidup kembali",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 23,
+  "type": "pg",
+  "text": "Hari penimbangan terhadap seluruh amal perbuatan manusia di namakan ...",
+  "optionA": "yaumul bat’as",
+  "optionB": "yaumul mashyar",
+  "optionC": "yaumul mizan",
+  "optionD": "yaumul fashl",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 24,
+  "type": "pg",
+  "text": "Banjir bandang termasuk conntoh kiamat…. .",
+  "optionA": "Kubra",
+  "optionB": "Sedang",
+  "optionC": "Dunia",
+  "optionD": "Sugra",
+  "correctAnswer": "D"
+ },
+ {
+  "number": 25,
+  "type": "pg",
+  "text": "Mengunjungi rumah orang dengan tujuan silaturrahmi disebut …. .",
+  "optionA": "bertamu",
+  "optionB": "bermain",
+  "optionC": "ziarah",
+  "optionD": "belajar",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 26,
+  "type": "pg",
+  "text": "Nabi terakhir yang diutus Allah Swt adalah …….",
+  "optionA": "Nabi Isa a,s",
+  "optionB": "Nabi Musa a.s",
+  "optionC": "Nabi Muhammad Saw",
+  "optionD": "Nabi Ibrahim a.s",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 27,
+  "type": "pg",
+  "text": "Sikap jujur disebut …..",
+  "optionA": "Amanah",
+  "optionB": "Sidiq",
+  "optionC": "Tabliq",
+  "optionD": "Fatanah",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 28,
+  "type": "pg",
+  "text": "Perbuatan menceritakan keburukan orang lain disebut ……",
+  "optionA": "Sedekah",
+  "optionB": "Ghibah",
+  "optionC": "Amanah",
+  "optionD": "Tawaduk",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 29,
+  "type": "pg",
+  "text": "Sikap rendah hati disebut ……",
+  "optionA": "Tawaduk",
+  "optionB": "Takabur",
+  "optionC": "Hasad",
+  "optionD": "Riya",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 30,
+  "type": "pg",
+  "text": "Allah swt memiliki sifat Mukhalafatul Lil Hawaditsi maksud sifat tersebut adalah ,,,,,",
+  "optionA": "Allah berbeda dengan makhluknya",
+  "optionB": "Allah membutruhkan pertolongan",
+  "optionC": "Allah memiliki kelemahan",
+  "optionD": "Allah sama dengan manusia",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 31,
+  "type": "pg",
+  "text": "Rasul memiliki sifat Tabliq contoh prilaku yang mencerminkan sifat tersebut ialah ……",
+  "optionA": "Menyembunyikan ilmu",
+  "optionB": "Menyampaikan kebenarannya kepada orang lain",
+  "optionC": "Berbohong kepada umatnya",
+  "optionD": "Mengingkari janji",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 32,
+  "type": "pg",
+  "text": "Perilaku takabur dapat merusak hubungan persaudaraan karena ……",
+  "optionA": "Membuat seseorang menghargai orang lain",
+  "optionB": "Membuat seseorang merasa lebih hebat dari pada orang lain",
+  "optionC": "Mendorong sesorang suka menolong",
+  "optionD": "Meminta seseorang mudah minta maaf",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 33,
+  "type": "pg",
+  "text": "Perbedaan antara sabar dan putus asa adalah …….",
+  "optionA": "Sabar tetap berusaha, sedangkan putus asa berhenti berharap",
+  "optionB": "Sabar selalu mengeluh, Sedangkan putus asa selalu berpikir",
+  "optionC": "Sabar berarti tidak mau berusaha",
+  "optionD": "Keduanya memiliki arti yang sama",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 34,
+  "type": "pg",
+  "text": "Seseorang anak tetap menghormati orang tua meskipun sedang berbeda pendapat, Perilaku tersebut menunjukan bahwa ….",
+  "optionA": "Akhlak terpuji",
+  "optionB": "Sikap takabur",
+  "optionC": "Perilaku hasad.",
+  "optionD": "Sikapnya sama",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 35,
+  "type": "pg",
+  "text": "Seorang siswa menemukan uang di halaman sejikah, Ia menyerahkannya kepada guru agar dikembalikan kepada pemiliknya, Perilaku tersebut mencerminkan ……",
+  "optionA": "Keberanian dan kesombongan",
+  "optionB": "Kejujuran dan amanah",
+  "optionC": "Riya dan takabur",
+  "optionD": "Hasad dan dendam",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 36,
+  "type": "essay",
+  "text": "La haula wala quwwata illa billahhil ‘aliyiyil ‘azim disebut dengan kalimat …. .",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 37,
+  "type": "essay",
+  "text": "Sikap berserah diri kepada Allah SWT disebut dengan … .",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 38,
+  "type": "essay",
+  "text": "Seseorang yang sering mengucapkan kalimat hauqallah akan … .",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 39,
+  "type": "essay",
+  "text": "Meyakini bahwa Allah yang mahakuat cermin dari mengucapkan kalimat … .",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 40,
+  "type": "essay",
+  "text": "Berusaha harus disertai dengan … .",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 41,
+  "type": "essay",
+  "text": "Hanya Allah yang berkehendak atas …. . penyakit seseorang … .",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 42,
+  "type": "essay",
+  "text": "Keutamaan mengucapkan kalimat hauqallah, yaitu dapat menghapus … .",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 43,
+  "type": "essay",
+  "text": "Permohonan kepada Allah SWT disebut dengan …. .",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 44,
+  "type": "essay",
+  "text": "Manusia memerlukan bantuan orang lain. Manusia adalah makluk … .",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 45,
+  "type": "essay",
+  "text": "Tidak ada satupun makhluk yang dapat menandingi ….. . kekuatan Allah SWT",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 46,
+  "type": "essay",
+  "text": "Sebutkan contoh contoh kalimat tayyibah yang nanda ketahui !",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 47,
+  "type": "essay",
+  "text": "Sebutkan hikmah melafazkan hauqallah ?",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 48,
+  "type": "essay",
+  "text": "Mengapa Islam menganjurkan untuk bersikap mandiri ?",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 49,
+  "type": "essay",
+  "text": "Apa yang dimaksud dengan hari akhir, jelaskan pendapatmu",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 50,
+  "type": "essay",
+  "text": "Apa yang dimaksud dengan kiamat kecil, jelaskan pendapatmu",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ }
+]
