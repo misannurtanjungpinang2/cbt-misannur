@@ -88,6 +88,8 @@ export default function HasilSlugPage() {
   const [exporting, setExporting] = useState(false);
   const [deleting, setDeleting] = useState(false);
   const [deleteTarget, setDeleteTarget] = useState<DeleteTarget | null>(null);
+  const [resuming, setResuming] = useState(false);
+  const [resumeTarget, setResumeTarget] = useState<DeleteTarget | null>(null);
   const [showPrintModal, setShowPrintModal] = useState(false);
   const [selectedPrintIds, setSelectedPrintIds] = useState<Set<string>>(new Set());
   const [printing, setPrinting] = useState(false);
@@ -159,6 +161,30 @@ export default function HasilSlugPage() {
       alert(err instanceof Error ? err.message : "Gagal menghapus hasil ujian");
     } finally {
       setDeleting(false);
+    }
+  };
+
+  const handleResume = async () => {
+    if (!slug || !resumeTarget) return;
+    setResuming(true);
+    try {
+      const res = await fetch(
+        `/api/admin/hasil/${slug}/${resumeTarget.siswaId}`,
+        { method: "POST" }
+      );
+      const json = await res.json();
+      if (!res.ok) {
+        throw new Error(json.error || "Gagal mengaktifkan lanjut");
+      }
+      alert(
+        `Sesi ${resumeTarget.studentName} diaktifkan. Sisa waktu ± ${json.remainingMinutes} menit. Murid silakan login lalu klik "Lanjutkan".`
+      );
+      setResumeTarget(null);
+      fetchData();
+    } catch (err) {
+      alert(err instanceof Error ? err.message : "Gagal mengaktifkan lanjut");
+    } finally {
+      setResuming(false);
     }
   };
 
@@ -614,12 +640,32 @@ window.onafterprint = function() {
                     )}
                   </td>
                   <td className="text-center">
-                    <Link
-                      href={`/admin/hasil/${slug}/${session.student.id}`}
-                      className="btn btn-outline btn-sm"
+                    <div
+                      style={{
+                        display: "flex",
+                        gap: 6,
+                        justifyContent: "center",
+                        flexWrap: "wrap",
+                      }}
                     >
-                      Detail
-                    </Link>
+                      <Link
+                        href={`/admin/hasil/${slug}/${session.student.id}`}
+                        className="btn btn-outline btn-sm"
+                      >
+                        Detail
+                      </Link>
+                      <button
+                        className="btn btn-warning btn-sm"
+                        onClick={() =>
+                          setResumeTarget({
+                            siswaId: session.student.id,
+                            studentName: session.student.name,
+                          })
+                        }
+                      >
+                        ↩ Lanjutkan
+                      </button>
+                    </div>
                   </td>
                   <td className="text-center">
                     <button
@@ -819,6 +865,59 @@ window.onafterprint = function() {
                 disabled={deleting}
               >
                 {deleting ? "Menghapus..." : "Ya, Hapus"}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Modal Konfirmasi Lanjutkan */}
+      {resumeTarget && (
+        <div
+          className="modal-overlay"
+          onClick={(e) => {
+            if (e.target === e.currentTarget && !resuming) setResumeTarget(null);
+          }}
+        >
+          <div className="modal-box">
+            <span style={{ fontSize: 48, display: "block" }}>↩️</span>
+            <h3 style={{ color: "var(--hijau-tua)" }}>Aktifkan Lanjut Ujian?</h3>
+            <p style={{ color: "var(--teks-abu)", margin: "12px 0" }}>
+              Aktifkan kembali sesi{" "}
+              <strong>{resumeTarget.studentName}</strong> untuk melanjutkan?
+            </p>
+            <p
+              style={{
+                fontSize: "0.9rem",
+                color: "var(--teks-abu)",
+                marginBottom: 8,
+              }}
+            >
+              Jawaban sebelumnya tetap tersimpan dan <strong>tidak</strong> akan
+              diulang dari awal. Sisa waktu dipertahankan. Setelah ini, murid
+              login lalu klik tombol <strong>Lanjutkan</strong> di daftar mapel.
+            </p>
+            <div
+              style={{
+                display: "flex",
+                gap: 12,
+                justifyContent: "center",
+                marginTop: 24,
+              }}
+            >
+              <button
+                className="btn btn-outline btn-sm"
+                onClick={() => setResumeTarget(null)}
+                disabled={resuming}
+              >
+                Batal
+              </button>
+              <button
+                className="btn btn-warning btn-sm"
+                onClick={handleResume}
+                disabled={resuming}
+              >
+                {resuming ? "Memproses..." : "Ya, Lanjutkan"}
               </button>
             </div>
           </div>

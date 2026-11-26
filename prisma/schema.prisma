@@ -32,6 +32,9 @@ model Subject {
   dayNumber       Int?
   isActive        Boolean  @default(false)
   order           Int      @default(0)
+  academicYear    String?  // contoh: "2025/2026", "2026/2027"
+  semester        String?  // "Ganjil" / "Genap"
+  classLevel      String?  // "5" / "6"
   createdAt       DateTime @default(now())
 
   questions      Question[]
