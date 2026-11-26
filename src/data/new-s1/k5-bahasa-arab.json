@@ -1,0 +1,402 @@
+[
+ {
+  "number": 1,
+  "type": "pg",
+  "text": "Anggota tubuh yang berfungsi untuk melihat adalah ...",
+  "optionA": "عَينٌ",
+  "optionB": "رَأْسٌ",
+  "optionC": "أَنْفٌ",
+  "optionD": "أُذُنٌ",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 2,
+  "type": "pg",
+  "text": "هُوَ ... (Dia murid laki-laki)",
+  "optionA": "طَالِبٌ",
+  "optionB": "طَالِبَةٌ",
+  "optionC": "مُدَرِّسَةٌ",
+  "optionD": "طَبِيْبَةٌ",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 3,
+  "type": "pg",
+  "text": "\"Itu (perempuan) perawat\" bahasa Arabnya...",
+  "optionA": "مُمَرِّضٌ ذَلِك",
+  "optionB": "مُمَرِّضَةٌ تِلْكَ",
+  "optionC": "مُمَرِّضٌ هَذَا",
+  "optionD": "مُمَرِّضَةٌ هَذِهِ",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 4,
+  "type": "pg",
+  "text": "Dalam kehidupan kita diberikan anggota tubuh untuk mendengarkan nasehat anggota tubuh yang digunakan untuk mendengar adalah...",
+  "optionA": "عَينٌ",
+  "optionB": "أُذُنٌ",
+  "optionC": "أَنْفٌ",
+  "optionD": "فَمٌ",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 5,
+  "type": "pg",
+  "text": "\"Tangan ini kecil\" kalimat yang tepat adalah...",
+  "optionA": "يَدٌ جَمِيْلَةٌ",
+  "optionB": "يَدٌ كَبِيْرٌ",
+  "optionC": "يَدٌ جَمِيْلٌ",
+  "optionD": "يَدٌ صَغِيْرٌ",
+  "correctAnswer": "D"
+ },
+ {
+  "number": 6,
+  "type": "pg",
+  "text": "Arti dari kata طَبِيْبٌ أَنْتَ adalah...",
+  "optionA": "Kamu Guru",
+  "optionB": "Kamu Dokter",
+  "optionC": "Kamu Polisi",
+  "optionD": "Kamu Insinyur",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 7,
+  "type": "pg",
+  "text": "Orang yang bekerja mengajar di sekolah adalah...",
+  "optionA": "مُدَرِّسٌ",
+  "optionB": "فَلَّاحٌ",
+  "optionC": "شُرْطِيٌّ",
+  "optionD": "مُهَنْدِسٌ",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 8,
+  "type": "pg",
+  "text": "ذَلِكَ .... (Itu gajah). Kata yang tepat adalah...",
+  "optionA": "أَسَدٌ",
+  "optionB": "فِيْلٌ",
+  "optionC": "زَرَافَةٌ",
+  "optionD": "قِرْدٌ",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 9,
+  "type": "pg",
+  "text": "Bahasa Arab dari \"Kebun Binatang\" adalah...",
+  "optionA": "الحَيَوَانَاتِ حَدِيْقَةُ",
+  "optionB": "المَدْرَسَةُ",
+  "optionC": "الفَصْلُ",
+  "optionD": "المَكْتَبَةُ",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 10,
+  "type": "pg",
+  "text": "“Singa itu marah” Bahasa Arabnya adalah...",
+  "optionA": "أَسَدٌ غَاضِبٌ",
+  "optionB": "زَرَافَةٌ حَزِيْنٌ",
+  "optionC": "قِرْدٌ سَعِيْدٌ",
+  "optionD": "فِيْلٌ خَائِفٌ",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 11,
+  "type": "pg",
+  "text": "Kata tunjuk (Isim Isyarah) yang tepat untuk \"مُهَنْدِسٌ\" adalah...",
+  "optionA": "هَذِهِ",
+  "optionB": "تِلْكَ",
+  "optionC": "هَذَا",
+  "optionD": "هَؤُلَاءِ",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 12,
+  "type": "pg",
+  "text": "Kata tunjuk yang tepat untuk \"عَيْنٌ\" adalah...",
+  "optionA": "هَذِهِ",
+  "optionB": "هَذَا",
+  "optionC": "ذَلِكَ",
+  "optionD": "أَنْتَ",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 13,
+  "type": "pg",
+  "text": "Arti kata أَسَدٌ adalah...",
+  "optionA": "Harimau",
+  "optionB": "Singa",
+  "optionC": "Monyet",
+  "optionD": "Gajah",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 14,
+  "type": "pg",
+  "text": "\"Itu petani (laki-laki)\" dalam bahasa Arab adalah...",
+  "optionA": "فَلَّاحٌ ذَلِكَ",
+  "optionB": "فَلَّاحَةٌ تِلْكَ",
+  "optionC": "فَلَّاحٌ هَذَا",
+  "optionD": "فَلَّاحَةٌ هَذِهِ",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 15,
+  "type": "pg",
+  "text": "Apa arti dari هُوَ مُدَرِّسٌ ?",
+  "optionA": "Dia seorang Dokter",
+  "optionB": "Dia Seorang Nelayan",
+  "optionC": "Dia Seorang Guru",
+  "optionD": "Dia Seorang Koki",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 16,
+  "type": "pg",
+  "text": "تِلْكَ .... Kata yang tepat untuk melengkapi isim isyarah adalah...",
+  "optionA": "عَيْنٌ",
+  "optionB": "أَنْفٌ",
+  "optionC": "رَأْسٌ",
+  "optionD": "فَمٌ",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 17,
+  "type": "pg",
+  "text": "هِيَ مُمَرِّضَةٌartinya...",
+  "optionA": "Dia Petani",
+  "optionB": "Dia Guru",
+  "optionC": "Dia Dokter",
+  "optionD": "Dia Perawat",
+  "correctAnswer": "D"
+ },
+ {
+  "number": 18,
+  "type": "pg",
+  "text": "Binatang yang memiliki belalai di kebun binatang adalah...",
+  "optionA": "قِرْدٌ",
+  "optionB": "أَسَدٌ",
+  "optionC": "نَمِرٌ",
+  "optionD": "فِيْلٌ",
+  "correctAnswer": "D"
+ },
+ {
+  "number": 19,
+  "type": "pg",
+  "text": "Bahasa Arab untuk \"Kaki itu Panjang\" adalah...",
+  "optionA": "رِجْلٌ طَوِيْلٌ",
+  "optionB": "يَدٌ قَصِيْرٌ",
+  "optionC": "أُذُنٌ كَبِيْرٌ",
+  "optionD": "عَيْنٌ صَغِيْرٌ",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 20,
+  "type": "pg",
+  "text": "هَذَا digunakan untuk menunjuk...",
+  "optionA": "Ini untuk muannast",
+  "optionB": "Itu untuk mudzakar",
+  "optionC": "Ini untuk mudzakar",
+  "optionD": "Itu untuk muannast",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 21,
+  "type": "pg",
+  "text": "شُرْطِيٌّ زَكِيٌّ adalah ...",
+  "optionA": "Polisi itu pintar",
+  "optionB": "Dokter itu ganteng",
+  "optionC": "Perawat itu pintar",
+  "optionD": "Petani itu marah",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 22,
+  "type": "pg",
+  "text": "Pada hari minggu Naila pergi ke Lagoi bersama keluarga nya disana banyak sekali macam-macam binatang salah satunya adalah monyet, bahasa Arab Monyet adalah ...",
+  "optionA": "تِمْسَاحٌ",
+  "optionB": "أَسَدٌ",
+  "optionC": "قِرْدٌ",
+  "optionD": "فِيْلٌ",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 23,
+  "type": "pg",
+  "text": "خَبَّازٌ ذَلِكَ Artinya...",
+  "optionA": "Itu tukang roti",
+  "optionB": "Itu pedagang",
+  "optionC": "Itu insinyur",
+  "optionD": "Itu pilot",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 24,
+  "type": "pg",
+  "text": "Anggota tubuh yang berpasangan (seperti mata, telinga, tangan, kaki) dalam tata bahasa Arab dihukumi sebagai...",
+  "optionA": "Mudzakkar",
+  "optionB": "Muannats",
+  "optionC": "Jama'",
+  "optionD": "Fi'il",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 25,
+  "type": "pg",
+  "text": "\"Ini kepala dan ini rambut\". Terjemahan yang tepat adalah...",
+  "optionA": "شَعْرٌ هَذَا وَ رَأْسٌ هَذَا",
+  "optionB": "شَعْرٌ هَذِهِ وَ رَأْسٌ هَذِهِ",
+  "optionC": "شَعْرٌ ذَلِكَ وَ رَأْسٌ ذَلِكَ",
+  "optionD": "شَعْرٌ تِلْكَ وَ رَأْسٌ تِلْكَ",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 26,
+  "type": "essay",
+  "text": "Jelaskan dan tulislah apa arti dari هِيَ dan هُوَ...",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 27,
+  "type": "essay",
+  "text": "مُهَنْدِسٌ هَذِهِ Arti dari kalimat tersebut adalah ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 28,
+  "type": "essay",
+  "text": "Kata tunjuk untuk jarah jauh (itu) untuk perempuan adalah...",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 29,
+  "type": "essay",
+  "text": "“Guru perempuan itu cantik” Bahasa Arab dari kalimat tersebut adalah...",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 30,
+  "type": "essay",
+  "text": "Orang yang bekerja di rumah sakit dan bertugas untuk mengobati Manusia merupakan pekerjaan..",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 31,
+  "type": "essay",
+  "text": "Bahasa Arab dari “Singa itu besar” adalah ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 32,
+  "type": "essay",
+  "text": "Apakah \"Kaki\" (رِجْلٌ) menggunakan kata tunjuk هَذَا atau هَذِهِ ?...",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 33,
+  "type": "essay",
+  "text": "أَعْضَءُ الجِسْمِ Artinya adalah? ...",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 34,
+  "type": "essay",
+  "text": "Apa arti dari الحَيَوَانَاتِ حَدِيْقَة? ...",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 35,
+  "type": "essay",
+  "text": "Arti dari kalimat طَالِبٌ كَسْلَانٌ adalah ...",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 36,
+  "type": "essay",
+  "text": "Tuliskan 3 (tiga) anggota tubuh manusia yang berpasangan beserta bahasa Arabnya!",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 37,
+  "type": "essay",
+  "text": "Terjemahkan kalimat berikut ke dalam bahasa Indonesia: شُرْطِيٌّ وَ ذَلِك مُدَرِّسٌ هَذَا",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 38,
+  "type": "essay",
+  "text": "Buatlah 1 kalimat sederhana menggunakan kata هَذِهِ dan salah satu nama hewan di kebun binatang!",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 39,
+  "type": "essay",
+  "text": "Tulislah kalimat sederhana اِسِمْ + صِفَة minimal 2 kalimat...",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 40,
+  "type": "essay",
+  "text": "Sebutkan 3 macam profesi dalam bahasa Arab (untuk laki-laki/mudzakkar) beserta artinya ke dalam bahasa Indonesia!",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ }
+]
