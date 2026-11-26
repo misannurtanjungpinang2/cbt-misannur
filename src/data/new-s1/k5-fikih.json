@@ -1,0 +1,502 @@
+[
+ {
+  "number": 1,
+  "type": "pg",
+  "text": "Zakat menurut bahasa berarti ....",
+  "optionA": "Membersihkan atau menyucikan",
+  "optionB": "Menghabiskan harta",
+  "optionC": "Mengumpulkan makanan",
+  "optionD": "Membeli barang",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 2,
+  "type": "pg",
+  "text": "Hukum mengeluarkan zakat bagi umat Islam yang telah memenuhi syarat adalah ....",
+  "optionA": "Mubah",
+  "optionB": "Wajib",
+  "optionC": "Makruh",
+  "optionD": "Haram",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 3,
+  "type": "pg",
+  "text": "Zakat merupakan salah satu rukun Islam yang ke ....",
+  "optionA": "Dua",
+  "optionB": "Tiga",
+  "optionC": "Empat",
+  "optionD": "Lima",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 4,
+  "type": "pg",
+  "text": "Zakat yang wajib dikeluarkan oleh setiap muslim pada bulan Ramadan disebut ....",
+  "optionA": "Zakat mal",
+  "optionB": "Zakat perdagangan",
+  "optionC": "Zakat fitrah",
+  "optionD": "Zakat pertanian",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 5,
+  "type": "pg",
+  "text": "Waktu yang paling utama untuk membayar zakat fitrah adalah ....",
+  "optionA": "Setelah salat Idulfitri",
+  "optionB": "Sebelum salat Idulfitri",
+  "optionC": "Setelah bulan Syawal",
+  "optionD": "Setiap bulan Muharam",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 6,
+  "type": "pg",
+  "text": "Zakat fitrah biasanya dikeluarkan berupa ....",
+  "optionA": "Pakaian",
+  "optionB": "Emas",
+  "optionC": "Beras atau makanan pokok",
+  "optionD": "Peralatan sekolah",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 7,
+  "type": "pg",
+  "text": "Besaran zakat fitrah yang umum dikeluarkan di Indonesia adalah sekitar ....",
+  "optionA": "1 kg beras",
+  "optionB": "2,5 kg",
+  "optionC": "5 kg beras",
+  "optionD": "10 kg beras",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 8,
+  "type": "pg",
+  "text": "Orang yang wajib membayar zakat fitrah adalah ....",
+  "optionA": "Hanya orang kaya",
+  "optionB": "Setiap muslim yang memenuhi syarat",
+  "optionC": "Hanya orang dewasa yang bekerja",
+  "optionD": "Hanya pedagang",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 9,
+  "type": "pg",
+  "text": "Salah satu tujuan zakat fitrah adalah ....",
+  "optionA": "Menambah kekayaan pribadi",
+  "optionB": "Membersihkan jiwa dan membantu fakir miskin",
+  "optionC": "Memamerkan harta",
+  "optionD": "Mendapatkan pujian manusia",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 10,
+  "type": "pg",
+  "text": "Zakat yang dikeluarkan dari harta kekayaan disebut ....",
+  "optionA": "Zakat fitrah",
+  "optionB": "Zakat mal",
+  "optionC": "Sedekah",
+  "optionD": "Infak",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 11,
+  "type": "pg",
+  "text": "Berikut ini yang termasuk contoh harta yang dapat dikenai zakat mal apabila memenuhi syarat adalah ....",
+  "optionA": "Emas dan perak",
+  "optionB": "Buku pelajaran",
+  "optionC": "Sepatu sekolah",
+  "optionD": "Alat tulis",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 12,
+  "type": "pg",
+  "text": "Zakat mal umumnya dikeluarkan sebesar 2,5% apabila ....",
+  "optionA": "Semua harta yang dimiliki",
+  "optionB": "Harta telah memenuhi syarat zakat, termasuk nisab dan haul untuk jenis harta yang mensyaratkannya",
+  "optionC": "Seseorang baru mendapatkan uang jajan",
+  "optionD": "Seseorang membeli makanan",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 13,
+  "type": "pg",
+  "text": "Batas minimal harta yang wajib dizakati disebut ....",
+  "optionA": "Haul",
+  "optionB": "Nisab",
+  "optionC": "Infak",
+  "optionD": "Sedekah",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 14,
+  "type": "pg",
+  "text": "Orang yang berhak menerima zakat disebut ....",
+  "optionA": "Muzakki",
+  "optionB": "Mustahik",
+  "optionC": "Mukmin",
+  "optionD": "Musafir",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 15,
+  "type": "pg",
+  "text": "Orang yang mengeluarkan zakat disebut ....",
+  "optionA": "Mustahik",
+  "optionB": "Muzakki",
+  "optionC": "Fakir",
+  "optionD": "Miskin",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 16,
+  "type": "pg",
+  "text": "Orang yang tidak memiliki harta atau penghasilan yang cukup untuk memenuhi kebutuhan pokok disebut ....",
+  "optionA": "Fakir",
+  "optionB": "Pedagang",
+  "optionC": "Muzakki",
+  "optionD": "Orang kaya",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 17,
+  "type": "pg",
+  "text": "Berikut ini yang termasuk golongan penerima zakat adalah ....",
+  "optionA": "Orang kaya",
+  "optionB": "Fakir dan miskin",
+  "optionC": "Orang yang suka bermewah-mewahan",
+  "optionD": "Semua orang tanpa ketentuan",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 18,
+  "type": "pg",
+  "text": "Salah satu hikmah mengeluarkan zakat adalah ....",
+  "optionA": "Menumbuhkan sifat sombong",
+  "optionB": "Membersihkan harta dan jiwa",
+  "optionC": "Membuat orang malas bekerja",
+  "optionD": "Mengurangi persaudaraan",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 19,
+  "type": "pg",
+  "text": "Dengan membayar zakat, kita dapat membantu ....",
+  "optionA": "Orang yang membutuhkan",
+  "optionB": "Orang yang ingin berfoya-foya",
+  "optionC": "Orang yang suka berbuat jahat",
+  "optionD": "Orang yang tidak membutuhkan bantuan",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 20,
+  "type": "pg",
+  "text": "Zakat mengajarkan umat Islam untuk memiliki sifat ....",
+  "optionA": "Kikir",
+  "optionB": "Sombong",
+  "optionC": "Peduli dan dermawan",
+  "optionD": "Iri hati",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 21,
+  "type": "pg",
+  "text": "Infak adalah kegiatan ....",
+  "optionA": "Mengeluarkan sebagian harta untuk kebaikan",
+  "optionB": "Menghabiskan uang untuk bermain",
+  "optionC": "Menyimpan semua harta sendiri",
+  "optionD": "Meminjam uang kepada teman",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 22,
+  "type": "pg",
+  "text": "Hukum infak dapat menjadi wajib apabila ....",
+  "optionA": "Dilakukan untuk berfoya-foya",
+  "optionB": "Memenuhi kewajiban tertentu dalam syariat",
+  "optionC": "Dilakukan untuk mendapatkan pujian",
+  "optionD": "Dilakukan karena terpaksa oleh teman",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 23,
+  "type": "pg",
+  "text": "Contoh kegiatan infak di sekolah adalah ....",
+  "optionA": "Membeli mainan",
+  "optionB": "Mengisi kotak infak kelas",
+  "optionC": "Membeli makanan sendiri",
+  "optionD": "Menyimpan uang jajan",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 24,
+  "type": "pg",
+  "text": "Infak sebaiknya dilakukan dengan ....",
+  "optionA": "Ikhlas karena Allah Swt.",
+  "optionB": "Mengharapkan pujian",
+  "optionC": "Ingin dipamerkan",
+  "optionD": "Terpaksa",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 25,
+  "type": "pg",
+  "text": "Berikut ini manfaat infak adalah ....",
+  "optionA": "Menumbuhkan kepedulian kepada sesama",
+  "optionB": "Menambah sifat kikir",
+  "optionC": "Menimbulkan permusuhan",
+  "optionD": "Membuat orang sombong",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 26,
+  "type": "pg",
+  "text": "Orang yang berinfak tidak harus menunggu menjadi ....",
+  "optionA": "Anak-anak",
+  "optionB": "Orang kaya",
+  "optionC": "Orang miskin",
+  "optionD": "Orang dewasa",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 27,
+  "type": "pg",
+  "text": "Sedekah memiliki arti ....",
+  "optionA": "Memberikan kebaikan kepada orang lain dengan ikhlas",
+  "optionB": "Meminta uang kepada teman",
+  "optionC": "Menyimpan harta sendiri",
+  "optionD": "Membeli barang mahal",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 28,
+  "type": "pg",
+  "text": "Contoh sedekah yang tidak menggunakan uang adalah ....",
+  "optionA": "Membeli sepatu",
+  "optionB": "Tersenyum kepada teman",
+  "optionC": "Membeli mainan",
+  "optionD": "Menabung uang",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 29,
+  "type": "pg",
+  "text": "Membantu teman yang kesulitan membawa buku merupakan contoh ....",
+  "optionA": "Kesombongan",
+  "optionB": "Sedekah",
+  "optionC": "Pemborosan",
+  "optionD": "Permusuhan",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 30,
+  "type": "pg",
+  "text": "Sedekah dapat dilakukan oleh ....",
+  "optionA": "Orang kaya saja",
+  "optionB": "Orang dewasa saja",
+  "optionC": "Semua orang sesuai kemampuannya",
+  "optionD": "Pedagang saja",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 31,
+  "type": "pg",
+  "text": "Perbedaan infak dan sedekah adalah ....",
+  "optionA": "Infak hanya berupa tenaga",
+  "optionB": "Sedekah hanya berupa uang",
+  "optionC": "Sedekah lebih luas karena dapat berupa harta maupun perbuatan baik",
+  "optionD": "Infak dan sedekah tidak memiliki manfaat",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 32,
+  "type": "pg",
+  "text": "Ketika memberikan sedekah kepada teman, sebaiknya kita ....",
+  "optionA": "Mengungkit pemberian",
+  "optionB": "Menghina penerima",
+  "optionC": "Melakukannya dengan ikhlas",
+  "optionD": "Meminta imbalan",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 33,
+  "type": "pg",
+  "text": "Perbuatan yang tidak baik ketika bersedekah adalah ....",
+  "optionA": "Memberikan bantuan dengan ikhlas",
+  "optionB": "Membantu orang yang membutuhkan",
+  "optionC": "Memamerkan sedekah agar dipuji",
+  "optionD": "Menolong teman dengan senang hati",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 34,
+  "type": "pg",
+  "text": "Dalam QS. Al-Baqarah ayat 261 dijelaskan bahwa Allah Swt. akan ....",
+  "optionA": "Mengurangi pahala orang yang berinfak",
+  "optionB": "Melipatgandakan pahala orang yang berinfak di jalan Allah",
+  "optionC": "Melarang umat Islam bersedekah",
+  "optionD": "Mengharamkan berbagi harta",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 35,
+  "type": "pg",
+  "text": "Sikap yang sesuai dengan ajaran zakat, infak, dan sedekah adalah ....",
+  "optionA": "Tidak mau membantu teman",
+  "optionB": "Menghabiskan uang untuk diri sendiri",
+  "optionC": "Berbagi kepada orang yang membutuhkan",
+  "optionD": "Mengejek orang miskin",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 36,
+  "type": "essay",
+  "text": "Zakat menurut bahasa berarti membersihkan atau ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 37,
+  "type": "essay",
+  "text": "Zakat yang wajib dikeluarkan pada bulan Ramadan disebut zakat ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 38,
+  "type": "essay",
+  "text": "Orang yang mengeluarkan zakat disebut ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 39,
+  "type": "essay",
+  "text": "Orang yang berhak menerima zakat disebut ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 40,
+  "type": "essay",
+  "text": "Batas minimal harta yang wajib dizakati disebut ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 41,
+  "type": "essay",
+  "text": "Mengeluarkan sebagian harta untuk kepentingan yang diperintahkan agama Islam disebut ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 42,
+  "type": "essay",
+  "text": "Memberikan senyuman kepada teman termasuk contoh ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 43,
+  "type": "essay",
+  "text": "Zakat fitrah umumnya dikeluarkan berupa makanan ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 44,
+  "type": "essay",
+  "text": "Sedekah harus dilakukan dengan hati yang ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 45,
+  "type": "essay",
+  "text": "Salah satu manfaat infak dan sedekah adalah menumbuhkan rasa .... terhadap sesama.",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 46,
+  "type": "essay",
+  "text": "Jelaskan pengertian zakat dan mengapa umat Islam diwajibkan mengeluarkan zakat!",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 47,
+  "type": "essay",
+  "text": "Jelaskan perbedaan antara zakat fitrah dan zakat mal!",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 48,
+  "type": "essay",
+  "text": "Sebutkan minimal empat golongan orang yang berhak menerima zakat!",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 49,
+  "type": "essay",
+  "text": "Jelaskan pengertian infak dan berikan tiga contoh kegiatan infak dalam kehidupan sehari-hari!",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 50,
+  "type": "essay",
+  "text": "Mengapa kita harus membiasakan diri untuk bersedekah dengan ikhlas? Jelaskan manfaatnya bagi diri sendiri dan orang lain!",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ }
+]
