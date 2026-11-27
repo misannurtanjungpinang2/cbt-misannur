@@ -117,6 +117,11 @@ export async function POST(
       durationMinutes: subject.durationMinutes,
       totalQuestions: questions.length,
       startTime: examSession.startTime?.toISOString() ?? new Date().toISOString(),
+      student: {
+        name: siswa.name,
+        participantNumber: siswa.participantNumber,
+        class: siswa.class,
+      },
     });
   } catch (error) {
     console.error("Error starting exam:", error);

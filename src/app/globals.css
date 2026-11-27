@@ -72,6 +72,45 @@ body {
 }
 .hidden { display: none !important; }
 
+/* Anti-copy / anti-select di halaman ujian (cegah "Search with Google") */
+.exam-lock,
+.exam-lock .question-card,
+.exam-lock .question-text,
+.exam-lock .options,
+.exam-lock .options label {
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+}
+.exam-lock input,
+.exam-lock textarea {
+    -webkit-user-select: text !important;
+    user-select: text !important;
+}
+/* Watermark nama siswa (terlacak bila screenshot) */
+.exam-watermark {
+    position: fixed;
+    inset: -20%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: space-around;
+    gap: 30px 10px;
+    transform: rotate(-25deg);
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.06;
+    color: #1e4a2d;
+    font-weight: 800;
+    font-size: 1.05rem;
+    overflow: hidden;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.exam-watermark span {
+    text-align: center;
+    white-space: nowrap;
+}
+
 /* Login */
 .login-box {
     max-width: 420px;

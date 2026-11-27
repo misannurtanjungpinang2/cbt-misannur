@@ -20,6 +20,7 @@ interface ExamData {
   durationMinutes: number;
   totalQuestions: number;
   startTime: string;
+  student?: { name: string; participantNumber: string; class: string };
 }
 
 interface StatusData {
@@ -54,6 +55,26 @@ export default function UjianPage() {
   const [answers, setAnswers] = useState<AnswerMap>({});
   const [durationMinutes, setDurationMinutes] = useState(60);
   const [startTime, setStartTime] = useState<string>("");
+  const [student, setStudent] = useState<{
+    name: string;
+    participantNumber: string;
+    class: string;
+  } | null>(null);
+
+  // Cegah seleksi/blok teks & menu "Search with Google" (kecuali di input/textarea)
+  useEffect(() => {
+    const handler = (e: Event) => {
+      const el = e.target as HTMLElement | null;
+      const tag = el?.tagName;
+      if (tag === "INPUT" || tag === "TEXTAREA") return;
+      e.preventDefault();
+    };
+    const events = ["copy", "cut", "contextmenu", "selectstart", "dragstart"];
+    events.forEach((ev) => document.addEventListener(ev, handler, { capture: true }));
+    return () => {
+      events.forEach((ev) => document.removeEventListener(ev, handler, { capture: true }));
+    };
+  }, []);
 
   // Navigation state
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -125,6 +146,7 @@ export default function UjianPage() {
       setAnswers(data.answers || {});
       setDurationMinutes(data.durationMinutes || 60);
       setStartTime(data.startTime);
+      setStudent(data.student || null);
 
       // Hitung sisa waktu awal dari server
       if (data.startTime) {
@@ -483,6 +505,16 @@ export default function UjianPage() {
   // ==========================================================
   return (
     <LayoutSiswa subtitle={`Ujian - ${questions.length} Soal`} hideLogout>
+      {student && (
+        <div className="exam-watermark" aria-hidden="true">
+          {Array.from({ length: 10 }).map((_, i) => (
+            <span key={i}>
+              {student.name} • {student.participantNumber}
+            </span>
+          ))}
+        </div>
+      )}
+      <div className="exam-lock">
       <Timer
         seconds={serverRemaining}
         onTimeUp={handleTimeUp}
@@ -680,6 +712,7 @@ export default function UjianPage() {
           aplikasi lain selama ujian.
         </div>
       )}
+      </div>
     </LayoutSiswa>
   );
 }
