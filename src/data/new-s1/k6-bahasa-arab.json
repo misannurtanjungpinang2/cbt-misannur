@@ -1,0 +1,402 @@
+[
+ {
+  "number": 1,
+  "type": "pg",
+  "text": "كَتَب َ الْوَلَد ُ الدَّرْسَ. الفعل كَتَب َ هو ......",
+  "optionA": "فِعِلْ الأَمَر",
+  "optionB": "فِعِلْ المُضَارِعْ",
+  "optionC": "فِعِلْ المَاضِى",
+  "optionD": "الإِسْمٌ",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 2,
+  "type": "pg",
+  "text": "يَشْرَب الْوَلَد الْمَاءَ. الفعل (يَشْرَب) هي ......",
+  "optionA": "فِعِلْ المُضَارِعْ",
+  "optionB": "فِعِلْ الأَمَر",
+  "optionC": "الإِسْمٌ",
+  "optionD": "فِعِلْ المَاضِى",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 3,
+  "type": "pg",
+  "text": "ذَهَب مُحَمد إل َالْمَقْصَف. الفعل (ذَهَبَ ) هي .........",
+  "optionA": "الإِسْمٌ",
+  "optionB": "فِعِلْ المَاضِى",
+  "optionC": "فِعِلْ الأَمَر",
+  "optionD": "فِعِلْ المُضَارِعْ",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 4,
+  "type": "pg",
+  "text": "يَقْرَأ الطَّالب الْقرْآن َفي الصَّبَاح. الفعل (يَقْرَأ) هي ......",
+  "optionA": "فِعِلْ المَاضِى",
+  "optionB": "فِعِلْ الأَمَر",
+  "optionC": "فِعِلْ المُضَارِعْ",
+  "optionD": "الإِسْمٌ",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 5,
+  "type": "pg",
+  "text": "اشْرَب الْمَاءَ ! الفعل (اشْرَبْ ) هي ...........",
+  "optionA": "فِعِلْ الأَمَر",
+  "optionB": "الإِسْمٌ",
+  "optionC": "فِعِلْ المَاضِى",
+  "optionD": "فِعِلْ المُضَارِعْ",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 6,
+  "type": "pg",
+  "text": "ذَهَب َ الْمُدَرِس ألى الْفَصْلِ. (ذَهَبَ) معناها ............",
+  "optionA": "Datang",
+  "optionB": "Pergi",
+  "optionC": "Masuk",
+  "optionD": "Keluar",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 7,
+  "type": "pg",
+  "text": "سَمِعَ الْمُدَرِس صَوْت َ الطُالَّبِ.( َسَمِعَ) معناه ...............",
+  "optionA": "Melihat",
+  "optionB": "Mendengar",
+  "optionC": "Memasak",
+  "optionD": "Menulis",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 8,
+  "type": "pg",
+  "text": "السَّاعَة ُ السَّابِعَة ُ صَبَاحًا معناها ........",
+  "optionA": "Jam 7 Malam",
+  "optionB": "Jam 5 Sore",
+  "optionC": "Jam 12 Siang",
+  "optionD": "Jam 7 Pagi",
+  "correctAnswer": "D"
+ },
+ {
+  "number": 9,
+  "type": "pg",
+  "text": "السَّاعَة ُ العَاشِرَة ُ ليلا ..........",
+  "optionA": "Jam 10 Malam",
+  "optionB": "Jam 1 Siang",
+  "optionC": "Jam 8 Pagi",
+  "optionD": "Jam 10 Pagi",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 10,
+  "type": "pg",
+  "text": "الْفِعْلُ الْأَمْرُ مِنْ رَجَعَ هُوَ ...........",
+  "optionA": "إِرْجِعْ",
+  "optionB": "يَرْجِعُ",
+  "optionC": "نَرْجِعُ",
+  "optionD": "رَجَعَتْ",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 11,
+  "type": "pg",
+  "text": "الْفِعْلُ الْمُضَارِعُ مِنْ غَسَلَ هُوَ ......",
+  "optionA": "يَغْسِلُ",
+  "optionB": "أَغْسِلُ",
+  "optionC": "تَغْسِلُ",
+  "optionD": "نَغْسِلُ",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 12,
+  "type": "pg",
+  "text": "الْفِعْلُ الْأَمْرُ مِنْ نَظَّفَ لِضَمِيرِ أَنْتَ هُوَ ......",
+  "optionA": "نَظِّفْ",
+  "optionB": "يُنَظِّفُ",
+  "optionC": "نَظَّفَ",
+  "optionD": "تَتَنَظَّفُ",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 13,
+  "type": "pg",
+  "text": "الْفِعْلُ الْأَمْرُ مِنْ ِيَشْرَبُ ضَمِرْ أَنْتِ هُوَ .......",
+  "optionA": "إِشْرَبْ",
+  "optionB": "إِشْرَبِيْ",
+  "optionC": "إِشْرَبُوْا",
+  "optionD": "إِشْرَبَا",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 14,
+  "type": "pg",
+  "text": "الْفِعْلُ الْأَمْرُ مِنْ ضَرَبَ ضَمِرْ أَنْتُمْ هُوَ .......",
+  "optionA": "إِضْرِبِيْ",
+  "optionB": "إِضْرِبُوْا",
+  "optionC": "إِضْرِبَا",
+  "optionD": "إِضْرِبْنَذ",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 15,
+  "type": "pg",
+  "text": "الْفِعْلُ الْمَاضِي مِنْ يَكْنُسُ ضَمِرْ نَحْنُ هُوَ .....",
+  "optionA": "كَنَسْتُ",
+  "optionB": "كَنَسْنَا",
+  "optionC": "كَنَسْتَ",
+  "optionD": "كَنَسْتِ",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 16,
+  "type": "pg",
+  "text": "Kalimat berikut yang termasuk Jumlah Ismiyah adalah ....",
+  "optionA": "يَفْتَحُ الْوَلَدُ الْبَابَ",
+  "optionB": "الْمُعَلِّمَةُ تَشْرَحُ الدَّرْسَ",
+  "optionC": "تَكْتُبُ فَاطِمَةُ الرِّسَالَةَ",
+  "optionD": "يَزْرَعُ الْفَلَّاحُ الْأَرُزَّ",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 17,
+  "type": "pg",
+  "text": "Kalimat berikut yang termasuk Jumlah Fi’liyah adalah ....",
+  "optionA": "الطَّبِيبُ يُعَالِجُ الْمَرِيضَ",
+  "optionB": "الْبِنْتُ تَقْرَأُ الْقِصَّةَ",
+  "optionC": "الْأُمُّ تَطْبُخُ الطَّعَامَ",
+  "optionD": "يَغْسِلُ خَالِدٌ السَّيَّارَةَ",
+  "correctAnswer": "D"
+ },
+ {
+  "number": 18,
+  "type": "pg",
+  "text": "Kalimat الْفَلَّاحُ يَعْمَلُ فِي الْمَزْرَعَةِ termasuk ....",
+  "optionA": "Jumlah Fi’liyah",
+  "optionB": "Jumlah Ismiyah",
+  "optionC": "Fi’il Amr",
+  "optionD": "Fi’il Madhi",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 19,
+  "type": "pg",
+  "text": "Bahasa Arab dari pukul 19.30 malam adalah ....",
+  "optionA": "السَّاعَةُ السَّادِسَةُ وَالنِّصْفُ لَيْلً",
+  "optionB": "السَّاعَةُ السَّابِعَةُ وَالنِّصْفُ لَيْلًا",
+  "optionC": "السَّاعَةُ الثَّامِنَةُ وَالنِّصْفُ لَيْلًا",
+  "optionD": "السَّاعَةُ التَّاسِعَةُ لَيْلًا",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 20,
+  "type": "pg",
+  "text": "Arti dari السَّاعَةُ السَّادِسَةُ صَبَاحًا adalah",
+  "optionA": "Pukul 06.00 pagi",
+  "optionB": "Pukul 06.00 sore",
+  "optionC": "Pukul 07.00 pagi",
+  "optionD": "Pukul 08.00 malam",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 21,
+  "type": "pg",
+  "text": "Bahasa Arab dari pukul 08.15 malam adalah ....",
+  "optionA": "السَّاعَةُ الثَّامِنَةُ وَالرُّبْعُ لَيْلًا",
+  "optionB": "السَّاعَةُ الثَّامِنَةُ وَالنِّصْفُ لَيْلًا",
+  "optionC": "السَّاعَةُ التَّاسِعَةُ لَيْلًا",
+  "optionD": "السَّاعَةُ السَّابِعَةُ وَالرُّبْعُ مَسَاءً",
+  "correctAnswer": "A"
+ },
+ {
+  "number": 22,
+  "type": "pg",
+  "text": "السَّاعَةُ الرَّابِعَةُ مَسَاءً ’Menunjukkan pukul ....",
+  "optionA": "04.00 pagi",
+  "optionB": "14.00 siang",
+  "optionC": "16.00 sore",
+  "optionD": "19.00 malam",
+  "correctAnswer": "C"
+ },
+ {
+  "number": 23,
+  "type": "pg",
+  "text": "Arti kata وَالنِّصْفُ pada ungkapan jam di atas adalah ....",
+  "optionA": "Seperempat",
+  "optionB": "Setengah",
+  "optionC": "Satu jam",
+  "optionD": "Kurang",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 24,
+  "type": "pg",
+  "text": "Susunan kalimat Jumlah Ismiyah yang benar adalah ....",
+  "optionA": "يَكْنُسُ - الْبَيْتَ – الْخَادِمُ",
+  "optionB": "الْخَادِمُ - يَكْنُسُ – الْبَيْتَ",
+  "optionC": "الْبَيْتَ - الْخَادِمُ - يَكْنُسُ",
+  "optionD": "يَكْنُسُ - الْخَادِمُ - الْبَيْتَ",
+  "correctAnswer": "B"
+ },
+ {
+  "number": 25,
+  "type": "pg",
+  "text": "Kalimat yang termasuk Jumlah Fi’liyah adalah ....",
+  "optionA": "الْحَدِيقَةُ جَمِيلَةٌ",
+  "optionB": "الْكِتَابُ عَلَى الْمَكْتَبِ",
+  "optionC": "الْجَدُّ يَجْلِسُ فِي الْغُرْفَةِ",
+  "optionD": "يَشْرَبُ الطِّفْلُ الْحَلِيبَ",
+  "correctAnswer": "D"
+ },
+ {
+  "number": 26,
+  "type": "essay",
+  "text": "Arti dari kata نَصَرَ adalah ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 27,
+  "type": "essay",
+  "text": "Bentuk Fi'il Mudhari' dari kata جَلَسَ adalah ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 28,
+  "type": "essay",
+  "text": "Ubahlah kata يَفْتَحُ menjadi Fi'il Amr untuk dhamir أَنْتَ ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 29,
+  "type": "essay",
+  "text": "Bahasa Arab dari pukul 06.30 pagi adalah ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 30,
+  "type": "essay",
+  "text": "السَّاعَةُ الثَّانِيَةُ وَالنِّصْفُ بَعْدَ الظُّهْرِ menunjukkan pukul ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 31,
+  "type": "essay",
+  "text": "Arti dari kata لَيْلًا adalah ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 32,
+  "type": "essay",
+  "text": "الطَّبِيبُ مَاهِرٌ Kata yang menjadi Mubtada pada kalimat tersebut adalah ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 33,
+  "type": "essay",
+  "text": "Kata yang menjadi Khabar dalam kalimat الْمَدْرَسَةُ نَظِيْفَةٌ adalah ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 34,
+  "type": "essay",
+  "text": "Kata yang menjadi Fi’il dalam kalimat يَكْتُبُ عَلِيٌّ الدَّرْسَ adalah ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 35,
+  "type": "essay",
+  "text": "Kalimat فَاطِمَةُ مُجْتَهِدَةٌ termasuk jenis jumlah ....",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 36,
+  "type": "essay",
+  "text": "Ubahlah kata kerja berikut sesuai dengan dhamir yang ditentukan! a. كَتَبَ menjadi Fi'il Mudhari' (هُوَ). b. يَفْتَحُ menjadi Fi'il Amr (أَنْتَ).",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 37,
+  "type": "essay",
+  "text": "Terjemahkan ungkapan waktu berikut ke dalam bahasa Indonesia! a. السَّاعَةُ التَّاسِعَةُ وَالرُّبْعُ صَبَاحًا b. السَّاعَةُ الثَّامِنَةُ لَيْلًا",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 38,
+  "type": "essay",
+  "text": "Terjemahkan kalimat berikut ke dalam bahasa Indonesia! a. الْمُدَرِّسُ يَكْتُبُ عَلَى السَّبُّورَةِ b. تَذْهَبُ فَاطِمَةُ إِلَى الْمَكْتَبَةِ",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 39,
+  "type": "essay",
+  "text": "Susunlah kata-kata berikut menjadi kalimat bahasa Arab yang benar! a. الْقُرْآنَ – يَقْرَأُ – التِّلْمِيذُ b. الْمَسْجِدِ – إِلَى – يَذْهَبُ – الْإِمَامُ",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ },
+ {
+  "number": 40,
+  "type": "essay",
+  "text": "Buatlah masing-masing satu kalimat dalam bahasa Arab berdasarkan ketentuan berikut! a. Jumlah Ismiyah tentang sekolah. b. Jumlah Fi'liyah tentang kegiatan sehari-hari.",
+  "optionA": null,
+  "optionB": null,
+  "optionC": null,
+  "optionD": null,
+  "correctAnswer": null
+ }
+]
